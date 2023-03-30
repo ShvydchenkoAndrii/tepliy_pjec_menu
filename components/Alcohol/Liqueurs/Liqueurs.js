@@ -49,7 +49,7 @@ export default function Liqueurs() {
         </div>
         {liqueurs.map((item) => {
           return (
-            <div className="partItem">
+            <div key={item.name} className="partItem">
               <div>
                 <h2 className="itemName">{item.name}</h2>
                 <p className="itemDescrip">{item.description}</p>
