@@ -37,9 +37,9 @@ export default function Liqueurs() {
   return (
     <div className="menuPart">
       <div className="partHead">
-        <Image src={pjecMenuIco} width={100} className="partHeadIco"></Image>
+        <Image src={pjecMenuIco} width={100} className="partHeadIco" alt="міні логотип теплого п'єца для меню "></Image>
         <h1 className="partName">ЛІКЕР,ВЕРМУТ,НАСТОЯНКИ</h1>
-        <Image src={pjecMenuIco} width={100} className="partHeadIco"></Image>
+        <Image src={pjecMenuIco} width={100} className="partHeadIco" alt="міні логотип теплого п'єца для меню "></Image>
       </div>
       <div>
         <div className="partHeadDescr">

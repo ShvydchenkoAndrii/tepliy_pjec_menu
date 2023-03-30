@@ -37,9 +37,19 @@ export default function Breakfasts() {
   return (
     <div className="menuPart">
       <div className="partHead">
-        <Image src={pjecMenuIco} width={100} className="partHeadIco"></Image>
+        <Image
+          src={pjecMenuIco}
+          width={100}
+          className="partHeadIco"
+          alt="міні логотип теплого п'єца для меню "
+        ></Image>
         <h1 className="partName">СНІДАНКИ</h1>
-        <Image src={pjecMenuIco} width={100} className="partHeadIco"></Image>
+        <Image
+          src={pjecMenuIco}
+          width={100}
+          className="partHeadIco"
+          alt="міні логотип теплого п'єца для меню "
+        ></Image>
       </div>
       <div>
         <div className="partHeadDescr">
@@ -49,7 +59,7 @@ export default function Breakfasts() {
         </div>
         {breakfasts.map((item) => {
           return (
-            <div className="partItem">
+            <div key={item.name} className="partItem">
               <div>
                 <h2 className="itemName">{item.name}</h2>
                 <p className="itemDescrip">{item.description}</p>

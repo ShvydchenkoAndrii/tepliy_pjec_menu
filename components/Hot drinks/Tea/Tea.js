@@ -45,9 +45,9 @@ export default function Tea() {
   return (
     <div className="menuPart">
       <div className="partHead">
-        <Image src={pjecMenuIco} width={100} className="partHeadIco"></Image>
+        <Image src={pjecMenuIco} width={100} className="partHeadIco" alt="міні логотип теплого п'єца для меню "></Image>
         <h1 className="partName">ЧАЙ</h1>
-        <Image src={pjecMenuIco} width={100} className="partHeadIco"></Image>
+        <Image src={pjecMenuIco} width={100} className="partHeadIco" alt="міні логотип теплого п'єца для меню "></Image>
       </div>
       <div className="partHeadDescr">
         <h2>Назва</h2>
@@ -57,7 +57,7 @@ export default function Tea() {
     
       {tea.map((item) => {
         return (
-          <div className="partItem">
+          <div key={item.name} className="partItem">
             <div>
               <h2 className="itemName">{item.name}</h2>
               <p className="itemDescrip">{item.description}</p>
@@ -72,7 +72,7 @@ export default function Tea() {
 
       {adds.map((item) => {
         return (
-          <div className="partItem">
+          <div key={item.name} className="partItem">
             <div>
               <h2 className="itemName">{item.name}</h2>
               <p className="itemDescrip">{item.description}</p>

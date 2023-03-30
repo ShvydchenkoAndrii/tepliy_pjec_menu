@@ -34,9 +34,9 @@ export default function Beer() {
   return (
     <div className="menuPart">
       <div className="partHead">
-        <Image src={pjecMenuIco} width={100} className="partHeadIco"></Image>
+        <Image src={pjecMenuIco} width={100} className="partHeadIco" alt="міні логотип теплого п'єца для меню "></Image>
         <h1 className="partName">ПИВО</h1>
-        <Image src={pjecMenuIco} width={100} className="partHeadIco"></Image>
+        <Image src={pjecMenuIco} width={100} className="partHeadIco" alt="міні логотип теплого п'єца для меню "></Image>
       </div>
       <div className="partHeadDescr">
         <h2>Назва</h2>
@@ -46,7 +46,7 @@ export default function Beer() {
       <h2 className="partSection">Пиво розливене:</h2>
       {beerFromKeg.map((item) => {
         return (
-          <div className="partItem">
+          <div key={item.name} className="partItem">
             <div>
               <h2 className="itemName">{item.name}</h2>
               <p className="itemDescrip">{item.description}</p>
@@ -61,7 +61,7 @@ export default function Beer() {
 
       {bottleBeer.map((item) => {
         return (
-          <div className="partItem">
+          <div key={item.name} className="partItem">
             <div>
               <h2 className="itemName">{item.name}</h2>
               <p className="itemDescrip">{item.description}</p>

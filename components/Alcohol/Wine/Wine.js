@@ -63,9 +63,9 @@ export default function Wine() {
   return (
     <div className="menuPart">
       <div className="partHead">
-        <Image src={pjecMenuIco} width={100} className="partHeadIco"></Image>
+        <Image src={pjecMenuIco} width={100} className="partHeadIco" alt="міні логотип теплого п'єца для меню "></Image>
         <h1 className="partName">ВИНО</h1>
-        <Image src={pjecMenuIco} width={100} className="partHeadIco"></Image>
+        <Image src={pjecMenuIco} width={100} className="partHeadIco" alt="міні логотип теплого п'єца для меню "></Image>
       </div>
       <div className="partHeadDescr">
         <h2>Назва</h2>
@@ -75,7 +75,7 @@ export default function Wine() {
       <h2 className="partSection">Біле вино:</h2>
       {whiteWine.map((item) => {
         return (
-          <div className="partItem">
+          <div key={item.name} className="partItem">
             <div>
               <h2 className="itemName">{item.name}</h2>
               <p className="itemDescrip">{item.description}</p>
@@ -88,7 +88,7 @@ export default function Wine() {
       <h2 className="partSection">Червоне вино:</h2>
       {redWine.map((item) => {
         return (
-          <div className="partItem">
+          <div key={item.name} className="partItem">
             <div>
               <h2 className="itemName">{item.name}</h2>
               <p className="itemDescrip">{item.description}</p>
