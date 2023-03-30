@@ -1,6 +1,5 @@
 import Beer from "@/components/Alcohol/Beer/Beer";
 import Champagne from "@/components/Alcohol/Champagne/Champagne";
-import Cocktails from "@/components/Alcohol/Cocktails/Cocktails";
 import CognacAndBrandy from "@/components/Alcohol/Cognac and brandy/Cognac_and_brandy";
 import Liqueurs from "@/components/Alcohol/Liqueurs/Liqueurs";
 import RumAndGin from "@/components/Alcohol/Rum and gin/Rum_and_gin";
@@ -13,13 +12,12 @@ export default function Alcohol() {
     <>
       <Beer />
       <Champagne />
-      <Cocktails />
-      <CognacAndBrandy />
+      <Wine />
       <Liqueurs />
-      <RumAndGin />
       <Vodka />
       <Whiskey />
-      <Wine />
+      <CognacAndBrandy />
+      <RumAndGin />
     </>
   );
 }

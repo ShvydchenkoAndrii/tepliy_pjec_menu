@@ -2,6 +2,7 @@ import { useState } from "react";
 import Alcohol from "../Alcohol/Alcohol";
 import Assorted from "../Assorted/Assorted";
 import Breakfasts from "../Breakfasts/Breakfasts";
+import Cocktails from "../Cocktails/Cocktails";
 import ColdDrinks from "../Cold drinks/Cold_drinks";
 import Desserts from "../Desserts/Desserts";
 import FirstCourses from "../First courses/First_courses";
@@ -14,18 +15,19 @@ import Snacks from "../Snacks/Snacks";
 
 export default function Menu() {
   const [menu, setMenu] = useState([
-    { name: "Alcohol", clicked: false, id: "alcohol" },
-    { name: "Assorted", clicked: false, id: "assorted" },
-    { name: "Breakfasts", clicked: false, id: "breakfasts" },
-    { name: "Cold drinks", clicked: false, id: "cold drinks" },
-    { name: "Desserts", clicked: false, id: "desserts" },
-    { name: "First courses", clicked: false, id: "first courses" },
-    { name: "Fish dishes", clicked: false, id: "fish dishes" },
-    { name: "Hot drinks", clicked: false, id: "hot drinks" },
-    { name: "Main dishes", clicked: false, id: "main dishes" },
-    { name: "Meat dishes", clicked: false, id: "meat dishes" },
-    { name: "Salads", clicked: false, id: "salads" },
-    { name: "Snacks", clicked: false, id: "snacks" },
+    { name: "Сніданки", clicked: false, id: "breakfasts" },
+    { name: "Перекуси", clicked: false, id: "snacks" },
+    { name: "Салати", clicked: false, id: "salads" },
+    { name: "Перші страви", clicked: false, id: "first courses" },
+    { name: "Основні страви", clicked: false, id: "main dishes" },
+    { name: "Рибні страви", clicked: false, id: "fish dishes" },
+    { name: "М'ясні страви", clicked: false, id: "meat dishes" },
+    { name: "Страви до забави", clicked: false, id: "assorted" },
+    { name: "Десерти", clicked: false, id: "desserts" },
+    { name: "Гарячі напої", clicked: false, id: "hot drinks" },
+    { name: "Холодні напої", clicked: false, id: "cold drinks" },
+    { name: "Коктейлі", clicked: false, id: "cocktails" },
+    { name: "Алкогольна карта", clicked: false, id: "alcohol" },
   ]);
 
   const activeMenuPage = (clickedItem) => {
@@ -38,32 +40,34 @@ export default function Menu() {
   };
 
   return (
-    <div className="">
-      {menu.map((item) => {
-        return (
-          <button
-            onClick={() => activeMenuPage(item)}
-            key={item.name}
-            id={item.name}
-            className="border m-1 p-1"
-          >
-            {item.name}
-          </button>
-        );
-      })}
-
-      {menu[0].clicked ? <Alcohol /> : null}
-      {menu[1].clicked ? <Assorted /> : null}
-      {menu[2].clicked ? <Breakfasts /> : null}
-      {menu[3].clicked ? <ColdDrinks /> : null}
-      {menu[4].clicked ? <Desserts /> : null}
-      {menu[5].clicked ? <FirstCourses /> : null}
-      {menu[6].clicked ? <FishDishes /> : null}
-      {menu[7].clicked ? <HotDrinks /> : null}
-      {menu[8].clicked ? <MainDishes /> : null}
-      {menu[9].clicked ? <MeatDishes /> : null}
-      {menu[10].clicked ? <Salads /> : null}
-      {menu[11].clicked ? <Snacks /> : null}
+    <div>
+      <div className="flex flex-nowrap overflow-x-auto border-black border-b-4">
+        {menu.map((item) => {
+          return (
+            <button
+              onClick={() => activeMenuPage(item)}
+              key={item.name}
+              id={item.name}
+              className="border m-1 mb-4 p-1"
+            >
+              {item.name}
+            </button>
+          );
+        })}
+      </div>
+      {menu[0].clicked ? <Breakfasts /> : null}
+      {menu[1].clicked ? <Snacks /> : null}
+      {menu[2].clicked ? <Salads /> : null}
+      {menu[3].clicked ? <FirstCourses /> : null}
+      {menu[4].clicked ? <MainDishes /> : null}
+      {menu[5].clicked ? <FishDishes /> : null}
+      {menu[6].clicked ? <MeatDishes /> : null}
+      {menu[7].clicked ? <Assorted /> : null}
+      {menu[8].clicked ? <Desserts /> : null}
+      {menu[9].clicked ? <HotDrinks /> : null}
+      {menu[10].clicked ? <ColdDrinks /> : null}
+      {menu[11].clicked ? <Cocktails /> : null}
+      {menu[12].clicked ? <Alcohol /> : null}
     </div>
   );
 }

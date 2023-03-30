@@ -1,3 +1,76 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+body {
+  background-color: rgb(245, 236, 223);
+  font-size: 16px;
+}
+
+.blackUnderlline {
+    margin-top: 20px;
+    --tw-border-opacity: 1;
+    border-color: rgb(0 0 0 / var(--tw-border-opacity));
+    border-bottom-width: 4px;
+}
+
+.menuPart {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.partHead {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: -35px;
+}
+
+.partHeadIco {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.partName {
+  margin-bottom: 12px;
+  font-size: 25px;
+  line-height: 36px;
+}
+
+.partHeadDescr {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin: 16px;
+  text-align: center;
+}
+
+.partSection {
+  margin: 16px;
+  margin-left: 40px;
+  font-weight: 700;
+}
+
+.partItem {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  padding-left: 16px;
+  padding-right: 16px;
+  text-align: center;
+}
+
+.itemName {
+  font-weight: 500;
+  font-size: 16px;
+  text-align: start;
+}
+
+.itemDescrip {
+  font-weight: 300;
+  font-size: 12px;
+  text-align: start;
+}
+
+.itemPortion {
+}
+
+.itemPrice {
+}

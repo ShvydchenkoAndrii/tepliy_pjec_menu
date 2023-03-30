@@ -89,24 +89,24 @@ export default function Coffee() {
   ];
 
   return (
-    <div>
-      <div className="flex items-center justify-center">
-        <Image src={pjecMenuIco} width={100}></Image>
-        <h1 className="mb-3">КАВА/КАВОВІ НАПОЇ</h1>
-        <Image src={pjecMenuIco} width={100}></Image>
+    <div className="menuPart">
+      <div className="partHead">
+        <Image src={pjecMenuIco} width={100} className="partHeadIco"></Image>
+        <h1 className="partName">КАВА/КАВОВІ НАПОЇ</h1>
+        <Image src={pjecMenuIco} width={100} className="partHeadIco"></Image>
       </div>
       <div>
-        <div className="grid grid-cols-3 mb-4">
+        <div className="partHeadDescr">
           <h2>Назва</h2>
-          <p>Об'єм (л)</p>
+          <p>Об'єм (мл)</p>
           <p>Ціна (грн)</p>
         </div>
         {coffee.map((item) => {
           return (
-            <div className="grid grid-cols-3">
+            <div className="partItem">
               <div>
-                <h2>{item.name}</h2>
-                <p>{item.description}</p>
+                <h2 className="itemName">{item.name}</h2>
+                <p className="itemDescrip">{item.description}</p>
               </div>
               <p>{item.portion}</p>
               <p>{item.price}</p>
@@ -114,6 +114,7 @@ export default function Coffee() {
           );
         })}
       </div>
+      <div className="blackUnderlline"></div>
     </div>
   );
 }

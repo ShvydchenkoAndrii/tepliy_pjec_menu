@@ -43,41 +43,46 @@ export default function Tea() {
     },
   ];
   return (
-    <div>
-      <div className="flex items-center justify-center">
-        <Image src={pjecMenuIco} width={100}></Image>
-        <h1 className="mb-3">ЧАЙ</h1>
-        <Image src={pjecMenuIco} width={100}></Image>
+    <div className="menuPart">
+      <div className="partHead">
+        <Image src={pjecMenuIco} width={100} className="partHeadIco"></Image>
+        <h1 className="partName">ЧАЙ</h1>
+        <Image src={pjecMenuIco} width={100} className="partHeadIco"></Image>
       </div>
-      <div>
-        <div className="grid grid-cols-3 mb-4">
-          <h2>Назва</h2>
-          <p>Об'єм (л)</p>
-          <p>Ціна (грн)</p>
-        </div>
-        {tea.map((item) => {
-          return (
-            <div className="grid grid-cols-3">
-              <div>
-                <h2>{item.name}</h2>
-                <p>{item.description}</p>
-              </div>
-              <p>{item.portion}</p>
-              <p>{item.price}</p>
-            </div>
-          );
-        })}
+      <div className="partHeadDescr">
+        <h2>Назва</h2>
+        <p>Об'єм (мл)</p>
+        <p>Ціна (грн)</p>
       </div>
-      <h2 className="my-4 font-bold">Додатки:</h2>
-      {adds.map((item) => {
+    
+      {tea.map((item) => {
         return (
-          <div className="grid grid-cols-3">
-            <h2>{item.name}</h2>
+          <div className="partItem">
+            <div>
+              <h2 className="itemName">{item.name}</h2>
+              <p className="itemDescrip">{item.description}</p>
+            </div>
             <p>{item.portion}</p>
             <p>{item.price}</p>
           </div>
         );
       })}
+
+      <h2 className="partSection">Додатки:</h2>
+
+      {adds.map((item) => {
+        return (
+          <div className="partItem">
+            <div>
+              <h2 className="itemName">{item.name}</h2>
+              <p className="itemDescrip">{item.description}</p>
+            </div>
+            <p>{item.portion}</p>
+            <p>{item.price}</p>
+          </div>
+        );
+      })}
+      <div className="blackUnderlline"></div>
     </div>
   );
 }

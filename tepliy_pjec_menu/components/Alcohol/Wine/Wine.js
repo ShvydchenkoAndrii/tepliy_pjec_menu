@@ -61,45 +61,44 @@ export default function Wine() {
     },
   ];
   return (
-    <div>
-      <div className="flex items-center justify-center">
-        <Image src={pjecMenuIco} width={100}></Image>
-        <h1 className="mb-3">ВИНО</h1>
-        <Image src={pjecMenuIco} width={100}></Image>
+    <div className="menuPart">
+      <div className="partHead">
+        <Image src={pjecMenuIco} width={100} className="partHeadIco"></Image>
+        <h1 className="partName">ВИНО</h1>
+        <Image src={pjecMenuIco} width={100} className="partHeadIco"></Image>
       </div>
-      <h2 className="my-4 font-bold">Біле вино:</h2>
-      <div>
-        <div className="grid grid-cols-3 mb-4">
-          <h2>Назва</h2>
-          <p>Об'єм (мл)</p>
-          <p>Ціна (грн)</p>
-        </div>
-        {whiteWine.map((item) => {
-          return (
-            <div className="grid grid-cols-3">
-              <div>
-                <h2>{item.name}</h2>
-                <p>{item.description}</p>
-              </div>
-              <p>{item.portion}</p>
-              <p>{item.price}</p>
-            </div>
-          );
-        })}
+      <div className="partHeadDescr">
+        <h2>Назва</h2>
+        <p>Об'єм (мл)</p>
+        <p>Ціна (грн)</p>
       </div>
-      <h2 className="my-4 font-bold">Червоне вино:</h2>
-      {redWine.map((item) => {
+      <h2 className="partSection">Біле вино:</h2>
+      {whiteWine.map((item) => {
         return (
-          <div className="grid grid-cols-3">
+          <div className="partItem">
             <div>
-              <h2>{item.name}</h2>
-              <p>{item.description}</p>
+              <h2 className="itemName">{item.name}</h2>
+              <p className="itemDescrip">{item.description}</p>
             </div>
             <p>{item.portion}</p>
             <p>{item.price}</p>
           </div>
         );
       })}
+      <h2 className="partSection">Червоне вино:</h2>
+      {redWine.map((item) => {
+        return (
+          <div className="partItem">
+            <div>
+              <h2 className="itemName">{item.name}</h2>
+              <p className="itemDescrip">{item.description}</p>
+            </div>
+            <p>{item.portion}</p>
+            <p>{item.price}</p>
+          </div>
+        );
+      })}
+      <div className="blackUnderlline"></div>
     </div>
   );
 }
