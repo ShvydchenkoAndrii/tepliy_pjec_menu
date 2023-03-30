@@ -4,26 +4,26 @@ export default function Wine() {
   const whiteWine = [
     {
       name: "Колоніст Шардоне",
-      portion: "??",
-      price: "??",
+      portion: "125мл",
+      price: "₴130",
       description: "Україна, сухе",
     },
     {
       name: "Kartuli Vazi Цинандалі",
-      portion: "??",
-      price: "??",
+      portion: "125мл",
+      price: "₴95",
       description: "Грузія, сухе",
     },
     {
       name: "Колоніст Рислінг",
-      portion: "??",
-      price: "??",
+      portion: "125мл",
+      price: "₴130",
       description: "Україна, н/сухе",
     },
     {
       name: "Chateau Chizay Moscato",
-      portion: "??",
-      price: "??",
+      portion: "125мл",
+      price: "₴72",
       description: "Україна, н/солодке",
     },
   ];
@@ -31,46 +31,51 @@ export default function Wine() {
   const redWine = [
     {
       name: "Колоніст Кабарне",
-      portion: "??",
-      price: "??",
+      portion: "125мл",
+      price: "₴130",
       description: "Україна, сухе",
     },
     {
       name: "Kartuli Vazi Сапераві",
-      portion: "??",
-      price: "??",
+      portion: "125мл",
+      price: "₴95",
       description: "Грузія, сухе",
     },
     {
       name: "Chizay Pino Noir",
-      portion: "??",
+      portion: "125мл",
       price: "??",
       description: "Україна, н/солодке",
     },
     {
       name: "Chizay Merlo",
-      portion: "??",
-      price: "??",
+      portion: "125мл",
+      price: "₴72",
       description: "Україна, н/сухе",
     },
     {
       name: "Вино домашнє",
-      portion: "??",
-      price: "??",
+      portion: "125мл",
+      price: "₴45",
       description: "",
     },
   ];
   return (
     <div className="menuPart">
       <div className="partHead">
-        <Image src={pjecMenuIco} width={100} className="partHeadIco" alt="міні логотип теплого п'єца для меню "></Image>
+        <Image
+          src={pjecMenuIco}
+          width={100}
+          className="partHeadIco"
+          alt="міні логотип теплого п'єца для меню "
+        ></Image>
         <h1 className="partName">ВИНО</h1>
-        <Image src={pjecMenuIco} width={100} className="partHeadIco" alt="міні логотип теплого п'єца для меню "></Image>
-      </div>
-      <div className="partHeadDescr">
-        <h2>Назва</h2>
-        <p>Об&apos;єм (мл)</p>
-        <p>Ціна (грн)</p>
+        <Image
+          src={pjecMenuIco}
+          width={100}
+          className="partHeadIco"
+          alt="міні логотип теплого п'єца для меню "
+        ></Image>
       </div>
       <h2 className="partSection">Біле вино:</h2>
       {whiteWine.map((item) => {
@@ -80,8 +85,10 @@ export default function Wine() {
               <h2 className="itemName">{item.name}</h2>
               <p className="itemDescrip">{item.description}</p>
             </div>
-            <p>{item.portion}</p>
-            <p>{item.price}</p>
+            <div className="itemPortionPrice">
+              <p>{item.portion}</p>
+              <p>{item.price}</p>
+            </div>
           </div>
         );
       })}
@@ -93,8 +100,10 @@ export default function Wine() {
               <h2 className="itemName">{item.name}</h2>
               <p className="itemDescrip">{item.description}</p>
             </div>
-            <p>{item.portion}</p>
-            <p>{item.price}</p>
+            <div className="itemPortionPrice">
+              <p>{item.portion}</p>
+              <p>{item.price}</p>
+            </div>
           </div>
         );
       })}

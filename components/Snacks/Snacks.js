@@ -5,68 +5,73 @@ export default function Snacks() {
     {
       name: "Птисі на кльоші",
       portion: "10шт",
-      price: "??",
+      price: "₴157",
       description:
         "еклери з вершково-сирною начинкою та печінковим паштетом, подаються з жарвлиновим соусом",
     },
     {
       name: "Язик із хроном",
-      portion: "100",
-      price: "??",
+      portion: "𓍝100",
+      price: "₴110",
       description: "",
     },
     {
       name: "Припрошанки",
-      portion: "350",
-      price: "??",
+      portion: "𓍝350",
+      price: "₴207",
       description: "сало з часником, сирна намазка, фаршмак, авантюрка",
     },
     {
-      name: "Кахля батяра / з чверткою",
-      portion: "400",
-      price: "??",
-      description: "м'ясна нарізка, квашенина",
+      name: "Кахля батяра/ з чверткою",
+      portion: "𓍝400",
+      price: "₴340 / ₴440",
+      description: "м'ясна нарізка, квашенина ",
     },
     {
-      name: "Гефелті фіш ?",
-      portion: "135",
-      price: "??",
+      name: "Гефелті фіш",
+      portion: "𓍝135",
+      price: "₴125",
       description: "фарширована риба",
     },
     {
-      name: "Оселедець з цибулькою",
-      portion: "170",
-      price: "??",
-      description: "",
+      name: "Оселедець",
+      portion: "𓍝170",
+      price: "₴80",
+      description: " з цибулькою",
     },
   ];
 
   return (
     <div className="menuPart">
       <div className="partHead">
-        <Image src={pjecMenuIco} width={100} className="partHeadIco" alt="міні логотип теплого п'єца для меню "></Image>
+        <Image
+          src={pjecMenuIco}
+          width={100}
+          className="partHeadIco"
+          alt="міні логотип теплого п'єца для меню "
+        ></Image>
         <h1 className="partName">ПЕРЕКУСИ</h1>
-        <Image src={pjecMenuIco} width={100} className="partHeadIco" alt="міні логотип теплого п'єца для меню "></Image>
+        <Image
+          src={pjecMenuIco}
+          width={100}
+          className="partHeadIco"
+          alt="міні логотип теплого п'єца для меню "
+        ></Image>
       </div>
-      <div>
-        <div className="partHeadDescr">
-          <h2>Назва</h2>
-          <p>Вага (г)</p>
-          <p>Ціна (грн)</p>
-        </div>
-        {snacks.map((item) => {
-          return (
-            <div key={item.name} className="partItem">
-              <div>
-                <h2 className="itemName">{item.name}</h2>
-                <p className="itemDescrip">{item.description}</p>
-              </div>
+      {snacks.map((item) => {
+        return (
+          <div key={item.name} className="partItem">
+            <div>
+              <h2 className="itemName">{item.name}</h2>
+              <p className="itemDescrip">{item.description}</p>
+            </div>
+            <div className="itemPortionPrice">
               <p>{item.portion}</p>
               <p>{item.price}</p>
             </div>
-          );
-        })}
-      </div>
+          </div>
+        );
+      })}
       <div className="blackUnderlline"></div>
     </div>
   );

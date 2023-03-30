@@ -7,10 +7,10 @@ body {
 }
 
 .blackUnderlline {
-    margin-top: 20px;
-    --tw-border-opacity: 1;
-    border-color: rgb(0 0 0 / var(--tw-border-opacity));
-    border-bottom-width: 4px;
+  margin-top: 20px;
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
+  border-bottom-width: 4px;
 }
 
 .menuPart {
@@ -32,7 +32,7 @@ body {
 
 .partName {
   margin-bottom: 12px;
-  font-size: 25px;
+  font-size: 23px;
   line-height: 36px;
 }
 
@@ -51,7 +51,8 @@ body {
 
 .partItem {
   display: grid;
-  grid-template-columns: 4fr 2fr;
+  grid-template-columns: 2fr 1fr;
+  
   padding-left: 16px;
   padding-right: 16px;
   text-align: center;
@@ -61,6 +62,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   text-align: start;
+  margin-bottom: -5px;
 }
 
 .itemDescrip {
@@ -69,8 +71,12 @@ body {
   text-align: start;
 }
 
-.itemPortion {
-}
-
-.itemPrice {
+.itemPortionPrice {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  justify-content: end;
+  align-items: center;
+  gap: 16px;
+  margin-left: 10px;
+  font-size: 14px;
 }

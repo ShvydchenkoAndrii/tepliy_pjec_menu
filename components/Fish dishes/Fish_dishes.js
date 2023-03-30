@@ -4,14 +4,14 @@ export default function FishDishes() {
   const fishDishes = [
     {
       name: "Пструг печений",
-      portion: "",
-      price: "??",
+      portion: "𓍝370",
+      price: "₴424",
       description: "форель",
     },
     {
       name: "Баламут з п'єца",
-      portion: "340",
-      price: "??",
+      portion: "𓍝240",
+      price: "₴268",
       description: "скумбрія",
     },
   ];
@@ -23,25 +23,20 @@ export default function FishDishes() {
         <h1 className="partName">РИБНІ СТРАВИ</h1>
         <Image src={pjecMenuIco} width={100} className="partHeadIco" alt="міні логотип теплого п'єца для меню "></Image>
       </div>
-      <div>
-        <div className="partHeadDescr">
-          <h2>Назва</h2>
-          <p>Вага (г)</p>
-          <p>Ціна (грн)</p>
-        </div>
         {fishDishes.map((item) => {
           return (
             <div key={item.name} className="partItem">
-              <div>
-                <h2 className="itemName">{item.name}</h2>
-                <p className="itemDescrip">{item.description}</p>
-              </div>
+            <div>
+              <h2 className="itemName">{item.name}</h2>
+              <p className="itemDescrip">{item.description}</p>
+            </div>
+            <div className="itemPortionPrice">
               <p>{item.portion}</p>
               <p>{item.price}</p>
             </div>
+          </div>
           );
         })}
-      </div>
       <div className="blackUnderlline"></div>
     </div>
   );

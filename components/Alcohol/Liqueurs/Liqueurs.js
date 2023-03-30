@@ -4,32 +4,32 @@ export default function Liqueurs() {
   const liqueurs = [
     {
       name: "Vana Tallin original",
-      portion: "??",
-      price: "??",
+      portion: "50мл",
+      price: "₴81",
       description: "",
     },
     {
       name: "Старий Ринок",
-      portion: "??",
-      price: "??",
+      portion: "50мл",
+      price: "₴27",
       description: "",
     },
     {
       name: "Jägermeister",
-      portion: "??",
-      price: "??",
+      portion: "50мл",
+      price: "₴86",
       description: "",
     },
     {
       name: "Becherovka",
-      portion: "??",
-      price: "??",
+      portion: "50мл",
+      price: "₴96",
       description: "",
     },
     {
       name: "Martini Bianco",
-      portion: "??",
-      price: "??",
+      portion: "50мл",
+      price: "₴50",
       description: "",
     },
   ];
@@ -37,29 +37,34 @@ export default function Liqueurs() {
   return (
     <div className="menuPart">
       <div className="partHead">
-        <Image src={pjecMenuIco} width={100} className="partHeadIco" alt="міні логотип теплого п'єца для меню "></Image>
+        <Image
+          src={pjecMenuIco}
+          width={100}
+          className="partHeadIco"
+          alt="міні логотип теплого п'єца для меню "
+        ></Image>
         <h1 className="partName">ЛІКЕР,ВЕРМУТ,НАСТОЯНКИ</h1>
-        <Image src={pjecMenuIco} width={100} className="partHeadIco" alt="міні логотип теплого п'єца для меню "></Image>
+        <Image
+          src={pjecMenuIco}
+          width={100}
+          className="partHeadIco"
+          alt="міні логотип теплого п'єца для меню "
+        ></Image>
       </div>
-      <div>
-        <div className="partHeadDescr">
-          <h2>Назва</h2>
-          <p>Об&apos;єм (мл)</p>
-          <p>Ціна (грн)</p>
-        </div>
-        {liqueurs.map((item) => {
-          return (
-            <div key={item.name} className="partItem">
-              <div>
-                <h2 className="itemName">{item.name}</h2>
-                <p className="itemDescrip">{item.description}</p>
-              </div>
+      {liqueurs.map((item) => {
+        return (
+          <div key={item.name} className="partItem">
+            <div>
+              <h2 className="itemName">{item.name}</h2>
+              <p className="itemDescrip">{item.description}</p>
+            </div>
+            <div className="itemPortionPrice">
               <p>{item.portion}</p>
               <p>{item.price}</p>
             </div>
-          );
-        })}
-      </div>
+          </div>
+        );
+      })}
       <div className="blackUnderlline"></div>
     </div>
   );

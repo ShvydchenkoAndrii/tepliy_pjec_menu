@@ -4,26 +4,26 @@ export default function Cocktails() {
   const cocktails = [
     {
       name: "Aperol Sprits",
-      portion: "??",
-      price: "??",
+      portion: "200мл",
+      price: "₴132",
       description: "aperol, prosecco, orange",
     },
     {
       name: "Old Fashioned",
       portion: "??",
-      price: "??",
+      price: "₴140",
       description: "бурбон, бітер Angostura, апельсинова цедра",
     },
     {
       name: "Negroni",
-      portion: "??",
-      price: "??",
+      portion: "120мл",
+      price: "₴160",
       description: "джин, вермут, бітер, апельсинова цедра",
     },
     {
       name: "Vesper Martini",
-      portion: "??",
-      price: "??",
+      portion: "100мл",
+      price: "₴112",
       description: "сухий вермут, джин",
     },
     {
@@ -53,31 +53,31 @@ export default function Cocktails() {
     {
       name: "Медівка",
       portion: "??",
-      price: "??",
+      price: "₴25",
       description: "",
     },
     {
       name: "Калганівка",
       portion: "??",
-      price: "??",
+      price: "₴30",
       description: "",
     },
     {
       name: "Шипшинівка",
       portion: "??",
-      price: "??",
+      price: "₴28",
       description: "",
     },
     {
       name: "Вишнівка",
       portion: "??",
-      price: "??",
+      price: "₴27",
       description: "",
     },
     {
       name: 'СЕТ НАЛИВОК "Апостол"',
       portion: "12шт",
-      price: "??",
+      price: "₴130",
       description: "",
     },
   ];
@@ -85,29 +85,34 @@ export default function Cocktails() {
   return (
     <div className="menuPart">
       <div className="partHead">
-        <Image src={pjecMenuIco} width={100} className="partHeadIco" alt="міні логотип теплого п'єца для меню "></Image>
+        <Image
+          src={pjecMenuIco}
+          width={100}
+          className="partHeadIco"
+          alt="міні логотип теплого п'єца для меню "
+        ></Image>
         <h1 className="partName">КОКТЕЙЛІ</h1>
-        <Image src={pjecMenuIco} width={100} className="partHeadIco" alt="міні логотип теплого п'єца для меню "></Image>
+        <Image
+          src={pjecMenuIco}
+          width={100}
+          className="partHeadIco"
+          alt="міні логотип теплого п'єца для меню "
+        ></Image>
       </div>
-      <div>
-        <div className="partHeadDescr">
-          <h2>Назва</h2>
-          <p>Об&apos;єм (мл)</p>
-          <p>Ціна (грн)</p>
-        </div>
-        {cocktails.map((item) => {
-          return (
-            <div key={item.name} className="partItem">
-              <div>
-                <h2 className="itemName">{item.name}</h2>
-                <p className="itemDescrip">{item.description}</p>
-              </div>
+      {cocktails.map((item) => {
+        return (
+          <div key={item.name} className="partItem">
+            <div>
+              <h2 className="itemName">{item.name}</h2>
+              <p className="itemDescrip">{item.description}</p>
+            </div>
+            <div className="itemPortionPrice">
               <p>{item.portion}</p>
               <p>{item.price}</p>
             </div>
-          );
-        })}
-      </div>
+          </div>
+        );
+      })}
       <div className="blackUnderlline"></div>
     </div>
   );

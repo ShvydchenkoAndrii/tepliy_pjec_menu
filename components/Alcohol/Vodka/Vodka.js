@@ -4,26 +4,26 @@ export default function Vodka() {
   const vodka = [
     {
       name: "Лемберг",
-      portion: "??",
-      price: "??",
+      portion: "50мл",
+      price: "₴30",
       description: "",
     },
     {
       name: "Львівська шляхетна",
-      portion: "??",
-      price: "??",
+      portion: "50мл",
+      price: "₴30",
       description: "",
     },
     {
       name: "Львівська з перцем",
-      portion: "??",
+      portion: "50мл",
       price: "??",
       description: "",
     },
     {
       name: "Finlandia",
-      portion: "??",
-      price: "??",
+      portion: "50мл",
+      price: "₴82",
       description: "оригінал, журавлина",
     },
   ];
@@ -31,29 +31,34 @@ export default function Vodka() {
   return (
     <div className="menuPart">
       <div className="partHead">
-        <Image src={pjecMenuIco} width={100} className="partHeadIco" alt="міні логотип теплого п'єца для меню "></Image>
+        <Image
+          src={pjecMenuIco}
+          width={100}
+          className="partHeadIco"
+          alt="міні логотип теплого п'єца для меню "
+        ></Image>
         <h1 className="partName">ГОРІЛКА</h1>
-        <Image src={pjecMenuIco} width={100} className="partHeadIco" alt="міні логотип теплого п'єца для меню "></Image>
+        <Image
+          src={pjecMenuIco}
+          width={100}
+          className="partHeadIco"
+          alt="міні логотип теплого п'єца для меню "
+        ></Image>
       </div>
-      <div>
-        <div className="partHeadDescr">
-          <h2>Назва</h2>
-          <p>Об&apos;єм (мл)</p>
-          <p>Ціна (грн)</p>
-        </div>
-        {vodka.map((item) => {
-          return (
-            <div key={item.name} className="partItem">
-              <div>
-                <h2 className="itemName">{item.name}</h2>
-                <p className="itemDescrip">{item.description}</p>
-              </div>
+      {vodka.map((item) => {
+        return (
+          <div key={item.name} className="partItem">
+            <div>
+              <h2 className="itemName">{item.name}</h2>
+              <p className="itemDescrip">{item.description}</p>
+            </div>
+            <div className="itemPortionPrice">
               <p>{item.portion}</p>
               <p>{item.price}</p>
             </div>
-          );
-        })}
-      </div>
+          </div>
+        );
+      })}
       <div className="blackUnderlline"></div>
     </div>
   );

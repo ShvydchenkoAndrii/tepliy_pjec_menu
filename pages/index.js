@@ -1,6 +1,7 @@
 import Menu from "@/components/Menu/Menu";
 import Header from "@/components/Header/Header";
 import Head from "next/head";
+import Footer from "@/components/Footer/Footer";
 
 export default function App() {
   return (
@@ -11,6 +12,7 @@ export default function App() {
       </Head>
       <Header />
       <Menu />
+      <Footer />
     </>
   );
 }

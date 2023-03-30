@@ -4,62 +4,76 @@ export default function Salads() {
   const salads = [
     {
       name: "Цісарський з куркою",
-      portion: "350",
-      price: "??",
+      portion: "𓍝350",
+      price: "₴255",
       description: "айсберг, помідор, куряче філе, фірмовий соус",
     },
     {
       name: "Приїхали греки",
-      portion: "200",
-      price: "??",
+      portion: "𓍝200",
+      price: "₴95",
       description: "оливки, помідор, огірок, солодкий перець, синя цибуля",
     },
     {
       name: "Фірмовий від пічника",
-      portion: "300",
-      price: "??",
+      portion: "𓍝300",
+      price: "₴208",
       description: "салера, яблука, грецький горіх",
     },
     {
-      name: "З лососем та яйцем пашот",
-      portion: "300",
-      price: "??",
-      description: "",
+      name: "Базікало",
+      portion: "𓍝300",
+      price: "₴164",
+      description:
+        "салат з язиком на картопляній подушці з маринованою цибулею, квашеним огірком та бебі-морквою",
     },
     {
       name: "Олів'є",
-      portion: "200",
-      price: "??",
+      portion: "𓍝200",
+      price: "₴96 / ₴134",
       description: "з куркою / з лососем",
+    },
+    {
+      name: "З лососем та яйцем пашот",
+      portion: "𓍝300",
+      price: "₴319",
+      description: "",
     },
   ];
 
   return (
     <div className="menuPart">
       <div className="partHead">
-        <Image src={pjecMenuIco} width={100} className="partHeadIco" alt="міні логотип теплого п'єца для меню "></Image>
+        <Image
+          src={pjecMenuIco}
+          width={100}
+          className="partHeadIco"
+          alt="міні логотип теплого п'єца для меню "
+        ></Image>
         <h1 className="partName">САЛАТИ</h1>
-        <Image src={pjecMenuIco} width={100} className="partHeadIco" alt="міні логотип теплого п'єца для меню "></Image>
+        <Image
+          src={pjecMenuIco}
+          width={100}
+          className="partHeadIco"
+          alt="міні логотип теплого п'єца для меню "
+        ></Image>
       </div>
-      <div>
-        <div className="partHeadDescr">
-          <h2>Назва</h2>
-          <p>Вага (г)</p>
-          <p>Ціна (грн)</p>
-        </div>
-        {salads.map((item) => {
-          return (
-            <div key={item.name} className="partItem">
-              <div>
-                <h2 className="itemName">{item.name}</h2>
-                <p className="itemDescrip">{item.description}</p>
-              </div>
+
+      {salads.map((item) => {
+        return (
+          <div key={item.name} className="partItem">
+            <div>
+              <h2 className="itemName">{item.name}</h2>
+              <p className="itemDescrip">{item.description}</p>
+            </div>
+            <div className="itemPortionPrice">
               <p>{item.portion}</p>
               <p>{item.price}</p>
             </div>
-          );
-        })}
-      </div>
+          </div>
+        );
+      })}
+
       <div className="blackUnderlline"></div>
     </div>
   );

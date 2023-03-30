@@ -3,34 +3,34 @@ import pjecMenuIco from "@/public/tp_menu_ico.png";
 export default function Breakfasts() {
   const breakfasts = [
     {
-      name: "Вареники з сиром запечені у сметані",
-      portion: "𓍝200",
-      price: "₴150",
-      description: "",
+      name: "Вареники з сиром",
+      portion: "",
+      price: "₴124",
+      description: "запечені у сметані",
     },
     {
       name: "Тартіні з куркою су-від",
-      portion: "𓍝200",
-      price: "₴150",
+      portion: "",
+      price: "₴190",
       description: "скрембл, тост, мікс салату, крем сир, курка",
     },
     {
       name: "Тартіні з лососем",
-      portion: "𓍝200",
-      price: "₴150",
+      portion: "",
+      price: "₴220",
       description: "скрембл, тост, мікс салату, крем сир, слабосолений лосось",
     },
     {
-      name: "Налисники з сиром",
-      portion: "𓍝200",
-      price: "₴150",
-      description: "",
+      name: "Налисники",
+      portion: "",
+      price: "₴74",
+      description: "з сиром",
     },
     {
-      name: "Сирнички зі сметаною та варенням",
-      portion: "𓍝200",
-      price: "₴150",
-      description: "",
+      name: "Сирнички",
+      portion: "",
+      price: "₴128",
+      description: "зі сметаною та варенням",
     },
   ];
 
@@ -51,32 +51,20 @@ export default function Breakfasts() {
           alt="міні логотип теплого п'єца для меню "
         ></Image>
       </div>
-      <div>
-        {/* <div className="partHeadDescr">
-          <div>
-            <h2>Назва</h2>
-          </div>
-          <div className="flex justify-end items-end gap-4">
-            <p>Вага (г)</p>
-            <p>Ціна (грн)</p>
-          </div>
-        </div> */}
-        {breakfasts.map((item) => {
-          return (
-            <div key={item.name} className="partItem">
-              <div>
-                <h2 className="itemName">{item.name}</h2>
-                <p className="itemDescrip">{item.description}</p>
-              </div>
-              <div className="flex justify-end items-end gap-4">
-                {" "}
-                <p>{item.portion}</p>
-                <p>{item.price}</p>
-              </div>
+      {breakfasts.map((item) => {
+        return (
+          <div key={item.name} className="partItem">
+            <div>
+              <h2 className="itemName">{item.name}</h2>
+              <p className="itemDescrip">{item.description}</p>
             </div>
-          );
-        })}
-      </div>
+            <div className="itemPortionPrice">
+              <p>{item.portion}</p>
+              <p>{item.price}</p>
+            </div>
+          </div>
+        );
+      })}
       <div className="blackUnderlline"></div>
     </div>
   );

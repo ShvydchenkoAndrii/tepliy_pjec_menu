@@ -41,14 +41,18 @@ export default function Menu() {
 
   return (
     <div>
-      <div className="flex flex-nowrap overflow-x-auto border-black border-b-4">
+      <div className="flex sm:flex-nowrap overflow-x-auto border-black border-b-4">
         {menu.map((item) => {
           return (
             <button
               onClick={() => activeMenuPage(item)}
               key={item.name}
               id={item.name}
-              className="border m-1 mb-4 p-1"
+              className={` border ${
+                item.clicked
+                  ? "bg-[rgb(228,183,120)] text-white"
+                  : "bg-[rgb(253,223,181)]"
+              } hover:bg-[rgb(228,183,120)] hover:text-white  border-black rounded-lg m-1 mb-4 p-1.5 whitespace-nowrap`}
             >
               {item.name}
             </button>

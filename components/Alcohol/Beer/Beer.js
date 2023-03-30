@@ -5,14 +5,14 @@ export default function Beer() {
   const beerFromKeg = [
     {
       name: "Львівське світле",
-      portion: "0,3/0,5",
-      price: "32/52",
+      portion: "300/ 500мл",
+      price: "₴32/ ₴52",
       description: "",
     },
     {
       name: "Kronenbourg blanc",
-      portion: "0,3/0,5",
-      price: "32/52",
+      portion: "300/ 500мл",
+      price: "₴32/ ₴52",
       description: "",
     },
   ];
@@ -20,28 +20,33 @@ export default function Beer() {
   const bottleBeer = [
     {
       name: "Львівське світле",
-      portion: "0,3/0,5",
-      price: "150",
+      portion: "??",
+      price: "??",
       description: "",
     },
     {
       name: "Kronenbourg blanc",
-      portion: "0,3/0,5",
-      price: "100",
+      portion: "??",
+      price: "??",
       description: "",
     },
   ];
   return (
     <div className="menuPart">
       <div className="partHead">
-        <Image src={pjecMenuIco} width={100} className="partHeadIco" alt="міні логотип теплого п'єца для меню "></Image>
+        <Image
+          src={pjecMenuIco}
+          width={100}
+          className="partHeadIco"
+          alt="міні логотип теплого п'єца для меню "
+        ></Image>
         <h1 className="partName">ПИВО</h1>
-        <Image src={pjecMenuIco} width={100} className="partHeadIco" alt="міні логотип теплого п'єца для меню "></Image>
-      </div>
-      <div className="partHeadDescr">
-        <h2>Назва</h2>
-        <p>Об&apos;єм (л)</p>
-        <p>Ціна (грн)</p>
+        <Image
+          src={pjecMenuIco}
+          width={100}
+          className="partHeadIco"
+          alt="міні логотип теплого п'єца для меню "
+        ></Image>
       </div>
       <h2 className="partSection">Пиво розливене:</h2>
       {beerFromKeg.map((item) => {
@@ -51,8 +56,10 @@ export default function Beer() {
               <h2 className="itemName">{item.name}</h2>
               <p className="itemDescrip">{item.description}</p>
             </div>
-            <p>{item.portion}</p>
-            <p>{item.price}</p>
+            <div className="itemPortionPrice">
+              <p>{item.portion}</p>
+              <p>{item.price}</p>
+            </div>
           </div>
         );
       })}
@@ -66,8 +73,10 @@ export default function Beer() {
               <h2 className="itemName">{item.name}</h2>
               <p className="itemDescrip">{item.description}</p>
             </div>
-            <p>{item.portion}</p>
-            <p>{item.price}</p>
+            <div className="itemPortionPrice">
+              <p>{item.portion}</p>
+              <p>{item.price}</p>
+            </div>
           </div>
         );
       })}

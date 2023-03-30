@@ -4,38 +4,38 @@ export default function Desserts() {
   const desserts = [
     {
       name: "Львівський сирник",
-      portion: "за 100г",
-      price: "??",
+      portion: "за 𓍝100",
+      price: "₴49",
       description: "",
     },
     {
       name: "Штрудель яблучний",
-      portion: "за 100г",
-      price: "??",
+      portion: "за 𓍝100",
+      price: "₴27",
       description: "",
     },
     {
       name: "Львівські андрути",
-      portion: "100",
-      price: "??",
+      portion: "𓍝100",
+      price: "₴83",
       description: "",
     },
     {
       name: "Спартак",
-      portion: "100",
-      price: "??",
+      portion: "за 𓍝100",
+      price: "₴84",
       description: "",
     },
     {
       name: "Зимний п'єц",
-      portion: "150",
-      price: "??",
+      portion: "𓍝150",
+      price: "₴87",
       description: "морозиво пломбір з варенням та школадною присипкою",
     },
     {
       name: "Горіх в шоколаді",
-      portion: "за 100г",
-      price: "??",
+      portion: "за 𓍝100",
+      price: "₴128",
       description:
         "три види горіхів, шоколад, пісочне тісто, подається теплим з кулькою морозива",
     },
@@ -44,29 +44,34 @@ export default function Desserts() {
   return (
     <div className="menuPart">
       <div className="partHead">
-        <Image src={pjecMenuIco} width={100} className="partHeadIco" alt="міні логотип теплого п'єца для меню "></Image>
+        <Image
+          src={pjecMenuIco}
+          width={100}
+          className="partHeadIco"
+          alt="міні логотип теплого п'єца для меню "
+        ></Image>
         <h1 className="partName">ДЕСЕРТИ</h1>
-        <Image src={pjecMenuIco} width={100} className="partHeadIco" alt="міні логотип теплого п'єца для меню "></Image>
+        <Image
+          src={pjecMenuIco}
+          width={100}
+          className="partHeadIco"
+          alt="міні логотип теплого п'єца для меню "
+        ></Image>
       </div>
-      <div>
-        <div className="partHeadDescr">
-          <h2>Назва</h2>
-          <p>Вага (г)</p>
-          <p>Ціна (грн)</p>
-        </div>
-        {desserts.map((item) => {
-          return (
-            <div key={item.name} className="partItem">
-              <div>
-                <h2 className="itemName">{item.name}</h2>
-                <p className="itemDescrip">{item.description}</p>
-              </div>
+      {desserts.map((item) => {
+        return (
+          <div key={item.name} className="partItem">
+            <div>
+              <h2 className="itemName">{item.name}</h2>
+              <p className="itemDescrip">{item.description}</p>
+            </div>
+            <div className="itemPortionPrice">
               <p>{item.portion}</p>
               <p>{item.price}</p>
             </div>
-          );
-        })}
-      </div>
+          </div>
+        );
+      })}
       <div className="blackUnderlline"></div>
     </div>
   );
