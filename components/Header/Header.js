@@ -10,7 +10,7 @@ export default function Header() {
           width={100}
         ></Image>
         <div className="flex flex-col justify-center items-center text-center">
-          <h1 className="text-xl font-semibold">Кав'ярня-музей &apos;&apos;Теплий п&apos;єц&apos;&apos;</h1>
+          <h1 className="text-xl font-semibold">Кав&apos;ярня-музей &apos;&apos;Теплий п&apos;єц&apos;&apos;</h1>
           <p>&apos;&apos;Теплий п&apos;єц&apos;&apos; - частина старовинного Львова, затишок дому і осередок тепла</p>
         </div>
       </div>
