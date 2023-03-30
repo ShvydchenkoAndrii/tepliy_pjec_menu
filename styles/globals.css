@@ -38,7 +38,7 @@ body {
 
 .partHeadDescr {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: 2fr 1fr;
   margin: 16px;
   text-align: center;
 }
@@ -51,7 +51,7 @@ body {
 
 .partItem {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: 4fr 2fr;
   padding-left: 16px;
   padding-right: 16px;
   text-align: center;

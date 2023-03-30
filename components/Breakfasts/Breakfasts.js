@@ -4,32 +4,32 @@ export default function Breakfasts() {
   const breakfasts = [
     {
       name: "Вареники з сиром запечені у сметані",
-      portion: "??",
-      price: "??",
+      portion: "𓍝200",
+      price: "₴150",
       description: "",
     },
     {
       name: "Тартіні з куркою су-від",
-      portion: "??",
-      price: "??",
+      portion: "𓍝200",
+      price: "₴150",
       description: "скрембл, тост, мікс салату, крем сир, курка",
     },
     {
       name: "Тартіні з лососем",
-      portion: "??",
-      price: "??",
+      portion: "𓍝200",
+      price: "₴150",
       description: "скрембл, тост, мікс салату, крем сир, слабосолений лосось",
     },
     {
       name: "Налисники з сиром",
-      portion: "??",
-      price: "??",
+      portion: "𓍝200",
+      price: "₴150",
       description: "",
     },
     {
       name: "Сирнички зі сметаною та варенням",
-      portion: "??",
-      price: "??",
+      portion: "𓍝200",
+      price: "₴150",
       description: "",
     },
   ];
@@ -52,11 +52,15 @@ export default function Breakfasts() {
         ></Image>
       </div>
       <div>
-        <div className="partHeadDescr">
-          <h2>Назва</h2>
-          <p>Вага (г)</p>
-          <p>Ціна (грн)</p>
-        </div>
+        {/* <div className="partHeadDescr">
+          <div>
+            <h2>Назва</h2>
+          </div>
+          <div className="flex justify-end items-end gap-4">
+            <p>Вага (г)</p>
+            <p>Ціна (грн)</p>
+          </div>
+        </div> */}
         {breakfasts.map((item) => {
           return (
             <div key={item.name} className="partItem">
@@ -64,8 +68,11 @@ export default function Breakfasts() {
                 <h2 className="itemName">{item.name}</h2>
                 <p className="itemDescrip">{item.description}</p>
               </div>
-              <p>{item.portion}</p>
-              <p>{item.price}</p>
+              <div className="flex justify-end items-end gap-4">
+                {" "}
+                <p>{item.portion}</p>
+                <p>{item.price}</p>
+              </div>
             </div>
           );
         })}
