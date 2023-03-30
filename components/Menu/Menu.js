@@ -15,7 +15,7 @@ import Snacks from "../Snacks/Snacks";
 
 export default function Menu() {
   const [menu, setMenu] = useState([
-    { name: "Сніданки", clicked: false, id: "breakfasts" },
+    { name: "Сніданки", clicked: true, id: "breakfasts" },
     { name: "Перекуси", clicked: false, id: "snacks" },
     { name: "Салати", clicked: false, id: "salads" },
     { name: "Перші страви", clicked: false, id: "first courses" },
