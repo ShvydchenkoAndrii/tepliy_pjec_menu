@@ -18,7 +18,8 @@ export default function Assorted() {
       name: "Таца з п'єца",
       portion: "𓍝1800",
       price: "₴1150",
-      description: "запечені ребра, ковбаски, картопля, курче філе су-від, кров'янка, печериці",
+      description:
+        "запечені ребра, ковбаски, картопля, курче філе су-від, кров'янка, печериці",
     },
     {
       name: "Квашенина з діжки",
@@ -43,13 +44,23 @@ export default function Assorted() {
   return (
     <div className="menuPart">
       <div className="partHead">
-        <Image src={pjecMenuIco} width={100} className="partHeadIco" alt="міні логотип теплого п'єца для меню "></Image>
+        <Image
+          src={pjecMenuIco}
+          width={100}
+          className="partHeadIco"
+          alt="міні логотип теплого п'єца для меню "
+        ></Image>
         <h1 className="partName">СТРАВИ ДО ЗАБАВИ</h1>
-        <Image src={pjecMenuIco} width={100} className="partHeadIco"></Image>
+        <Image
+          src={pjecMenuIco}
+          width={100}
+          className="partHeadIco"
+          alt="міні логотип теплого п'єца для меню "
+        ></Image>
       </div>
-        {assorted.map((item) => {
-          return (
-            <div key={item.name} className="partItem">
+      {assorted.map((item) => {
+        return (
+          <div key={item.name} className="partItem">
             <div>
               <h2 className="itemName">{item.name}</h2>
               <p className="itemDescrip">{item.description}</p>
@@ -59,8 +70,8 @@ export default function Assorted() {
               <p>{item.price}</p>
             </div>
           </div>
-          );
-        })}
+        );
+      })}
       <div className="blackUnderlline"></div>
     </div>
   );
