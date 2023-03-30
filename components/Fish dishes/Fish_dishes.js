@@ -19,9 +19,9 @@ export default function FishDishes() {
   return (
     <div className="menuPart">
       <div className="partHead">
-        <Image src={pjecMenuIco} width={100} className="partHeadIco" alt="міні логотип теплого п'єца для меню "></Image>
+        <Image src={pjecMenuIco} width={90} className="partHeadIco" alt="міні логотип теплого п'єца для меню "></Image>
         <h1 className="partName">РИБНІ СТРАВИ</h1>
-        <Image src={pjecMenuIco} width={100} className="partHeadIco" alt="міні логотип теплого п'єца для меню "></Image>
+        <Image src={pjecMenuIco} width={90} className="partHeadIco" alt="міні логотип теплого п'єца для меню "></Image>
       </div>
         {fishDishes.map((item) => {
           return (

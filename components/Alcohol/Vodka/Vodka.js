@@ -33,14 +33,14 @@ export default function Vodka() {
       <div className="partHead">
         <Image
           src={pjecMenuIco}
-          width={100}
+          width={90}
           className="partHeadIco"
           alt="міні логотип теплого п'єца для меню "
         ></Image>
         <h1 className="partName">ГОРІЛКА</h1>
         <Image
           src={pjecMenuIco}
-          width={100}
+          width={90}
           className="partHeadIco"
           alt="міні логотип теплого п'єца для меню "
         ></Image>

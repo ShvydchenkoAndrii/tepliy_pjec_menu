@@ -48,7 +48,7 @@ export default function MainDishes() {
       name: "Пироги з пательні",
       portion: "𓍝250",
       price: "₴67",
-      description: "смажені вареники подаються зі шкварками",
+      description: "смажені вареники, подаються зі шкварками",
     },
     {
       name: "Палянички",
@@ -63,14 +63,14 @@ export default function MainDishes() {
       <div className="partHead">
         <Image
           src={pjecMenuIco}
-          width={100}
+          width={90}
           className="partHeadIco"
           alt="міні логотип теплого п'єца для меню "
         ></Image>
         <h1 className="partName">ОСНОВНІ СТРАВИ</h1>
         <Image
           src={pjecMenuIco}
-          width={100}
+          width={90}
           className="partHeadIco"
           alt="міні логотип теплого п'єца для меню "
         ></Image>

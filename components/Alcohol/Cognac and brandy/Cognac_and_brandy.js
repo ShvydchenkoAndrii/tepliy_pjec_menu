@@ -39,14 +39,14 @@ export default function CognacAndBrandy() {
       <div className="partHead">
         <Image
           src={pjecMenuIco}
-          width={100}
+          width={90}
           className="partHeadIco"
           alt="міні логотип теплого п'єца для меню "
         ></Image>
         <h1 className="partName">КОНЬЯКИ ТА БРЕНДІ</h1>
         <Image
           src={pjecMenuIco}
-          width={100}
+          width={90}
           className="partHeadIco"
           alt="міні логотип теплого п'єца для меню "
         ></Image>

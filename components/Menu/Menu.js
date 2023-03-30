@@ -27,7 +27,7 @@ export default function Menu() {
     { name: "Гарячі напої", clicked: false, id: "hot drinks" },
     { name: "Холодні напої", clicked: false, id: "cold drinks" },
     { name: "Коктейлі", clicked: false, id: "cocktails" },
-    { name: "Алкогольна карта", clicked: false, id: "alcohol" },
+    { name: "Алкогольні напої", clicked: false, id: "alcohol" },
   ]);
 
   const activeMenuPage = (clickedItem) => {

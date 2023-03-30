@@ -46,14 +46,14 @@ export default function Snacks() {
       <div className="partHead">
         <Image
           src={pjecMenuIco}
-          width={100}
+          width={80}
           className="partHeadIco"
           alt="міні логотип теплого п'єца для меню "
         ></Image>
         <h1 className="partName">ПЕРЕКУСИ</h1>
         <Image
           src={pjecMenuIco}
-          width={100}
+          width={80}
           className="partHeadIco"
           alt="міні логотип теплого п'єца для меню "
         ></Image>

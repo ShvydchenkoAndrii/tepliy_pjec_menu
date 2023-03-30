@@ -18,7 +18,7 @@ export default function Coffee() {
       name: "Еспресо",
       portion: "35мл",
       price: "₴42",
-      description: "е",
+      description: "",
     },
     {
       name: "Американо",
@@ -97,9 +97,9 @@ export default function Coffee() {
   return (
     <div className="menuPart">
       <div className="partHead">
-        <Image src={pjecMenuIco} width={100} className="partHeadIco" alt="міні логотип теплого п'єца для меню "></Image>
+        <Image src={pjecMenuIco} width={90} className="partHeadIco" alt="міні логотип теплого п'єца для меню "></Image>
         <h1 className="partName">КАВА/КАВОВІ НАПОЇ</h1>
-        <Image src={pjecMenuIco} width={100} className="partHeadIco" alt="міні логотип теплого п'єца для меню "></Image>
+        <Image src={pjecMenuIco} width={90} className="partHeadIco" alt="міні логотип теплого п'єца для меню "></Image>
       </div>
         {coffee.map((item) => {
           return (

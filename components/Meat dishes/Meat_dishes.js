@@ -36,7 +36,7 @@ export default function MeatDishes() {
       name: "Шніцель по-віденськи",
       portion: "𓍝400",
       price: "₴246",
-      description: "яловичий подається з картоплею пюре",
+      description: "яловичий, подається з картоплею пюре",
     },
     {
       name: '"А той індик..."',
@@ -69,14 +69,14 @@ export default function MeatDishes() {
       <div className="partHead">
         <Image
           src={pjecMenuIco}
-          width={100}
+          width={90}
           className="partHeadIco"
           alt="міні логотип теплого п'єца для меню "
         ></Image>
         <h1 className="partName">М&apos;ЯСНІ СТРАВИ</h1>
         <Image
           src={pjecMenuIco}
-          width={100}
+          width={90}
           className="partHeadIco"
           alt="міні логотип теплого п'єца для меню "
         ></Image>

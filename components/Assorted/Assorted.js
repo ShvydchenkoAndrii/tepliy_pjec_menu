@@ -46,14 +46,14 @@ export default function Assorted() {
       <div className="partHead">
         <Image
           src={pjecMenuIco}
-          width={100}
+          width={90}
           className="partHeadIco"
           alt="міні логотип теплого п'єца для меню "
         ></Image>
         <h1 className="partName">СТРАВИ ДО ЗАБАВИ</h1>
         <Image
           src={pjecMenuIco}
-          width={100}
+          width={90}
           className="partHeadIco"
           alt="міні логотип теплого п'єца для меню "
         ></Image>
