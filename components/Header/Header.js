@@ -10,7 +10,7 @@ export default function Header() {
           alt="Логотип кав'ярні-музею Теплий п'єц"
           width={100}
         ></Image>
-        <h1 className="text-2xl">Теплий п'єц</h1>
+        <h1 className="text-2xl">Теплий п&apos;єц</h1>
       </div>
     </>
   );

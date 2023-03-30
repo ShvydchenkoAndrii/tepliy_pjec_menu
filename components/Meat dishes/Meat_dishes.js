@@ -62,7 +62,7 @@ export default function MeatDishes() {
     <div className="menuPart">
       <div className="partHead">
         <Image src={pjecMenuIco} width={100} className="partHeadIco" alt="міні логотип теплого п'єца для меню "></Image>
-        <h1 className="partName">М'ЯСНІ СТРАВИ</h1>
+        <h1 className="partName">М&apos;ЯСНІ СТРАВИ</h1>
         <Image src={pjecMenuIco} width={100} className="partHeadIco" alt="міні логотип теплого п'єца для меню "></Image>
       </div>
       <div>

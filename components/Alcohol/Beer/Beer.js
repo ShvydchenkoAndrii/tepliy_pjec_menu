@@ -40,7 +40,7 @@ export default function Beer() {
       </div>
       <div className="partHeadDescr">
         <h2>Назва</h2>
-        <p>Об'єм (л)</p>
+        <p>Об&apos;єм (л)</p>
         <p>Ціна (грн)</p>
       </div>
       <h2 className="partSection">Пиво розливене:</h2>

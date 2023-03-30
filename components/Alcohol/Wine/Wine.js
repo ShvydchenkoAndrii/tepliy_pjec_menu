@@ -69,7 +69,7 @@ export default function Wine() {
       </div>
       <div className="partHeadDescr">
         <h2>Назва</h2>
-        <p>Об'єм (мл)</p>
+        <p>Об&apos;єм (мл)</p>
         <p>Ціна (грн)</p>
       </div>
       <h2 className="partSection">Біле вино:</h2>

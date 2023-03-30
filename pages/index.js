@@ -9,7 +9,7 @@ export default function App() {
     <>
       <Head>
         <link rel="shortcut icon" href="/favicon.ico" />
-        <title>Теплий П'єц</title>
+        <title>Теплий П&apos;єц</title>
       </Head>
       <Header />
       <Menu />
