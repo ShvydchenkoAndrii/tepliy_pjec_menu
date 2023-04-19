@@ -8,30 +8,30 @@ export default function Beer() {
       portion: "300/ 500мл",
       price: "₴32/ ₴52",
       description: "",
-      image: "/lvivske-svitle.png",
+      image: "lvivske-svitle.png",
     },
     {
       name: "Kronenbourg blanc",
       portion: "300/ 500мл",
       price: "₴32/ ₴52",
       description: "",
-      image: "/kronenbourg-blanc.png",
+      image: "kronenbourg-blanc.png",
     },
   ];
 
   const bottleBeer = [
-    {
-      name: "Львівське світле",
-      portion: "??",
-      price: "??",
-      description: "",
-    },
-    {
-      name: "Kronenbourg blanc",
-      portion: "??",
-      price: "??",
-      description: "",
-    },
+    // {
+    //   name: "Львівське світле",
+    //   portion: "??",
+    //   price: "??",
+    //   description: "",
+    // },
+    // {
+    //   name: "Kronenbourg blanc",
+    //   portion: "??",
+    //   price: "??",
+    //   description: "",
+    // },
   ];
   return (
     <div className="menuPart">
@@ -67,7 +67,7 @@ export default function Beer() {
       {bottleBeer.map((item) => {
         return (
           <div key={item.name} className="partItem">
-            <img src={item.image} width={90} height={90}></img>
+            <img src={item.image} width={100}></img>
             <h2 className="itemName">{item.name}</h2>
             <p className="itemDescrip">{item.description}</p>
             <p className="itemPortion">{item.portion}</p>

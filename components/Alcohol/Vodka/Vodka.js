@@ -7,24 +7,27 @@ export default function Vodka() {
       portion: "50мл",
       price: "₴30",
       description: "",
+      image: "lemberg.png",
     },
     {
       name: "Львівська шляхетна",
       portion: "50мл",
       price: "₴30",
       description: "",
+      image: "lvivska-shljahetna.png",
     },
-    {
-      name: "Львівська з перцем",
-      portion: "50мл",
-      price: "??",
-      description: "",
-    },
+    // {
+    //   name: "Львівська з перцем",
+    //   portion: "50мл",
+    //   price: "??",
+    //   description: "",
+    // },
     {
       name: "Finlandia",
       portion: "50мл",
       price: "₴82",
       description: "оригінал, журавлина",
+      image: "finlandia.png",
     },
   ];
 
@@ -33,14 +36,14 @@ export default function Vodka() {
       <div className="partHead">
         <Image
           src={pjecMenuIco}
-          width={90}
+          width={30}
           className="partHeadIco"
           alt="міні логотип теплого п'єца для меню "
         ></Image>
         <h1 className="partName">ГОРІЛКА</h1>
         <Image
           src={pjecMenuIco}
-          width={90}
+          width={30}
           className="partHeadIco"
           alt="міні логотип теплого п'єца для меню "
         ></Image>
@@ -48,7 +51,7 @@ export default function Vodka() {
       {vodka.map((item) => {
         return (
           <div key={item.name} className="partItem">
-            <img src={item.image} width={100}></img>
+            <img src={item.image} width={30}></img>
             <h2 className="itemName">{item.name}</h2>
             <p className="itemDescrip">{item.description}</p>
             <p className="itemPortion">{item.portion}</p>

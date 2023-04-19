@@ -16,30 +16,25 @@ body {
 }
 
 .partHead {
+  margin-top: 10px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: space-around;
-  align-items: center;
   justify-items: center;
-  
+  align-items: center;
 }
 
 .partName {
-  margin-bottom: 12px;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 30px;
+  font-weight: 600;
 }
-
-/* .partHeadDescr {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  margin: 16px;
-  text-align: center;
-} */
 
 .partSection {
   text-align: center;
-  font-weight: 600;
+  font-style: italic;
+  font-weight: 400;
+  margin-top: 20px;
 }
 
 .partItem {

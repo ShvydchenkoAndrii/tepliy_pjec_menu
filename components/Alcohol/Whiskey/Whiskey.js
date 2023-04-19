@@ -7,18 +7,21 @@ export default function Whiskey() {
       portion: "50мл",
       price: "₴99",
       description: "",
+      image: "red-label.png",
     },
     {
       name: "Jack Daniel's Old No.7",
       portion: "50мл",
       price: "₴140",
       description: "",
+      image: "jack-daniels.png",
     },
     {
       name: "Jameson Irish Whiskey",
       portion: "50мл",
       price: "₴124",
       description: "",
+      image: "jameson.png",
     },
   ];
 
@@ -27,14 +30,14 @@ export default function Whiskey() {
       <div className="partHead">
         <Image
           src={pjecMenuIco}
-          width={90}
+          width={30}
           className="partHeadIco"
           alt="міні логотип теплого п'єца для меню "
         ></Image>
         <h1 className="partName">ВІСКІ</h1>
         <Image
           src={pjecMenuIco}
-          width={90}
+          width={30}
           className="partHeadIco"
           alt="міні логотип теплого п'єца для меню "
         ></Image>
@@ -42,7 +45,7 @@ export default function Whiskey() {
       {whiskey.map((item) => {
         return (
           <div key={item.name} className="partItem">
-            <img src={item.image} width={100}></img>
+            <img src={item.image} width={40}></img>
             <h2 className="itemName">{item.name}</h2>
             <p className="itemDescrip">{item.description}</p>
             <p className="itemPortion">{item.portion}</p>

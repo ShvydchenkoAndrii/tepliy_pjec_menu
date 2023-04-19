@@ -7,18 +7,21 @@ export default function Wine() {
       portion: "125мл",
       price: "₴130",
       description: "Україна, біле сухе",
+      image: "kolonist-chardonay.png",
     },
     {
-      name: "Кабарне",
+      name: "Каберне",
       portion: "125мл",
       price: "₴95",
       description: "Україна, червоне сухе",
+      image: "kolonist-cabernet.png",
     },
     {
       name: "Рислінг",
       portion: "125мл",
       price: "₴130",
       description: "Україна, н/сухе",
+      image: "kolonist-risling.png",
     },
   ];
 
@@ -28,24 +31,28 @@ export default function Wine() {
       portion: "125мл",
       price: "₴130",
       description: "Грузія, біле сухе",
+      image: "kartuli-cinandali.png",
     },
     {
       name: "Сапераві",
       portion: "125мл",
       price: "₴95",
       description: "Грузія, червоне сухе",
+      image: "kartuli-saperavi.png",
     },
     {
       name: "Алазанська долина",
       portion: "125мл",
       price: "??",
       description: "Грузія, біле н/солодке",
+      image: "kartuli-alazan-white.png",
     },
     {
       name: "Алазанська долина",
       portion: "125мл",
       price: "??",
       description: "Грузія, червоне н/солодке",
+      image: "kartuli-alazan-red.png",
     },
   ];
   const cotnar = [
@@ -54,24 +61,28 @@ export default function Wine() {
       portion: "125мл",
       price: "??",
       description: "Україна, біле сухе",
+      image: "cotnar-chardonnay.png",
     },
     {
       name: "Кабарне",
       portion: "125мл",
       price: "??",
       description: "Україна, червоне сухе",
+      image: "cotnar-cabernet.png",
     },
     {
       name: "Мускат",
       portion: "125мл",
       price: "??",
       description: "Україна, біле н/солодке",
+      image: "cotnar-muskat.png",
     },
     {
       name: "Мерло",
       portion: "125мл",
       price: "??",
       description: "Україна, біле н/солодке",
+      image: "cotnar-merlot.png",
     },
   ];
   return (
@@ -79,14 +90,14 @@ export default function Wine() {
       <div className="partHead">
         <Image
           src={pjecMenuIco}
-          width={90}
+          width={30}
           className="partHeadIco"
           alt="міні логотип теплого п'єца для меню "
         ></Image>
         <h1 className="partName">ВИНО</h1>
         <Image
           src={pjecMenuIco}
-          width={90}
+          width={30}
           className="partHeadIco"
           alt="міні логотип теплого п'єца для меню "
         ></Image>
@@ -95,7 +106,7 @@ export default function Wine() {
       {colonist.map((item) => {
         return (
           <div key={item.name} className="partItem">
-            <img src={item.image} width={90} height={90}></img>
+            <img src={item.image} width={200}></img>
             <h2 className="itemName">{item.name}</h2>
             <p className="itemDescrip">{item.description}</p>
             <p className="itemPortion">{item.portion}</p>
@@ -107,7 +118,7 @@ export default function Wine() {
       {kartuli.map((item) => {
         return (
           <div key={item.name} className="partItem">
-            <img src={item.image} width={90} height={90}></img>
+            <img src={item.image} width={150}></img>
             <h2 className="itemName">{item.name}</h2>
             <p className="itemDescrip">{item.description}</p>
             <p className="itemPortion">{item.portion}</p>
@@ -119,7 +130,7 @@ export default function Wine() {
       {cotnar.map((item) => {
         return (
           <div key={item.name} className="partItem">
-            <img src={item.image} width={90} height={90}></img>
+            <img src={item.image} width={100}></img>
             <h2 className="itemName">{item.name}</h2>
             <p className="itemDescrip">{item.description}</p>
             <p className="itemPortion">{item.portion}</p>

@@ -30,14 +30,14 @@ export default function Champagne() {
       <div className="partHead">
         <Image
           src={pjecMenuIco}
-          width={90}
+          width={30}
           className="partHeadIco"
           alt="міні логотип теплого п'єца для меню "
         ></Image>
         <h1 className="partName">ІГРИСТІ ВИНА</h1>
         <Image
           src={pjecMenuIco}
-          width={90}
+          width={30}
           className="partHeadIco"
           alt="міні логотип теплого п'єца для меню "
         ></Image>
@@ -45,7 +45,7 @@ export default function Champagne() {
       {champagne.map((item) => {
         return (
           <div key={item.name} className="partItem">
-            <img src={item.image} width={90} height={90}></img>
+            <img src={item.image} width={150}></img>
             <h2 className="itemName">{item.name}</h2>
             <p className="itemDescrip">{item.description}</p>
             <p className="itemPortion">{item.portion}</p>
