@@ -51,7 +51,9 @@ export default function Vodka() {
       {vodka.map((item) => {
         return (
           <div key={item.name} className="partItem">
-            <img src={item.image} width={30}></img>
+            <div className="itemPicture">
+              <img src={item.image}></img>
+            </div>
             <h2 className="itemName">{item.name}</h2>
             <p className="itemDescrip">{item.description}</p>
             <p className="itemPortion">{item.portion}</p>

@@ -106,7 +106,9 @@ export default function Wine() {
       {colonist.map((item) => {
         return (
           <div key={item.name} className="partItem">
-            <img src={item.image} width={200}></img>
+            <div className="itemPicture">
+              <img src={item.image}></img>
+            </div>
             <h2 className="itemName">{item.name}</h2>
             <p className="itemDescrip">{item.description}</p>
             <p className="itemPortion">{item.portion}</p>
@@ -118,7 +120,9 @@ export default function Wine() {
       {kartuli.map((item) => {
         return (
           <div key={item.name} className="partItem">
-            <img src={item.image} width={150}></img>
+            <div className="itemPicture">
+              <img src={item.image}></img>
+            </div>
             <h2 className="itemName">{item.name}</h2>
             <p className="itemDescrip">{item.description}</p>
             <p className="itemPortion">{item.portion}</p>
@@ -130,7 +134,9 @@ export default function Wine() {
       {cotnar.map((item) => {
         return (
           <div key={item.name} className="partItem">
-            <img src={item.image} width={100}></img>
+            <div className="itemPicture">
+              <img src={item.image}></img>
+            </div>
             <h2 className="itemName">{item.name}</h2>
             <p className="itemDescrip">{item.description}</p>
             <p className="itemPortion">{item.portion}</p>
