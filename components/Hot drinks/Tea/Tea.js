@@ -47,14 +47,14 @@ export default function Tea() {
       <div className="partHead">
         <Image
           src={pjecMenuIco}
-          width={90}
+          width={30}
           className="partHeadIco"
           alt="міні логотип теплого п'єца для меню "
         ></Image>
         <h1 className="partName">ЧАЙ</h1>
         <Image
           src={pjecMenuIco}
-          width={90}
+          width={30}
           className="partHeadIco"
           alt="міні логотип теплого п'єца для меню "
         ></Image>
@@ -62,12 +62,12 @@ export default function Tea() {
 
       {tea.map((item) => {
         return (
-          <div key={item.name} className="partItem">
+          <div key={item.name} className="partItemHotDrinks">
             <div>
               <h2 className="itemName">{item.name}</h2>
               <p className="itemDescrip">{item.description}</p>
             </div>
-            <div className="itemPortionPrice">
+            <div className="itemPortionPriceHotDrinks">
               <p>{item.portion}</p>
               <p>{item.price}</p>
             </div>
@@ -78,16 +78,16 @@ export default function Tea() {
       <h2 className="partSection">Додатки:</h2>
       {adds.map((item) => {
         return (
-          <div key={item.name} className="partItem">
-            <div>
-              <h2 className="itemName">{item.name}</h2>
-              <p className="itemDescrip">{item.description}</p>
-            </div>
-            <div className="itemPortionPrice">
-              <p>{item.portion}</p>
-              <p>{item.price}</p>
-            </div>
+          <div key={item.name} className="partItemHotDrinks">
+          <div>
+            <h2 className="itemName">{item.name}</h2>
+            <p className="itemDescrip">{item.description}</p>
           </div>
+          <div className="itemPortionPriceHotDrinks">
+            <p>{item.portion}</p>
+            <p>{item.price}</p>
+          </div>
+        </div>
         );
       })}
       <div className="blackUnderlline"></div>

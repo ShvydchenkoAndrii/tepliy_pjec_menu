@@ -19,24 +19,28 @@ export default function Coffee() {
       portion: "35мл",
       price: "₴42",
       description: "",
+      image: "espreso.png",
     },
     {
       name: "Американо",
       portion: "130мл",
       price: "₴42",
       description: "",
+      image: "americano.png",
     },
     {
       name: "Флет вайт",
       portion: "180мл",
       price: "₴94",
       description: "",
+      image: "flat-white.png",
     },
     {
       name: "Капучино",
       portion: "150мл",
       price: "₴62",
       description: "",
+      image: "capuccino.png",
     },
     {
       name: "Лате",
@@ -97,24 +101,34 @@ export default function Coffee() {
   return (
     <div className="menuPart">
       <div className="partHead">
-        <Image src={pjecMenuIco} width={90} className="partHeadIco" alt="міні логотип теплого п'єца для меню "></Image>
-        <h1 className="partName">КАВА/КАВОВІ НАПОЇ</h1>
-        <Image src={pjecMenuIco} width={90} className="partHeadIco" alt="міні логотип теплого п'єца для меню "></Image>
+        <Image
+          src={pjecMenuIco}
+          width={30}
+          className="partHeadIco"
+          alt="міні логотип теплого п'єца для меню "
+        ></Image>
+        <h1 className="partName">КАВА, КАВОВІ НАПОЇ</h1>
+        <Image
+          src={pjecMenuIco}
+          width={30}
+          className="partHeadIco"
+          alt="міні логотип теплого п'єца для меню "
+        ></Image>
       </div>
-        {coffee.map((item) => {
-          return (
-            <div key={item.name} className="partItem">
+      {coffee.map((item) => {
+        return (
+          <div key={item.name} className="partItemHotDrinks">
             <div>
               <h2 className="itemName">{item.name}</h2>
               <p className="itemDescrip">{item.description}</p>
             </div>
-            <div className="itemPortionPrice">
+            <div className="itemPortionPriceHotDrinks">
               <p>{item.portion}</p>
               <p>{item.price}</p>
             </div>
           </div>
-          );
-        })}
+        );
+      })}
       <div className="blackUnderlline"></div>
     </div>
   );

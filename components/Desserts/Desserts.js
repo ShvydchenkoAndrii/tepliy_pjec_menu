@@ -46,14 +46,14 @@ export default function Desserts() {
       <div className="partHead">
         <Image
           src={pjecMenuIco}
-          width={90}
+          width={30}
           className="partHeadIco"
           alt="міні логотип теплого п'єца для меню "
         ></Image>
         <h1 className="partName">ДЕСЕРТИ</h1>
         <Image
           src={pjecMenuIco}
-          width={90}
+          width={30}
           className="partHeadIco"
           alt="міні логотип теплого п'єца для меню "
         ></Image>
@@ -61,14 +61,13 @@ export default function Desserts() {
       {desserts.map((item) => {
         return (
           <div key={item.name} className="partItem">
-            <div>
-              <h2 className="itemName">{item.name}</h2>
-              <p className="itemDescrip">{item.description}</p>
+            <div className="itemPicture">
+              <img src={item.image}></img>
             </div>
-            <div className="itemPortionPrice">
-              <p>{item.portion}</p>
-              <p>{item.price}</p>
-            </div>
+            <h2 className="itemName">{item.name}</h2>
+            <p className="itemDescrip">{item.description}</p>
+            <p className="itemPortion">{item.portion}</p>
+            <p className="itemPrice">{item.price}</p>
           </div>
         );
       })}
