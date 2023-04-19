@@ -1,63 +1,77 @@
 import Image from "next/image";
 import pjecMenuIco from "@/public/tp_menu_ico.png";
 export default function Wine() {
-  const whiteWine = [
+  const colonist = [
     {
-      name: "Колоніст Шардоне",
+      name: "Шардоне",
       portion: "125мл",
       price: "₴130",
-      description: "Україна, сухе",
+      description: "Україна, біле сухе",
     },
     {
-      name: "Kartuli Vazi Цинандалі",
+      name: "Кабарне",
       portion: "125мл",
       price: "₴95",
-      description: "Грузія, сухе",
+      description: "Україна, червоне сухе",
     },
     {
-      name: "Колоніст Рислінг",
+      name: "Рислінг",
       portion: "125мл",
       price: "₴130",
       description: "Україна, н/сухе",
-    },
-    {
-      name: "Chateau Chizay Moscato",
-      portion: "125мл",
-      price: "₴72",
-      description: "Україна, н/солодке",
     },
   ];
 
-  const redWine = [
+  const kartuli = [
     {
-      name: "Колоніст Кабарне",
+      name: "Цинандалі",
       portion: "125мл",
       price: "₴130",
-      description: "Україна, сухе",
+      description: "Грузія, біле сухе",
     },
     {
-      name: "Kartuli Vazi Сапераві",
+      name: "Сапераві",
       portion: "125мл",
       price: "₴95",
-      description: "Грузія, сухе",
+      description: "Грузія, червоне сухе",
     },
     {
-      name: "Chizay Pino Noir",
+      name: "Алазанська долина",
       portion: "125мл",
       price: "??",
-      description: "Україна, н/солодке",
+      description: "Грузія, біле н/солодке",
     },
     {
-      name: "Chizay Merlo",
+      name: "Алазанська долина",
       portion: "125мл",
-      price: "₴72",
-      description: "Україна, н/сухе",
+      price: "??",
+      description: "Грузія, червоне н/солодке",
+    },
+  ];
+  const cotnar = [
+    {
+      name: "Шардоне",
+      portion: "125мл",
+      price: "??",
+      description: "Україна, біле сухе",
     },
     {
-      name: "Вино домашнє",
+      name: "Кабарне",
       portion: "125мл",
-      price: "₴45",
-      description: "",
+      price: "??",
+      description: "Україна, червоне сухе",
+    },
+    {
+      name: "Мускат",
+      portion: "125мл",
+      price: "??",
+      description: "Україна, біле н/солодке",
+    },
+    {
+      name: "Мерло",
+      portion: "125мл",
+      price: "??",
+      description: "Україна, біле н/солодке",
     },
   ];
   return (
@@ -77,33 +91,39 @@ export default function Wine() {
           alt="міні логотип теплого п'єца для меню "
         ></Image>
       </div>
-      <h2 className="partSection">Біле вино:</h2>
-      {whiteWine.map((item) => {
+      <h2 className="partSection">Колоніст:</h2>
+      {colonist.map((item) => {
         return (
           <div key={item.name} className="partItem">
-            <div>
-              <h2 className="itemName">{item.name}</h2>
-              <p className="itemDescrip">{item.description}</p>
-            </div>
-            <div className="itemPortionPrice">
-              <p>{item.portion}</p>
-              <p>{item.price}</p>
-            </div>
+            <img src={item.image} width={90} height={90}></img>
+            <h2 className="itemName">{item.name}</h2>
+            <p className="itemDescrip">{item.description}</p>
+            <p className="itemPortion">{item.portion}</p>
+            <p className="itemPrice">{item.price}</p>
           </div>
         );
       })}
-      <h2 className="partSection">Червоне вино:</h2>
-      {redWine.map((item) => {
+      <h2 className="partSection">Kartuli Vazi:</h2>
+      {kartuli.map((item) => {
         return (
           <div key={item.name} className="partItem">
-            <div>
-              <h2 className="itemName">{item.name}</h2>
-              <p className="itemDescrip">{item.description}</p>
-            </div>
-            <div className="itemPortionPrice">
-              <p>{item.portion}</p>
-              <p>{item.price}</p>
-            </div>
+            <img src={item.image} width={90} height={90}></img>
+            <h2 className="itemName">{item.name}</h2>
+            <p className="itemDescrip">{item.description}</p>
+            <p className="itemPortion">{item.portion}</p>
+            <p className="itemPrice">{item.price}</p>
+          </div>
+        );
+      })}
+      <h2 className="partSection">Cotnar:</h2>
+      {cotnar.map((item) => {
+        return (
+          <div key={item.name} className="partItem">
+            <img src={item.image} width={90} height={90}></img>
+            <h2 className="itemName">{item.name}</h2>
+            <p className="itemDescrip">{item.description}</p>
+            <p className="itemPortion">{item.portion}</p>
+            <p className="itemPrice">{item.price}</p>
           </div>
         );
       })}

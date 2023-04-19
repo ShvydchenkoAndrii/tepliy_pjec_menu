@@ -7,18 +7,21 @@ export default function Champagne() {
       portion: "125мл",
       price: "₴110",
       description: "",
+      image: "prosecco.png",
     },
     {
-      name: "Chateau Chizay, Carpathian Sekt",
+      name: "Shabo Classic",
       portion: "750мл",
       price: "₴640",
       description: "Україна, біле брют",
+      image: "shabo-classic-sweet.png",
     },
     {
       name: "Shabo Classic",
       portion: "750мл",
       price: "₴640",
       description: "Україна, біле н/солодке",
+      image: "shabo-classic-brut.png",
     },
   ];
 
@@ -42,14 +45,11 @@ export default function Champagne() {
       {champagne.map((item) => {
         return (
           <div key={item.name} className="partItem">
-            <div>
-              <h2 className="itemName">{item.name}</h2>
-              <p className="itemDescrip">{item.description}</p>
-            </div>
-            <div className="itemPortionPrice">
-              <p>{item.portion}</p>
-              <p>{item.price}</p>
-            </div>
+            <img src={item.image} width={90} height={90}></img>
+            <h2 className="itemName">{item.name}</h2>
+            <p className="itemDescrip">{item.description}</p>
+            <p className="itemPortion">{item.portion}</p>
+            <p className="itemPrice">{item.price}</p>
           </div>
         );
       })}
