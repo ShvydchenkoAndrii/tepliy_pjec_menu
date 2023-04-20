@@ -1,7 +1,9 @@
-import Image from "next/image";
-import pjecMenuIco from "@/public/tp_menu_ico.png";
+import { useContext } from "react";
+import { AppContext } from "@/pages";
 
 export default function Beer() {
+  const { ShowMenuPart, PartHead } = useContext(AppContext);
+
   const beerFromKeg = [
     {
       name: "Львівське світле",
@@ -36,49 +38,14 @@ export default function Beer() {
   return (
     <div className="menuPart">
       <div className="partHead">
-        <Image
-          src={pjecMenuIco}
-          width={30}
-          className="partHeadIco"
-          alt="міні логотип теплого п'єца для меню "
-        ></Image>
+        {PartHead()}
         <h1 className="partName">ПИВО</h1>
-        <Image
-          src={pjecMenuIco}
-          width={30}
-          className="partHeadIco"
-          alt="міні логотип теплого п'єца для меню "
-        ></Image>
+        {PartHead()}
       </div>
       <h2 className="partSection">Пиво розливене:</h2>
-      {beerFromKeg.map((item) => {
-        return (
-          <div key={item.name} className="partItem">
-            <div className="itemPicture">
-              <img src={item.image}></img>
-            </div>
-            <h2 className="itemName">{item.name}</h2>
-            <p className="itemDescrip">{item.description}</p>
-            <p className="itemPortion">{item.portion}</p>
-            <p className="itemPrice">{item.price}</p>
-          </div>
-        );
-      })}
+      {ShowMenuPart(beerFromKeg)}
       <h2 className="partSection">Пиво пляшкове:</h2>
-
-      {bottleBeer.map((item) => {
-        return (
-          <div key={item.name} className="partItem">
-            <div className="itemPicture">
-              <img src={item.image}></img>
-            </div>
-            <h2 className="itemName">{item.name}</h2>
-            <p className="itemDescrip">{item.description}</p>
-            <p className="itemPortion">{item.portion}</p>
-            <p className="itemPrice">{item.price}</p>
-          </div>
-        );
-      })}
+      {ShowMenuPart(bottleBeer)}
       <div className="blackUnderlline"></div>
     </div>
   );

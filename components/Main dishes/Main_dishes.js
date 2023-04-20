@@ -1,6 +1,8 @@
-import Image from "next/image";
-import pjecMenuIco from "@/public/tp_menu_ico.png";
+import { useContext } from "react";
+import { AppContext } from "@/pages";
 export default function MainDishes() {
+  const { ShowMenuPart, PartHead } = useContext(AppContext);
+
   const mainDishes = [
     {
       name: "Банош",
@@ -61,34 +63,11 @@ export default function MainDishes() {
   return (
     <div className="menuPart">
       <div className="partHead">
-        <Image
-          src={pjecMenuIco}
-          width={90}
-          className="partHeadIco"
-          alt="міні логотип теплого п'єца для меню "
-        ></Image>
+        {PartHead()}
         <h1 className="partName">ОСНОВНІ СТРАВИ</h1>
-        <Image
-          src={pjecMenuIco}
-          width={90}
-          className="partHeadIco"
-          alt="міні логотип теплого п'єца для меню "
-        ></Image>
+        {PartHead()}
       </div>
-      {mainDishes.map((item) => {
-        return (
-          <div key={item.name} className="partItem">
-            <div>
-              <h2 className="itemName">{item.name}</h2>
-              <p className="itemDescrip">{item.description}</p>
-            </div>
-            <div className="itemPortionPrice">
-              <p>{item.portion}</p>
-              <p>{item.price}</p>
-            </div>
-          </div>
-        );
-      })}
+      {ShowMenuPart(mainDishes)}
       <div className="blackUnderlline"></div>
     </div>
   );

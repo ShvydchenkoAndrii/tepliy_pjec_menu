@@ -1,6 +1,8 @@
-import Image from "next/image";
-import pjecMenuIco from "@/public/tp_menu_ico.png";
+import { useContext } from "react";
+import { AppContext } from "@/pages";
 export default function Coffee() {
+  const { ShowMenuPartHotDrinks, PartHead } = useContext(AppContext);
+
   const coffee = [
     {
       name: "Кава з п'єца",
@@ -101,34 +103,11 @@ export default function Coffee() {
   return (
     <div className="menuPart">
       <div className="partHead">
-        <Image
-          src={pjecMenuIco}
-          width={30}
-          className="partHeadIco"
-          alt="міні логотип теплого п'єца для меню "
-        ></Image>
-        <h1 className="partName">КАВА, КАВОВІ НАПОЇ</h1>
-        <Image
-          src={pjecMenuIco}
-          width={30}
-          className="partHeadIco"
-          alt="міні логотип теплого п'єца для меню "
-        ></Image>
+        {PartHead()}
+        <h1 className="partName">КАВА\КАВОВІ НАПОЇ</h1>
+        {PartHead()}
       </div>
-      {coffee.map((item) => {
-        return (
-          <div key={item.name} className="partItemHotDrinks">
-            <div>
-              <h2 className="itemName">{item.name}</h2>
-              <p className="itemDescrip">{item.description}</p>
-            </div>
-            <div className="itemPortionPriceHotDrinks">
-              <p>{item.portion}</p>
-              <p>{item.price}</p>
-            </div>
-          </div>
-        );
-      })}
+      {ShowMenuPartHotDrinks(coffee)}
       <div className="blackUnderlline"></div>
     </div>
   );

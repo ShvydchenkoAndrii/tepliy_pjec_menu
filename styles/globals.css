@@ -53,10 +53,11 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-content: space-between;
+  align-items: center;
   justify-items: start;
   gap: 10px;
-  margin-left: 40px;
-  text-align: center;
+  margin-left: 20%;
+  margin-right: 10%;
 }
 
 .itemPortionPriceHotDrinks {

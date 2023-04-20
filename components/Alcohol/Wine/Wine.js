@@ -1,6 +1,8 @@
-import Image from "next/image";
-import pjecMenuIco from "@/public/tp_menu_ico.png";
+import { useContext } from "react";
+import { AppContext } from "@/pages";
+
 export default function Wine() {
+  const { ShowMenuPart, PartHead } = useContext(AppContext);
   const colonist = [
     {
       name: "Шардоне",
@@ -85,65 +87,30 @@ export default function Wine() {
       image: "cotnar-merlot.png",
     },
   ];
+
+  const homeWine = [
+    {
+      name: "Вино домашнє",
+      portion: "125мл",
+      price: "??",
+      description: "",
+      image: "",
+    },
+  ];
   return (
     <div className="menuPart">
       <div className="partHead">
-        <Image
-          src={pjecMenuIco}
-          width={30}
-          className="partHeadIco"
-          alt="міні логотип теплого п'єца для меню "
-        ></Image>
+        {PartHead()}
         <h1 className="partName">ВИНО</h1>
-        <Image
-          src={pjecMenuIco}
-          width={30}
-          className="partHeadIco"
-          alt="міні логотип теплого п'єца для меню "
-        ></Image>
+        {PartHead()}
       </div>
       <h2 className="partSection">Колоніст:</h2>
-      {colonist.map((item) => {
-        return (
-          <div key={item.name} className="partItem">
-            <div className="itemPicture">
-              <img src={item.image}></img>
-            </div>
-            <h2 className="itemName">{item.name}</h2>
-            <p className="itemDescrip">{item.description}</p>
-            <p className="itemPortion">{item.portion}</p>
-            <p className="itemPrice">{item.price}</p>
-          </div>
-        );
-      })}
+      {ShowMenuPart(colonist)}
       <h2 className="partSection">Kartuli Vazi:</h2>
-      {kartuli.map((item) => {
-        return (
-          <div key={item.name} className="partItem">
-            <div className="itemPicture">
-              <img src={item.image}></img>
-            </div>
-            <h2 className="itemName">{item.name}</h2>
-            <p className="itemDescrip">{item.description}</p>
-            <p className="itemPortion">{item.portion}</p>
-            <p className="itemPrice">{item.price}</p>
-          </div>
-        );
-      })}
+      {ShowMenuPart(kartuli)}
       <h2 className="partSection">Cotnar:</h2>
-      {cotnar.map((item) => {
-        return (
-          <div key={item.name} className="partItem">
-            <div className="itemPicture">
-              <img src={item.image}></img>
-            </div>
-            <h2 className="itemName">{item.name}</h2>
-            <p className="itemDescrip">{item.description}</p>
-            <p className="itemPortion">{item.portion}</p>
-            <p className="itemPrice">{item.price}</p>
-          </div>
-        );
-      })}
+      {ShowMenuPart(cotnar)}
+      {ShowMenuPart(homeWine)}
       <div className="blackUnderlline"></div>
     </div>
   );
