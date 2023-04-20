@@ -3,7 +3,7 @@ export default function ShowMenuPart(items) {
     return (
       <div key={item.name} className="partItem">
         <div className="itemPicture">
-          <img src={item.image}></img>
+          <img src={item.image} alt="зображення страви чи напою"></img>
         </div>
         <h2 className="itemName">{item.name}</h2>
         <p className="itemDescrip">{item.description}</p>

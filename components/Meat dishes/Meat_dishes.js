@@ -69,7 +69,7 @@ export default function MeatDishes() {
     <div className="menuPart">
       <div className="partHead">
         {PartHead()}
-        <h1 className="partName">М'ЯСНІ СТРАВИ</h1>
+        <h1 className="partName">М&apos;ЯСНІ СТРАВИ</h1>
         {PartHead()}
       </div>
       {ShowMenuPart(meatDishes)}
