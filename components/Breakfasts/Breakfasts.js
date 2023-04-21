@@ -9,6 +9,7 @@ export default function Breakfasts() {
       portion: "",
       price: "₴124",
       description: "запечені у сметані",
+      image: "vareniky-breakfast.jpg",
     },
     {
       name: "Тартіні з куркою су-від",
@@ -21,6 +22,7 @@ export default function Breakfasts() {
       portion: "",
       price: "₴220",
       description: "скрембл, тост, мікс салату, крем сир, слабосолений лосось",
+      image: "tartini-losos.jpg",
     },
     {
       name: "Налисники",

@@ -17,7 +17,7 @@ function App() {
   return (
     <AppContext.Provider value={store}>
       <Head>
-        {/* <link rel="shortcut icon" href="/favicon.ai" /> */}
+        <link rel="shortcut icon" href="/tp_menu_ico.png" />
         <title>Теплий П&apos;єц</title>
       </Head>
       <Header />

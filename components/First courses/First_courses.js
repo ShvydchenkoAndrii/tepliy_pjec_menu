@@ -10,6 +10,7 @@ export default function FirstCourses() {
       price: "₴137",
       description:
         "подається зі сметаною, грінками чорного хліба та зеленим маслом",
+      image: "borshch.jpg",
     },
     {
       name: "Солянка",

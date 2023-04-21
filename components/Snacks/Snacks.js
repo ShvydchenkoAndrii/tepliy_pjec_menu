@@ -22,6 +22,7 @@ export default function Snacks() {
       portion: "𓍝350",
       price: "₴207",
       description: "сало з часником, сирна намазка, фаршмак, авантюрка",
+      image: "pryproshanki.jpg",
     },
     {
       name: "Кахля батяра/ з чверткою",
@@ -34,6 +35,7 @@ export default function Snacks() {
       portion: "𓍝135",
       price: "₴125",
       description: "фарширована риба",
+      image: "gafelti-fish.jpg",
     },
     {
       name: "Оселедець",

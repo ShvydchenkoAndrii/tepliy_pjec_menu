@@ -34,6 +34,7 @@ export default function Assorted() {
       portion: "",
       price: "₴113",
       description: "",
+      image: "marinadi.jpg",
     },
     {
       name: "Сало з вугликами",

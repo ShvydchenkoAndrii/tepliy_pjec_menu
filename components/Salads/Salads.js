@@ -21,6 +21,7 @@ export default function Salads() {
       portion: "𓍝300",
       price: "₴208",
       description: "салера, яблука, грецький горіх",
+      image: "firmoviy-vid-pichnika.jpg",
     },
     {
       name: "Базікало",
@@ -28,18 +29,21 @@ export default function Salads() {
       price: "₴164",
       description:
         "салат з язиком на картопляній подушці з маринованою цибулею, квашеним огірком та бебі-морквою",
+      image: "bazikalo.jpg",
     },
     {
       name: "Олів'є",
       portion: "𓍝200",
       price: "₴96 / ₴134",
       description: "з куркою / з лососем",
+      image: "olivje-losos.jpg",
     },
     {
       name: "З лососем та яйцем пашот",
       portion: "𓍝300",
       price: "₴319",
       description: "",
+      image: "salat-losos.jpg",
     },
   ];
 

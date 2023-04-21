@@ -9,6 +9,7 @@ export default function MainDishes() {
       portion: "𓍝200",
       price: "₴122",
       description: "подається з овечою бринзою та шкварками",
+      image: "banosh.jpg",
     },
     {
       name: "Яворівський пиріг",

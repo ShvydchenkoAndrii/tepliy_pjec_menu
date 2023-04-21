@@ -8,6 +8,7 @@ export default function Desserts() {
       portion: "за 𓍝100",
       price: "₴49",
       description: "",
+      image: "sirnik.jpg",
     },
     {
       name: "Штрудель яблучний",
@@ -20,6 +21,7 @@ export default function Desserts() {
       portion: "𓍝100",
       price: "₴83",
       description: "",
+      image: "andruti.jpg",
     },
     {
       name: "Спартак",

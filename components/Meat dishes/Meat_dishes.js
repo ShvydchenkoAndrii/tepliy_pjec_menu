@@ -8,12 +8,14 @@ export default function MeatDishes() {
       portion: "𓍝370",
       price: "₴185",
       description: "подається з яблуками та цибулькою",
+      image: "kovbaska-pechena.jpg",
     },
     {
       name: "Торбинка пічника ",
       portion: "𓍝400",
       price: "₴170",
       description: "дерун із тушкованим язиком та грибами",
+      image: "torbinka.jpg",
     },
     {
       name: "Кишка на кельні",
@@ -26,6 +28,7 @@ export default function MeatDishes() {
       portion: "за 𓍝100",
       price: "₴94",
       description: "запечені ребра",
+      image: "rebra.jpg",
     },
     {
       name: "Кармонадля",
@@ -38,6 +41,7 @@ export default function MeatDishes() {
       portion: "𓍝400",
       price: "₴246",
       description: "яловичий, подається з картоплею пюре",
+      image: "shnitsel.jpg",
     },
     {
       name: '"А той індик..."',
@@ -56,12 +60,14 @@ export default function MeatDishes() {
       portion: "",
       price: "₴390",
       description: "",
+      image: "medaliony.jpg",
     },
     {
       name: "Розбратель від Стрийка",
       portion: "𓍝600",
       price: "₴365",
       description: "",
+      image: "vid-stryka.jpg",
     },
   ];
 
