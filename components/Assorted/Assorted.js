@@ -9,12 +9,14 @@ export default function Assorted() {
     //   portion: "??",
     //   price: "??",
     //   description: "сирне асорті",
+    // image: "",
     // },
     // {
     //   name: "М'ясна тареля",
     //   portion: "??",
     //   price: "??",
     //   description: "асорті з м'сних делікатесів",
+    // image: "",
     // },
     {
       name: "Таца з п'єца",
@@ -22,12 +24,14 @@ export default function Assorted() {
       price: "₴1150",
       description:
         "запечені ребра, ковбаски, картопля, курче філе су-від, кров'янка, печериці",
+      image: "",
     },
     {
       name: "Квашенина з діжки",
       portion: "",
       price: "₴100",
       description: "",
+      image: "",
     },
     {
       name: "Маринади",
@@ -41,6 +45,7 @@ export default function Assorted() {
       portion: "",
       price: "₴270",
       description: "",
+      image: "",
     },
   ];
 

@@ -2,7 +2,7 @@ import { useContext } from "react";
 import { AppContext } from "@/pages";
 export default function Vodka() {
   const { ShowMenuPart, PartHead } = useContext(AppContext);
-  
+
   const vodka = [
     {
       name: "Лемберг",
@@ -23,6 +23,7 @@ export default function Vodka() {
     //   portion: "50мл",
     //   price: "??",
     //   description: "",
+    // image: "",
     // },
     {
       name: "Finlandia",

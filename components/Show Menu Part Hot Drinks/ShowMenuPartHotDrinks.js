@@ -4,11 +4,11 @@ export default function ShowMenuPartHotDrinks(items) {
       <div key={item.name} className="partItemHotDrinks">
         <div>
           <h2 className="itemName">{item.name}</h2>
-          <p className="itemDescrip">{item.description}</p>
+          <p className="itemDescripHotDrinks">{item.description}</p>
         </div>
         <div className="itemPortionPriceHotDrinks">
-          <p>{item.portion}</p>
-          <p>{item.price}</p>
+          <p className="itemPortion">{item.portion}</p>
+          <p className="itemPrice">{item.price}</p>
         </div>
       </div>
     );

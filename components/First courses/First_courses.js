@@ -17,30 +17,35 @@ export default function FirstCourses() {
       portion: "𓍝300",
       price: "₴104",
       description: "",
+      image: "",
     },
     {
       name: "Росіл з перепілки",
       portion: "𓍝300",
       price: "₴160",
       description: "",
+      image: "",
     },
     {
       name: "Чанахи від шефа",
       portion: "𓍝300",
       price: "₴100",
       description: "на телячих хвостах",
+      image: "",
     },
     {
       name: "Флячки по-львівськи",
       portion: "𓍝300",
       price: "₴152",
       description: "",
+      image: "",
     },
     {
       name: "Булочка кайзерка",
       portion: "1шт",
       price: "₴15",
       description: "",
+      image: "",
     },
   ];
 

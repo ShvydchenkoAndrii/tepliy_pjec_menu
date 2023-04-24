@@ -22,6 +22,7 @@ export default function MeatDishes() {
       portion: "𓍝300",
       price: "₴193",
       description: "кров'янка",
+      image: "",
     },
     {
       name: "Рушта",
@@ -35,6 +36,7 @@ export default function MeatDishes() {
       portion: "𓍝400",
       price: "₴430",
       description: "свинина на кістці в паніровці",
+      image: "",
     },
     {
       name: "Шніцель по-віденськи",
@@ -48,12 +50,14 @@ export default function MeatDishes() {
       portion: "𓍝960",
       price: "₴980",
       description: "запечене стегно індички",
+      image: "",
     },
     {
       name: "Стейк свинячий",
       portion: "𓍝450",
       price: "₴423",
       description: "",
+      image: "",
     },
     {
       name: "Телячі медальйони",

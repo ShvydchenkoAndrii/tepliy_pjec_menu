@@ -9,18 +9,21 @@ export default function Tea() {
       portion: "250/500мл",
       price: "₴50/100",
       description: "суміш карпатських трав та ягід, квітковий мед",
+      image: "",
     },
     {
       name: "Чай розсипний",
       portion: "250/500мл",
       price: "₴30/60",
       description: "чорний, зелений, фруктовий",
+      image: "",
     },
     {
       name: "Чай вітамінний",
       portion: "250/500мл",
       price: "₴63/126",
       description: "імбир/ малина/ обліпиха",
+      image: "",
     },
   ];
 
@@ -30,18 +33,21 @@ export default function Tea() {
       portion: "",
       price: "₴10",
       description: "",
+      image: "",
     },
     {
       name: "Мед",
       portion: "",
       price: "₴25",
       description: "",
+      image: "",
     },
     {
       name: "Лимон",
       portion: "",
       price: "₴3",
       description: "",
+      image: "",
     },
   ];
   return (
