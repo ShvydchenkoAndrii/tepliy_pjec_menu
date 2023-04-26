@@ -25,6 +25,13 @@ export default function MeatDishes() {
       image: "",
     },
     {
+      name: "Печінка",
+      portion: "за 𓍝100",
+      price: "₴94",
+      description: " з журавлиним соусом",
+      image: "pechinka-z-guravlinoju.jpg",
+    },
+    {
       name: "Рушта",
       portion: "за 𓍝100",
       price: "₴94",

@@ -16,7 +16,7 @@ export default function MainDishes() {
       portion: "𓍝270",
       price: "₴93",
       description: "з грибною мачанкою",
-      image: "",
+      image: "javorivskiy.jpg",
     },
     {
       name: "Картопля фрі",
@@ -58,7 +58,7 @@ export default function MainDishes() {
       portion: "𓍝250",
       price: "₴67",
       description: "смажені вареники, подаються зі шкварками",
-      image: "",
+      image: "smageni-vareniki.jpg",
     },
     {
       name: "Палянички",

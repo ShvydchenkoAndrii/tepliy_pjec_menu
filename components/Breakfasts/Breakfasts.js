@@ -16,7 +16,7 @@ export default function Breakfasts() {
       portion: "",
       price: "₴190",
       description: "скрембл, тост, мікс салату, крем сир, курка",
-      image: "",
+      image: "tartini-chiken.jpg",
     },
     {
       name: "Тартіні з лососем",
@@ -37,7 +37,7 @@ export default function Breakfasts() {
       portion: "",
       price: "₴128",
       description: "зі сметаною та варенням",
-      image: "",
+      image: "sirniki.jpg",
     },
   ];
 

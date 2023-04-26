@@ -9,7 +9,7 @@ export default function Salads() {
       portion: "𓍝350",
       price: "₴255",
       description: "айсберг, помідор, куряче філе, фірмовий соус",
-      image: "",
+      image: "cisarskiy-z-kurkoju.jpg",
     },
     {
       name: "Приїхали греки",

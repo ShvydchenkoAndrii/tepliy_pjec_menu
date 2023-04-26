@@ -16,7 +16,7 @@ export default function FishDishes() {
       portion: "𓍝240",
       price: "₴268",
       description: "скумбрія",
-      image: "",
+      image: "balamut.jpg",
     },
   ];
 

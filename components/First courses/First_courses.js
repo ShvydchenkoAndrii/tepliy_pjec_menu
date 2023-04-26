@@ -27,11 +27,11 @@ export default function FirstCourses() {
       image: "",
     },
     {
-      name: "Чанахи від шефа",
+      name: "Зупа оґонова",
       portion: "𓍝300",
       price: "₴100",
       description: "на телячих хвостах",
-      image: "",
+      image: "zupa-ogon.jpg",
     },
     {
       name: "Флячки по-львівськи",
