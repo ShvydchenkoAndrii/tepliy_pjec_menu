@@ -15,7 +15,7 @@ export default function Desserts() {
       portion: "за 𓍝100",
       price: "₴27",
       description: "",
-      image: "",
+      image: "shtrudel.jpg",
     },
     {
       name: "Львівські андрути",
