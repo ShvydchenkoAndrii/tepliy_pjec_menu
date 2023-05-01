@@ -22,7 +22,7 @@ export default function MeatDishes() {
       portion: "𓍝300",
       price: "₴193",
       description: "кров'янка",
-      image: "",
+      image: "kishka.jpg",
     },
     {
       name: "Печінка",
@@ -43,7 +43,7 @@ export default function MeatDishes() {
       portion: "𓍝400",
       price: "₴430",
       description: "свинина на кістці в паніровці",
-      image: "",
+      image: "karmonadlja.jpg",
     },
     {
       name: "Шніцель по-віденськи",

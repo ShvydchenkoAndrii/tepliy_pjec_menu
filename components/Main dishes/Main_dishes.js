@@ -23,7 +23,7 @@ export default function MainDishes() {
       portion: "𓍝250",
       price: "₴115",
       description: "",
-      image: "",
+      image: "fri.jpg",
     },
     {
       name: "Бульба з братрури",
