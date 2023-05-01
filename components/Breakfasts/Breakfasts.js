@@ -30,7 +30,7 @@ export default function Breakfasts() {
       portion: "",
       price: "₴74",
       description: "з сиром",
-      image: "",
+      image: "nalisniki.jpg",
     },
     {
       name: "Сирнички",

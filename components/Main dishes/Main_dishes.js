@@ -37,7 +37,7 @@ export default function MainDishes() {
       portion: "𓍝250",
       price: "₴96",
       description: "деруни зі сметаною",
-      image: "",
+      image: "terti-pljacki.jpg",
     },
     {
       name: "Вареники з картоплею та сиром",
@@ -65,7 +65,7 @@ export default function MainDishes() {
       portion: "𓍝220",
       price: "₴114",
       description: " з білими грибами",
-      image: "",
+      image: "paljanichki.jpg",
     },
   ];
 
