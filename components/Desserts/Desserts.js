@@ -44,7 +44,7 @@ export default function Desserts() {
       price: "₴128",
       description:
         "три види горіхів, шоколад, пісочне тісто, подається теплим з кулькою морозива",
-      image: "",
+      image: "gorih-v-shokolady.jpg",
     },
   ];
 

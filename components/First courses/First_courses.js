@@ -38,7 +38,7 @@ export default function FirstCourses() {
       portion: "𓍝300",
       price: "₴152",
       description: "",
-      image: "",
+      image: "fljachki.jpg",
     },
     {
       name: "Булочка кайзерка",

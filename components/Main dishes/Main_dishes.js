@@ -44,7 +44,7 @@ export default function MainDishes() {
       portion: "𓍝250",
       price: "₴65",
       description: "",
-      image: "",
+      image: "vareniki.jpg",
     },
     {
       name: "Вареники з вишнями",
