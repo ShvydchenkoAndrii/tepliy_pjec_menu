@@ -17,7 +17,7 @@ export default function Snacks() {
       portion: "𓍝100",
       price: "₴110",
       description: "",
-      image: "",
+      image: "jazik-z-hronom.jpg",
     },
     {
       name: "Припрошанки",
@@ -45,7 +45,7 @@ export default function Snacks() {
       portion: "𓍝170",
       price: "₴80",
       description: " з цибулькою",
-      image: "",
+      image: "oseledec.jpg",
     },
   ];
 

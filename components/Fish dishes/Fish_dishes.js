@@ -9,7 +9,7 @@ export default function FishDishes() {
       portion: "𓍝370",
       price: "₴424",
       description: "форель",
-      image: "",
+      image: "pstruk.jpg",
     },
     {
       name: "Баламут з п'єца",

@@ -16,7 +16,7 @@ export default function Salads() {
       portion: "𓍝200",
       price: "₴95",
       description: "оливки, помідор, огірок, солодкий перець, синя цибуля",
-      image: "",
+      image: "prijihali-greki.jpg",
     },
     {
       name: "Фірмовий від пічника",

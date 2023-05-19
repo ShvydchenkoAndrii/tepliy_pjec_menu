@@ -57,7 +57,7 @@ export default function MeatDishes() {
       portion: "𓍝960",
       price: "₴980",
       description: "запечене стегно індички",
-      image: "",
+      image: "indik.jpg",
     },
     {
       name: "Стейк свинячий",

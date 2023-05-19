@@ -17,14 +17,14 @@ export default function FirstCourses() {
       portion: "𓍝300",
       price: "₴104",
       description: "",
-      image: "",
+      image: "soljanka.jpg",
     },
     {
       name: "Росіл з перепілки",
       portion: "𓍝300",
       price: "₴160",
       description: "",
-      image: "",
+      image: "rosil-z-perepilki.jpg",
     },
     {
       name: "Зупа оґонова",

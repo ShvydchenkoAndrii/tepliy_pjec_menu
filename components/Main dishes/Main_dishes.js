@@ -51,7 +51,7 @@ export default function MainDishes() {
       portion: "𓍝250",
       price: "₴105",
       description: "",
-      image: "",
+      image: "vareniki-z-vishn.jpg",
     },
     {
       name: "Пироги з пательні",

@@ -36,7 +36,7 @@ export default function Desserts() {
       portion: "𓍝150",
       price: "₴87",
       description: "морозиво пломбір з варенням та школадною присипкою",
-      image: "",
+      image: "zimniy-pjec.jpg",
     },
     {
       name: "Горіх в шоколаді",
