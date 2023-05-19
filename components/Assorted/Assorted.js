@@ -24,7 +24,7 @@ export default function Assorted() {
       price: "₴1150",
       description:
         "запечені ребра, ковбаски, картопля, курче філе су-від, кров'янка, печериці",
-      image: "",
+      image: "taca-z-pjeca.jpg",
     },
     {
       name: "Квашенина з діжки",
