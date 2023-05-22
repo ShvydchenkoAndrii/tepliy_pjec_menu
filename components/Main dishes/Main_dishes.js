@@ -30,7 +30,7 @@ export default function MainDishes() {
       portion: "𓍝250",
       price: "₴81",
       description: "печена картопля зі шпондером",
-      image: "",
+      image: "bulba.jpg",
     },
     {
       name: "Терті пляцки",
