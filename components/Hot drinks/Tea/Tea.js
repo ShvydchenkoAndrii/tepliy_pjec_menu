@@ -22,7 +22,7 @@ export default function Tea() {
       name: "Чай вітамінний",
       portion: "250/500мл",
       price: "₴63/126",
-      description: "імбир/ малина/ обліпиха",
+      description: "імбир, малина, обліпиха",
       image: "",
     },
   ];
@@ -46,6 +46,13 @@ export default function Tea() {
       name: "Лимон",
       portion: "",
       price: "₴3",
+      description: "",
+      image: "",
+    },
+    {
+      name: "Сироп",
+      portion: "",
+      price: "₴9",
       description: "",
       image: "",
     },

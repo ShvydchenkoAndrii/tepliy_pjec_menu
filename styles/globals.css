@@ -175,8 +175,7 @@ h2 {
 .itemPicture img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  border-radius: 10%;
+  object-fit: contain;
 }
 
 @media (min-width: 481px) {
@@ -253,7 +252,7 @@ h2 {
   }
 
   .itemPortion {
-    font-size: 14px;
+    font-size: 18px;
   }
 
   .itemPrice {
@@ -264,6 +263,12 @@ h2 {
   .itemPicture {
     width: 200px;
     height: 200px;
+  }
+
+
+  .itemDescripHotDrinks {
+    font-weight: 300;
+    font-size: 16px;
   }
 }
 
@@ -341,7 +346,7 @@ h2 {
   }
 
   .itemPortion {
-    font-size: 18px;
+    font-size: 20px;
   }
 
   .itemPrice {
@@ -353,6 +358,16 @@ h2 {
     width: 200px;
     height: 200px;
   }
+
+  .partItemHotDrinks { 
+    padding-left: 15%;
+  }
+
+  .itemDescripHotDrinks {
+    font-weight: 300;
+    font-size: 16px;
+  }
+
 }
 
 @media (min-width: 1025px) {
@@ -429,7 +444,7 @@ h2 {
   }
 
   .itemPortion {
-    font-size: 18px;
+    font-size: 20px;
   }
 
   .itemPrice {
@@ -440,6 +455,15 @@ h2 {
   .itemPicture {
     width: 200px;
     height: 200px;
+  }
+
+  .partItemHotDrinks { 
+    padding-left: 15%;
+  }
+
+  .itemDescripHotDrinks {
+    font-weight: 300;
+    font-size: 20px;
   }
 }
 
@@ -515,6 +539,15 @@ h2 {
     text-align: start;
   }
 
+  .partItemHotDrinks { 
+    padding-left: 15%;
+  }
+
+  .itemDescripHotDrinks {
+    font-weight: 300;
+    font-size: 20px;
+  }
+
   .itemDescrip {
     font-weight: 300;
     font-size: 18px;
@@ -522,7 +555,7 @@ h2 {
   }
 
   .itemPortion {
-    font-size: 20px;
+    font-size: 22px;
   }
 
   .itemPrice {
@@ -534,4 +567,7 @@ h2 {
     width: 250px;
     height: 250px;
   }
+
+  
+  
 }

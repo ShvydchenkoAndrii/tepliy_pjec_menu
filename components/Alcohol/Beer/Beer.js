@@ -15,7 +15,7 @@ export default function Beer() {
     {
       name: "Kronenbourg blanc",
       portion: "300/ 500мл",
-      price: "₴32/ ₴52",
+      price: "₴45/ ₴75",
       description: "",
       image: "kronenbourg-blanc.png",
     },

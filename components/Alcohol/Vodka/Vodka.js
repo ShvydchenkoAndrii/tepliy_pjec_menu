@@ -18,13 +18,6 @@ export default function Vodka() {
       description: "",
       image: "lvivska-shljahetna.png",
     },
-    // {
-    //   name: "Львівська з перцем",
-    //   portion: "50мл",
-    //   price: "??",
-    //   description: "",
-    // image: "",
-    // },
     {
       name: "Finlandia",
       portion: "50мл",

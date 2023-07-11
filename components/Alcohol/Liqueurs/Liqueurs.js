@@ -14,7 +14,7 @@ export default function Liqueurs() {
     {
       name: "Старий Ринок",
       portion: "50мл",
-      price: "₴27",
+      price: "₴30",
       description: "",
       image: "stariy-rynok.png",
     },

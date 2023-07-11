@@ -92,14 +92,14 @@ export default function Coffee() {
     {
       name: "Коліжанка",
       portion: "190мл",
-      price: "₴68",
+      price: "₴69",
       description: "кава, лікер, вершки",
       image: "",
     },
     {
       name: "Львівський батяр",
       portion: "190мл",
-      price: "₴84",
+      price: "₴87",
       description: "кава, ром, лікер, вершки",
       image: "",
     },
@@ -107,7 +107,7 @@ export default function Coffee() {
       name: "Львівський дощ",
       portion: "230мл",
       price: "₴77",
-      description: "мед, кардамон, кориця, молоко",
+      description: "кава, мед, кардамон, кориця, молоко",
       image: "",
     },
   ];

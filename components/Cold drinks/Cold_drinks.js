@@ -29,7 +29,7 @@ export default function ColdDrinks() {
     {
       name: "Соки та нектари",
       portion: "0,2л",
-      price: "₴26",
+      price: "₴30",
       description: "в асортименті",
       image: "juice.png",
     },
@@ -49,8 +49,8 @@ export default function ColdDrinks() {
     },
     {
       name: "Квас",
-      portion: "0,5л",
-      price: "",
+      portion: "0,3л 0,5л",
+      price: "₴19 ₴31",
       description: "сезонний",
       image: "kvas.png",
     },
@@ -64,9 +64,16 @@ export default function ColdDrinks() {
     {
       name: "Молочний коктейль",
       portion: "0,2л",
-      price: "",
+      price: "₴85",
       description: "сезонний",
       image: "milk-cocktail.png",
+    },
+    {
+      name: "Лимонад",
+      portion: "1л",
+      price: "₴145",
+      description: "",
+      image: "",
     },
   ];
 
