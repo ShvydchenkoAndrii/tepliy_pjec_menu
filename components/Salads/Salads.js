@@ -56,7 +56,7 @@ export default function Salads() {
         <h1 className="partName">САЛАТИ</h1>
         {PartHead()}
       </div>
-      {ShowMenuPart(salads)}
+      <div className="partDesc">{ShowMenuPart(salads)}</div>
       <div className="blackUnderlline"></div>
     </div>
   );

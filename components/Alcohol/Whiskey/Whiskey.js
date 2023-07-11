@@ -34,7 +34,7 @@ export default function Whiskey() {
         <h1 className="partName">ВІСКІ</h1>
         {PartHead()}
       </div>
-      {ShowMenuPart(whiskey)}
+      <div className="partDesc">{ShowMenuPart(whiskey)}</div>
       <div className="blackUnderlline"></div>
     </div>
   );

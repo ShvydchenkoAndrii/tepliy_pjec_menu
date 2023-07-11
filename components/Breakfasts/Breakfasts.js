@@ -48,7 +48,7 @@ export default function Breakfasts() {
         <h1 className="partName">СНІДАНКИ</h1>
         {PartHead()}
       </div>
-      {ShowMenuPart(breakfasts)}
+      <div className="partDesc">{ShowMenuPart(breakfasts)}</div>
       <div className="blackUnderlline"></div>
     </div>
   );

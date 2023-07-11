@@ -104,7 +104,7 @@ export default function Cocktails() {
         <h1 className="partName">КОКТЕЙЛІ</h1>
         {PartHead()}
       </div>
-      {ShowMenuPart(cocktails)}
+      <div className="partDesc">{ShowMenuPart(cocktails)}</div>
       <div className="blackUnderlline"></div>
     </div>
   );

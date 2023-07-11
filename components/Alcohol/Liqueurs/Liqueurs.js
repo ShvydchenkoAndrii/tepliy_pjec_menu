@@ -48,7 +48,7 @@ export default function Liqueurs() {
         <h1 className="partName">ЛІКЕР, ВЕРМУТ, НАСТОЯНКИ</h1>
         {PartHead()}
       </div>
-      {ShowMenuPart(liqueurs)}
+      <div className="partDesc">{ShowMenuPart(liqueurs)}</div>
       <div className="blackUnderlline"></div>
     </div>
   );

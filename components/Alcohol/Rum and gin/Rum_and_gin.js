@@ -35,7 +35,7 @@ export default function RumAndGin() {
         <h1 className="partName">РОМ, ДЖИН</h1>
         {PartHead()}
       </div>
-      {ShowMenuPart(rumAndGin)}
+      <div className="partDesc">{ShowMenuPart(rumAndGin)}</div>
       <div className="blackUnderlline"></div>
     </div>
   );

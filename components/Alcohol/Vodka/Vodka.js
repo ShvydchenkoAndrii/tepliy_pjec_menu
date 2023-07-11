@@ -41,7 +41,7 @@ export default function Vodka() {
         <h1 className="partName">ГОРІЛКА</h1>
         {PartHead()}
       </div>
-      {ShowMenuPart(vodka)}
+      <div className="partDesc">{ShowMenuPart(vodka)}</div>
       <div className="blackUnderlline"></div>
     </div>
   );

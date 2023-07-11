@@ -56,7 +56,7 @@ export default function FirstCourses() {
         <h1 className="partName">ПЕРШІ СТРАВИ</h1>
         {PartHead()}
       </div>
-      {ShowMenuPart(firstCourses)}
+      <div className="partDesc">{ShowMenuPart(firstCourses)}</div>
       <div className="blackUnderlline"></div>
     </div>
   );

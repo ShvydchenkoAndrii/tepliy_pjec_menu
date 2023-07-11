@@ -34,7 +34,7 @@ export default function Champagne() {
         <h1 className="partName">ІГРИСТІ ВИНА</h1>
         {PartHead()}
       </div>
-      {ShowMenuPart(champagne)}
+      <div className="partDesc">{ShowMenuPart(champagne)}</div>
       <div className="blackUnderlline"></div>
     </div>
   );

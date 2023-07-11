@@ -105,12 +105,12 @@ export default function Wine() {
         {PartHead()}
       </div>
       <h2 className="partSection">Колоніст:</h2>
-      {ShowMenuPart(colonist)}
+      <div className="partDesc">{ShowMenuPart(colonist)}</div>
       <h2 className="partSection">Kartuli Vazi:</h2>
-      {ShowMenuPart(kartuli)}
+      <div className="partDesc">{ShowMenuPart(kartuli)}</div>
       <h2 className="partSection">Cotnar:</h2>
-      {ShowMenuPart(cotnar)}
-      {ShowMenuPart(homeWine)}
+      <div className="partDesc">{ShowMenuPart(cotnar)}</div>
+      <div className="partDesc">{ShowMenuPart(homeWine)}</div>
       <div className="blackUnderlline"></div>
     </div>
   );

@@ -43,9 +43,9 @@ export default function Beer() {
         {PartHead()}
       </div>
       <h2 className="partSection">Пиво розливене:</h2>
-      {ShowMenuPart(beerFromKeg)}
+      <div className="partDesc">{ShowMenuPart(beerFromKeg)}</div>
       <h2 className="partSection">Пиво пляшкове:</h2>
-      {ShowMenuPart(bottleBeer)}
+      <div className="partDesc">{ShowMenuPart(bottleBeer)}</div>
       <div className="blackUnderlline"></div>
     </div>
   );

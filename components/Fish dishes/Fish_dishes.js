@@ -27,7 +27,7 @@ export default function FishDishes() {
         <h1 className="partName">РИБНІ СТРАВИ</h1>
         {PartHead()}
       </div>
-      {ShowMenuPart(fishDishes)}
+      <div className="partDesc">{ShowMenuPart(fishDishes)}</div>
       <div className="blackUnderlline"></div>
     </div>
   );

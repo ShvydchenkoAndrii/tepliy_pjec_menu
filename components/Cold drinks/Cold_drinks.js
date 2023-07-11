@@ -77,7 +77,7 @@ export default function ColdDrinks() {
         <h1 className="partName">ХОЛОДНІ НАПОЇ</h1>
         {PartHead()}
       </div>
-      {ShowMenuPart(coldDrinks)}
+      <div className="partDesc">{ShowMenuPart(coldDrinks)}</div>
       <div className="blackUnderlline"></div>
     </div>
   );

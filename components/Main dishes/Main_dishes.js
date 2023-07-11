@@ -76,7 +76,7 @@ export default function MainDishes() {
         <h1 className="partName">ОСНОВНІ СТРАВИ</h1>
         {PartHead()}
       </div>
-      {ShowMenuPart(mainDishes)}
+      <div className="partDesc">{ShowMenuPart(mainDishes)}</div>
       <div className="blackUnderlline"></div>
     </div>
   );

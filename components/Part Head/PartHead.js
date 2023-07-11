@@ -5,7 +5,6 @@ export default function PartHead() {
   return (
     <Image
       src={pjecMenuIco}
-      width={30}
       className="partHeadIco"
       alt="міні логотип теплого п'єца для меню "
     ></Image>

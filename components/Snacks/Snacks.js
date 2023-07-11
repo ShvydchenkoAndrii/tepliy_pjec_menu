@@ -56,7 +56,7 @@ export default function Snacks() {
         <h1 className="partName">ПЕРЕКУСИ</h1>
         {PartHead()}
       </div>
-      {ShowMenuPart(snacks)}
+      <div className="partDesc">{ShowMenuPart(snacks)}</div>
       <div className="blackUnderlline"></div>
     </div>
   );

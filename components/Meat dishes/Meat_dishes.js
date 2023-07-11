@@ -89,7 +89,7 @@ export default function MeatDishes() {
         <h1 className="partName">М&apos;ЯСНІ СТРАВИ</h1>
         {PartHead()}
       </div>
-      {ShowMenuPart(meatDishes)}
+      <div className="partDesc">{ShowMenuPart(meatDishes)}</div>
       <div className="blackUnderlline"></div>
     </div>
   );

@@ -49,7 +49,7 @@ export default function CognacAndBrandy() {
         <h1 className="partName">БРЕНДІ, КОНЬЯKИ</h1>
         {PartHead()}
       </div>
-      {ShowMenuPart(cognacAndBrandy)}
+      <div className="partDesc">{ShowMenuPart(cognacAndBrandy)}</div>
       <div className="blackUnderlline"></div>
     </div>
   );

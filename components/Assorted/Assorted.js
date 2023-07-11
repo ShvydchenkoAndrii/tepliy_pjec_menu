@@ -56,7 +56,7 @@ export default function Assorted() {
         <h1 className="partName">СТРАВИ ДО ЗАБАВИ</h1>
         {PartHead()}
       </div>
-      {ShowMenuPart(assorted)}
+      <div className="partDesc">{ShowMenuPart(assorted)}</div>
       <div className="blackUnderlline"></div>
     </div>
   );
