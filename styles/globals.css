@@ -97,8 +97,8 @@ h2 {
 .partSection {
   text-align: center;
   font-style: italic;
-  font-weight: 400;
-  margin-top: 20px;
+  font-weight: 600;
+  margin-top: 18px;
 }
 
 .partItem {
@@ -247,6 +247,10 @@ h2 {
     font-weight: 600;
   }
 
+  .partSection{
+    font-size: 18px;
+  }
+
   .itemName {
     font-weight: 500;
     font-size: 18px;
@@ -338,6 +342,10 @@ h2 {
     font-size: 26px;
     line-height: 30px;
     font-weight: 600;
+  }
+
+  .partSection{
+    font-size: 20px;
   }
 
   .itemName {
@@ -438,6 +446,10 @@ h2 {
     font-size: 26px;
     line-height: 30px;
     font-weight: 600;
+  }
+
+  .partSection{
+    font-size: 20px;
   }
 
   .itemName {
@@ -544,6 +556,10 @@ h2 {
     font-size: 28px;
     line-height: 30px;
     font-weight: 600;
+  }
+  
+  .partSection{
+    font-size: 22px;
   }
 
   .itemName {

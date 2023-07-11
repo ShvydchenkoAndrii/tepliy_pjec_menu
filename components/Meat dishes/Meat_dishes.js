@@ -79,7 +79,7 @@ export default function MeatDishes() {
       portion: "𓍝400",
       price: "₴208",
       description: "деруни з м'ясом, запечені у вершковому соусі з сиром та грибами",
-      image: "medaliony.jpg",
+      image: "",
     },
   ];
 
