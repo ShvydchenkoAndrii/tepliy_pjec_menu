@@ -191,44 +191,16 @@ h2 {
     width: 150px;
   }
 
-  .headerText {
-    font-size: 20px;
-    line-height: 28px;
-  }
-
   .headerText h1,
   h3 {
     padding-bottom: 10px;
     font-weight: 600;
   }
 
-  .headerText p {
-    font-size: 16px;
-  }
-
-  .menuBar {
-    display: flex;
-    overflow-x: auto;
-    flex-wrap: nowrap;
-    border-color: rgb(0 0 0);
-    border-bottom-width: 4px;
-  }
-
   .menuBarButt {
-    border-width: 1px;
-    background-color: rgb(253 223 181);
-    border-color: rgb(0 0 0);
-    border-radius: 8px;
     margin: 8px;
-    margin-bottom: 16px;
     padding: 7px;
-    white-space: nowrap;
     font-size: 18px;
-  }
-
-  .menuBarButtClicked {
-    background-color: rgb(228 183 120);
-    color: rgb(255 255 255);
   }
 
   .partHeadIco {
@@ -236,49 +208,27 @@ h2 {
     height: 35px;
   }
 
-  .partDesc {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-
   .partName {
     font-size: 24px;
-    line-height: 30px;
-    font-weight: 600;
-  }
-
-  .partSection{
-    font-size: 18px;
   }
 
   .itemName {
-    font-weight: 500;
-    font-size: 18px;
-    text-align: start;
-  }
-
-  .itemDescrip {
-    font-weight: 300;
-    font-size: 14px;
-    text-align: center;
+    font-size: 22px;
   }
 
   .itemPortion {
     font-size: 18px;
   }
 
-  .itemPrice {
+  .itemDescrip {
     font-size: 18px;
-    font-weight: 500;
   }
 
-  .itemPicture {
-    width: 200px;
-    height: 200px;
+  .itemPrice {
+    font-size: 18px;
   }
 
   .itemDescripHotDrinks {
-    font-weight: 300;
     font-size: 16px;
   }
 }
@@ -290,13 +240,11 @@ h2 {
 
   .headerText {
     font-size: 22px;
-    line-height: 28px;
   }
 
   .headerText h1,
   h3 {
     padding-bottom: 16px;
-    font-weight: 600;
   }
 
   .headerText p {
@@ -307,25 +255,12 @@ h2 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
-    border-color: rgb(0 0 0);
-    border-bottom-width: 4px;
   }
 
   .menuBarButt {
-    border-width: 1px;
-    background-color: rgb(253 223 181);
-    border-color: rgb(0 0 0);
-    border-radius: 8px;
     margin: 8px;
-    margin-bottom: 16px;
     padding: 7px;
-    white-space: nowrap;
     font-size: 18px;
-  }
-
-  .menuBarButtClicked {
-    background-color: rgb(228 183 120);
-    color: rgb(255 255 255);
   }
 
   .partHeadIco {
@@ -340,8 +275,6 @@ h2 {
 
   .partName {
     font-size: 26px;
-    line-height: 30px;
-    font-weight: 600;
   }
 
   .partSection{
@@ -349,15 +282,11 @@ h2 {
   }
 
   .itemName {
-    font-weight: 500;
     font-size: 20px;
-    text-align: start;
   }
 
   .itemDescrip {
-    font-weight: 300;
     font-size: 16px;
-    text-align: center;
   }
 
   .itemPortion {
@@ -366,7 +295,6 @@ h2 {
 
   .itemPrice {
     font-size: 20px;
-    font-weight: 500;
   }
 
   .itemPicture {
@@ -379,7 +307,6 @@ h2 {
   }
 
   .itemDescripHotDrinks {
-    font-weight: 300;
     font-size: 16px;
   }
   .footer {
@@ -388,19 +315,13 @@ h2 {
 }
 
 @media (min-width: 1025px) {
-  .header img {
-    width: 200px;
-  }
-
   .headerText {
     font-size: 24px;
-    line-height: 28px;
   }
 
   .headerText h1,
   h3 {
     padding-bottom: 18px;
-    font-weight: 600;
   }
 
   .headerText p {
@@ -411,27 +332,14 @@ h2 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     align-items: center;
-    border-color: rgb(0 0 0);
-    border-bottom-width: 4px;
   }
 
   .menuBarButt {
-    border-width: 1px;
-    background-color: rgb(253 223 181);
-    border-color: rgb(0 0 0);
-    border-radius: 8px;
     margin: 8px;
-    margin-bottom: 16px;
     padding: 8px;
-    white-space: nowrap;
     font-size: 20px;
   }
-
-  .menuBarButtClicked {
-    background-color: rgb(228 183 120);
-    color: rgb(255 255 255);
-  }
-
+  
   .partHeadIco {
     width: 40px;
     height: 40px;
@@ -444,8 +352,6 @@ h2 {
 
   .partName {
     font-size: 26px;
-    line-height: 30px;
-    font-weight: 600;
   }
 
   .partSection{
@@ -453,15 +359,11 @@ h2 {
   }
 
   .itemName {
-    font-weight: 500;
     font-size: 20px;
-    text-align: start;
   }
 
   .itemDescrip {
-    font-weight: 300;
     font-size: 16px;
-    text-align: center;
   }
 
   .itemPortion {
@@ -470,7 +372,6 @@ h2 {
 
   .itemPrice {
     font-size: 20px;
-    font-weight: 500;
   }
 
   .itemPicture {
@@ -483,7 +384,6 @@ h2 {
   }
 
   .itemDescripHotDrinks {
-    font-weight: 300;
     font-size: 20px;
   }
 
@@ -498,13 +398,7 @@ h2 {
   }
 
   .headerText {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
     font-size: 26px;
-    line-height: 28px;
   }
 
   .headerText h1,
@@ -521,25 +415,12 @@ h2 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     align-items: center;
-    border-color: rgb(0 0 0);
-    border-bottom-width: 4px;
   }
 
-  .menuBarButt {
-    border-width: 1px;
-    background-color: rgb(253 223 181);
-    border-color: rgb(0 0 0);
-    border-radius: 8px;
+  .menuBarButt { 
     margin: 8px;
-    margin-bottom: 16px;
     padding: 8px;
-    white-space: nowrap;
     font-size: 20px;
-  }
-
-  .menuBarButtClicked {
-    background-color: rgb(228 183 120);
-    color: rgb(255 255 255);
   }
 
   .partHeadIco {
@@ -554,8 +435,6 @@ h2 {
 
   .partName {
     font-size: 28px;
-    line-height: 30px;
-    font-weight: 600;
   }
   
   .partSection{
@@ -563,9 +442,7 @@ h2 {
   }
 
   .itemName {
-    font-weight: 500;
     font-size: 22px;
-    text-align: start;
   }
 
   .partItemHotDrinks {
@@ -573,14 +450,11 @@ h2 {
   }
 
   .itemDescripHotDrinks {
-    font-weight: 300;
     font-size: 20px;
   }
 
   .itemDescrip {
-    font-weight: 300;
     font-size: 18px;
-    text-align: center;
   }
 
   .itemPortion {
@@ -589,7 +463,6 @@ h2 {
 
   .itemPrice {
     font-size: 22px;
-    font-weight: 500;
   }
 
   .itemPicture {
