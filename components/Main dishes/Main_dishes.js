@@ -79,7 +79,7 @@ export default function MainDishes() {
       portion: "𓍝350",
       price: "₴115",
       description: "налисники з курячою печінкою та прянощами, обсмажені в паніровці",
-      image: "",
+      image: "hrustki-krokety.jpg",
     },
 
   ];
