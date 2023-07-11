@@ -10,7 +10,7 @@ export default function Snacks() {
       price: "₴158",
       description:
         "еклери з вершково-сирною начинкою та печінковим паштетом, подаються з жарвлиновим соусом",
-      image: "",
+      image: "ptysi.png",
     },
     {
       name: "Язик із хроном",
@@ -52,7 +52,7 @@ export default function Snacks() {
       portion: "",
       price: "₴158",
       description: "риба обсмажена в клярі, подається з соусом",
-      image: "",
+      image: "ryba-orli.jpg",
     },
   ];
 

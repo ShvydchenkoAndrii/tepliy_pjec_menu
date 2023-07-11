@@ -29,7 +29,7 @@ export default function Desserts() {
       portion: "за 𓍝100",
       price: "₴84",
       description: "",
-      image: "",
+      image: "spartak.png",
     },
     {
       name: "Зимний п'єц",

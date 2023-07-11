@@ -10,7 +10,7 @@ export default function Assorted() {
       price: "₴1190",
       description:
         "запечена курка, кров'янка, свинячий шашлик, біґос, овочі гриль, печена картопля, соус",
-      image: "",
+      image: "taca-z-pjeca.png",
     },
     {
       name: "Розбратель від Стрийка",

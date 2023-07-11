@@ -8,7 +8,7 @@ export default function MeatDishes() {
       portion: "",
       price: "₴196",
       description: "бургер із запеченою бужениною та біґос",
-      image: "",
+      image: "lvivska-machanka.png",
     },
     {
       name: "Печена ковбаска",
@@ -65,7 +65,7 @@ export default function MeatDishes() {
       price: "₴275",
       description:
         "індиче стегно су-від, подається з карамелізованою грушею та соусом",
-      image: "",
+      image: "a-toj-indyk.png",
     },
     {
       name: "Телячі медальйони",
@@ -79,7 +79,7 @@ export default function MeatDishes() {
       portion: "𓍝400",
       price: "₴208",
       description: "деруни з м'ясом, запечені у вершковому соусі з сиром та грибами",
-      image: "",
+      image: "deruny-po-guculsky.jpg",
     },
   ];
 
