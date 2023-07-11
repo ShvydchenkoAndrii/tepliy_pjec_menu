@@ -178,6 +178,14 @@ h2 {
   object-fit: contain;
 }
 
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 32px;
+  font-size: 16px;
+}
+
 @media (min-width: 481px) {
   .header img {
     width: 150px;
@@ -264,7 +272,6 @@ h2 {
     width: 200px;
     height: 200px;
   }
-
 
   .itemDescripHotDrinks {
     font-weight: 300;
@@ -359,7 +366,7 @@ h2 {
     height: 200px;
   }
 
-  .partItemHotDrinks { 
+  .partItemHotDrinks {
     padding-left: 15%;
   }
 
@@ -367,7 +374,9 @@ h2 {
     font-weight: 300;
     font-size: 16px;
   }
-
+  .footer {
+    font-size: 16px;
+  }
 }
 
 @media (min-width: 1025px) {
@@ -457,13 +466,17 @@ h2 {
     height: 200px;
   }
 
-  .partItemHotDrinks { 
+  .partItemHotDrinks {
     padding-left: 15%;
   }
 
   .itemDescripHotDrinks {
     font-weight: 300;
     font-size: 20px;
+  }
+
+  .footer {
+    font-size: 18px;
   }
 }
 
@@ -539,7 +552,7 @@ h2 {
     text-align: start;
   }
 
-  .partItemHotDrinks { 
+  .partItemHotDrinks {
     padding-left: 15%;
   }
 
@@ -568,6 +581,7 @@ h2 {
     height: 250px;
   }
 
-  
-  
+  .footer {
+    font-size: 20px;
+  }
 }
