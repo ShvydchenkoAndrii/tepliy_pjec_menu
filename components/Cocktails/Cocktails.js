@@ -14,7 +14,7 @@ export default function Cocktails() {
     },
     {
       name: "Old Fashioned",
-      portion: "",
+      portion: "110мл",
       price: "₴140",
       description: "бурбон, бітер Angostura, апельсинова цедра",
       image: "old-fashioned.png",
@@ -35,14 +35,14 @@ export default function Cocktails() {
     },
     {
       name: "Moxito",
-      portion: "",
+      portion: "350мл",
       price: "₴160",
       description: "",
       image: "moxito.png",
     },
     {
       name: "Moxito N/A",
-      portion: "",
+      portion: "300мл",
       price: "₴82",
       description: "безалкогольне",
       image: "moxito.png",

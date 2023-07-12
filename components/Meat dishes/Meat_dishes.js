@@ -5,7 +5,7 @@ export default function MeatDishes() {
   const meatDishes = [
     {
       name: "Львівська мачанка",
-      portion: "",
+      portion: "(300г)",
       price: "₴196",
       description: "бургер із запеченою бужениною та біґос",
       image: "lvivska-machanka.png",
