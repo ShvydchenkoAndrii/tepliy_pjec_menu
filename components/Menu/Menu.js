@@ -49,9 +49,7 @@ export default function Menu() {
               key={item.name}
               id={item.name}
               className={`  ${
-                item.clicked
-                  ? "menuBarButtClicked"
-                  : "menuBarButt"
+                item.clicked ? "menuBarButtClicked" : "menuBarButt"
               } menuBarButt`}
             >
               {item.name}
@@ -59,6 +57,7 @@ export default function Menu() {
           );
         })}
       </div>
+      <div className="blackUnderlline"></div>
       {menu[0].clicked ? <Breakfasts /> : null}
       {menu[1].clicked ? <Snacks /> : null}
       {menu[2].clicked ? <Salads /> : null}

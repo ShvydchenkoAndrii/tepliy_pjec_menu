@@ -46,10 +46,6 @@ body {
   display: flex;
   overflow-x: auto;
   flex-wrap: nowrap;
-  border-color: rgb(0 0 0);
-  border-bottom-width: 4px;
-  margin-left: 10px;
-  margin-right: 10px;
 }
 
 .menuBarButt {
