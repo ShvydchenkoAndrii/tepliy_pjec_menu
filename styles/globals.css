@@ -18,7 +18,7 @@ body {
 }
 
 .header img {
-  width: 100px;
+  width: 130px;
 }
 
 .headerText {
@@ -32,11 +32,11 @@ body {
 }
 
 .header h3 {
-  font-size: 50px;
+  font-size: 30px;
+  font-weight: 700;
 }
 
-.headerText h1,
-h2 {
+.headerText h1 {
   font-weight: 600;
 }
 
@@ -89,7 +89,7 @@ h2 {
   margin-top: 10px;
   margin-bottom: 15px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 2fr 1fr;
   justify-content: space-around;
   justify-items: center;
   align-items: center;
@@ -137,6 +137,7 @@ h2 {
   display: flex;
   justify-content: space-around;
   justify-items: start;
+  align-items: center;
   gap: 10px;
   margin-left: 40px;
 }
@@ -196,9 +197,20 @@ h2 {
   font-size: 16px;
 }
 
+.socials {
+  display: flex;
+  gap: 20px;
+  width: 130px;
+  padding: 10px;
+}
+
 @media (min-width: 481px) {
   .header img {
     width: 150px;
+  }
+
+  .header h3 {
+    font-size: 35px;
   }
 
   .headerText h1,
@@ -218,16 +230,20 @@ h2 {
     height: 35px;
   }
 
+  .partHead {
+    grid-template-columns: 1fr 3fr 1fr;
+  }
+
   .partName {
-    font-size: 24px;
+    font-size: 23px;
   }
 
   .itemName {
-    font-size: 22px;
+    font-size: 20px;
   }
 
   .itemPortion {
-    font-size: 18px;
+    font-size: 14px;
   }
 
   .itemDescrip {
@@ -235,7 +251,7 @@ h2 {
   }
 
   .itemPrice {
-    font-size: 18px;
+    font-size: 19px;
   }
 
   .itemDescripHotDrinks {
@@ -252,8 +268,11 @@ h2 {
     font-size: 22px;
   }
 
-  .headerText h1,
-  h3 {
+  .header h3 {
+    font-size: 40px;
+  }
+
+  .headerText h1 {
     padding-bottom: 16px;
   }
 
@@ -284,7 +303,7 @@ h2 {
   }
 
   .partName {
-    font-size: 26px;
+    font-size: 25px;
   }
 
   .partSection {
@@ -300,11 +319,11 @@ h2 {
   }
 
   .itemPortion {
-    font-size: 20px;
+    font-size: 16px;
   }
 
   .itemPrice {
-    font-size: 20px;
+    font-size: 21px;
   }
 
   .itemPicture {
@@ -322,6 +341,10 @@ h2 {
   .footer {
     font-size: 16px;
   }
+
+  .socials {
+    width: 140px;
+  }
 }
 
 @media (min-width: 1025px) {
@@ -329,8 +352,11 @@ h2 {
     font-size: 24px;
   }
 
-  .headerText h1,
-  h3 {
+  .header h3 {
+    font-size: 45px;
+  }
+
+  .headerText h1 {
     padding-bottom: 18px;
   }
 
@@ -377,11 +403,11 @@ h2 {
   }
 
   .itemPortion {
-    font-size: 20px;
+    font-size: 16px;
   }
 
   .itemPrice {
-    font-size: 20px;
+    font-size: 21px;
   }
 
   .itemPicture {
@@ -400,6 +426,10 @@ h2 {
   .footer {
     font-size: 18px;
   }
+
+  .socials {
+    width: 150px;
+  }
 }
 
 @media (min-width: 1201px) {
@@ -411,8 +441,11 @@ h2 {
     font-size: 26px;
   }
 
-  .headerText h1,
-  h3 {
+  .header h3 {
+    font-size: 50px;
+  }
+
+  .headerText h1 {
     padding-bottom: 20px;
     font-weight: 600;
   }
@@ -468,11 +501,11 @@ h2 {
   }
 
   .itemPortion {
-    font-size: 22px;
+    font-size: 18px;
   }
 
   .itemPrice {
-    font-size: 22px;
+    font-size: 23px;
   }
 
   .itemPicture {
@@ -482,5 +515,9 @@ h2 {
 
   .footer {
     font-size: 20px;
+  }
+
+  .socials {
+    width: 160px;
   }
 }

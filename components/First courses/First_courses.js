@@ -6,7 +6,7 @@ export default function FirstCourses() {
   const firstCourses = [
     {
       name: "Борщ з п'єца",
-      portion: "𓍝300",
+      portion: "(300г)",
       price: "₴138",
       description:
         "подається зі сметаною, грінками чорного хліба та зеленим маслом",
@@ -14,28 +14,28 @@ export default function FirstCourses() {
     },
     {
       name: "Солянка",
-      portion: "𓍝300",
+      portion: "(300г)",
       price: "₴104",
       description: "",
       image: "soljanka.jpg",
     },
     {
       name: "Бограч",
-      portion: "𓍝300",
+      portion: "(300г)",
       price: "₴140",
       description: "",
       image: "",
     },
     {
       name: "Чанахи",
-      portion: "𓍝300",
+      portion: "(300г)",
       price: "₴170",
       description: "запечені в глечеку з хлібною скоринкою",
       image: "zupa-ogon.jpg",
     },
     {
       name: "Флячки по-львівськи",
-      portion: "𓍝300",
+      portion: "(300г)",
       price: "₴154",
       description: "",
       image: "fljachki.jpg",

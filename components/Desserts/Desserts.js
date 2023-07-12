@@ -5,42 +5,42 @@ export default function Desserts() {
   const desserts = [
     {
       name: "Львівський сирник",
-      portion: "за 𓍝100",
+      portion: "(за 100г)",
       price: "₴49",
       description: "",
       image: "sirnik.jpg",
     },
     {
       name: "Штрудель яблучний",
-      portion: "за 𓍝100",
+      portion: "(за 100г)",
       price: "₴27",
       description: "",
       image: "shtrudel.jpg",
     },
     {
       name: "Львівські андрути",
-      portion: "𓍝100",
+      portion: "(100г)",
       price: "₴83",
       description: "",
       image: "andruti.jpg",
     },
     {
       name: "Спартак",
-      portion: "за 𓍝100",
+      portion: "(за 100г)",
       price: "₴84",
       description: "",
       image: "spartak.png",
     },
     {
       name: "Зимний п'єц",
-      portion: "𓍝150",
+      portion: "(150г)",
       price: "₴87",
       description: "морозиво пломбір з варенням та школадною присипкою",
       image: "zimniy-pjec.jpg",
     },
     {
       name: "Горіх в шоколаді",
-      portion: "за 𓍝100",
+      portion: "(за 100г)",
       price: "₴128",
       description:
         "три види горіхів, шоколад, пісочне тісто, подається теплим з кулькою морозива",

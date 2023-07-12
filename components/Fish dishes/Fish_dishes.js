@@ -6,14 +6,14 @@ export default function FishDishes() {
   const fishDishes = [
     {
       name: "Пструг печений",
-      portion: "за𓍝100",
+      portion: "(за 100г)",
       price: "₴135",
       description: "форель",
       image: "pstruk.jpg",
     },
     {
       name: "Баламут з п'єца",
-      portion: "𓍝300",
+      portion: "(300г)",
       price: "₴390",
       description: "скумбрія з соусом Схуг",
       image: "balamut.jpg",
