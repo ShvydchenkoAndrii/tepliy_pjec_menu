@@ -1,5 +1,6 @@
 import { useContext } from "react";
 import { AppContext } from "@/pages";
+import ShowMenuPartHotDrinks from "@/components/Show Menu Part Hot Drinks/ShowMenuPartHotDrinks";
 
 export default function Beer() {
   const { ShowMenuPart, PartHead } = useContext(AppContext);
@@ -18,6 +19,13 @@ export default function Beer() {
       price: "₴45/ ₴75",
       description: "",
       image: "kronenbourg-blanc.png",
+    },
+    {
+      name: "Пиво пляшкове",
+      portion: "",
+      price: "",
+      description: "в асортименті",
+      image: "",
     },
   ];
 
@@ -43,9 +51,7 @@ export default function Beer() {
         {PartHead()}
       </div>
       <h2 className="partSection">Пиво розливене:</h2>
-      <div className="partDesc">{ShowMenuPart(beerFromKeg)}</div>
-      <h2 className="partSection">Пиво пляшкове:</h2>
-      <div className="partDesc">{ShowMenuPart(bottleBeer)}</div>
+      {ShowMenuPartHotDrinks(beerFromKeg)}
       <div className="blackUnderlline"></div>
     </div>
   );

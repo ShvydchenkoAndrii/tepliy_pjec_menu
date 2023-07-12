@@ -1,5 +1,6 @@
 import { useContext } from "react";
 import { AppContext } from "@/pages";
+import ShowMenuPartHotDrinks from "../Show Menu Part Hot Drinks/ShowMenuPartHotDrinks";
 
 export default function ColdDrinks() {
   const { ShowMenuPart, PartHead } = useContext(AppContext);
@@ -84,7 +85,7 @@ export default function ColdDrinks() {
         <h1 className="partName">ХОЛОДНІ НАПОЇ</h1>
         {PartHead()}
       </div>
-      <div className="partDesc">{ShowMenuPart(coldDrinks)}</div>
+      {ShowMenuPartHotDrinks(coldDrinks)}
       <div className="blackUnderlline"></div>
     </div>
   );
