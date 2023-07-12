@@ -11,7 +11,7 @@ export default function Header() {
         ></Image>
         <div className="headerText">
           <h1 >Кав&apos;ярня-музей </h1>
-          <h3 >&apos;&apos;Теплий п&apos;єц&apos;&apos;</h3>
+          <h3 >Теплий п&apos;єц</h3>
           <p>&apos;&apos;Теплий п&apos;єц&apos;&apos; - частина старовинного Львова, затишок дому і осередок тепла</p>
         </div>
       </div>

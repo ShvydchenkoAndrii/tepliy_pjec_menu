@@ -6,7 +6,7 @@ export default function Breakfasts() {
   const breakfasts = [
     {
       name: "Вареники з сиром",
-      portion: "𓍝370",
+      portion: "(370г)",
       price: "₴124",
       description: "запечені у сметані",
       image: "vareniky-breakfast.jpg",
