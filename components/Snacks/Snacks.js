@@ -45,7 +45,7 @@ export default function Snacks() {
       portion: "(100г/50г)",
       price: "₴70",
       description: "запечені чіпси з лавашу зі спеціями, фірмовий соус",
-      image: "",
+      image: "suhiy-list.jpg",
     },
     {
       name: "Риба Орлі",
