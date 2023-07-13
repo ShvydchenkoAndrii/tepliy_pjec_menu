@@ -7,10 +7,10 @@ export default function Footer() {
     <div className="footer">
       <div className="socials">
         <a href="https://www.facebook.com/teplyipyets.lviv" target="_blank">
-          <Image src={fbIco}></Image>
+          <Image src={fbIco} alt="facebook logo"></Image>
         </a>
         <a href="https://www.instagram.com/teplyi.piets" target="_blank">
-          <Image src={instIco}></Image>
+          <Image src={instIco} alt="instagram logo"></Image>
         </a>
       </div>
       <h2>☏ +380987321414 </h2>
