@@ -79,7 +79,7 @@ export default function MeatDishes() {
       portion: "(400г)",
       price: "₴208",
       description: "деруни з м'ясом, запечені у вершковому соусі з сиром та грибами",
-      image: "deryni_po_gucul.jpg",
+      image: "deruny-po-guculsky.jpg",
     },
   ];
 
