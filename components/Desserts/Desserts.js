@@ -27,9 +27,16 @@ export default function Desserts() {
     {
       name: "Спартак",
       portion: "(за 100г)",
-      price: "₴84",
+      price: "₴90",
       description: "",
       image: "spartak.png",
+    },
+    {
+      name: "Наполеон",
+      portion: "(за 100г)",
+      price: "₴150",
+      description: "",
+      image: "napoleon.jpg",
     },
     {
       name: "Зимний п'єц",
