@@ -24,7 +24,7 @@ export default function FirstCourses() {
       portion: "(300г)",
       price: "₴140",
       description: "",
-      image: "",
+      image: "bograch.jpg",
     },
     {
       name: "Чанахи",

@@ -50,7 +50,7 @@ export default function MeatDishes() {
       portion: "(за 100г)",
       price: "₴110",
       description: "свинячий шашлик",
-      image: "",
+      image: "patelnja-svigini.jpg",
     },
     {
       name: "Шніцель по-віденськи",
