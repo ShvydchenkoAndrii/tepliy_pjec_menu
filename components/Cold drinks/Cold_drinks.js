@@ -9,7 +9,7 @@ export default function ColdDrinks() {
     {
       name: "Узвар",
       portion: "1л",
-      price: "₴38",
+      price: "₴100",
       description: "",
       image: "uzvar.png",
     },

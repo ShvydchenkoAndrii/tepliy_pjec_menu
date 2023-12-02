@@ -31,13 +31,13 @@ export default function Desserts() {
       description: "",
       image: "spartak.png",
     },
-    {
-      name: "Наполеон",
-      portion: "(за 100г)",
-      price: "₴150",
-      description: "",
-      image: "napoleon.jpg",
-    },
+    // {
+    //   name: "Наполеон",
+    //   portion: "(за 100г)",
+    //   price: "₴150",
+    //   description: "",
+    //   image: "napoleon.jpg",
+    // },
     {
       name: "Зимний п'єц",
       portion: "(150г)",
