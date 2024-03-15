@@ -45,7 +45,7 @@ export default function FirstCourses() {
       portion: "1шт",
       price: "₴15",
       description: "",
-      image: "",
+      image: "kaizerka.jpg",
     },
   ];
 

@@ -18,6 +18,13 @@ export default function FishDishes() {
       description: "скумбрія з соусом Схуг",
       image: "balamut.jpg",
     },
+    {
+      name: "Дорадо",
+      portion: "(за 100г)",
+      price: "₴177",
+      description: "Запікається в пʼєці з ароматними травами",
+      image: "dorado.jpg",
+    },
   ];
 
   return (

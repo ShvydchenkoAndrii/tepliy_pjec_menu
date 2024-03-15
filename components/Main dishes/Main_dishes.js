@@ -72,7 +72,7 @@ export default function MainDishes() {
       portion: "(200г)",
       price: "₴128",
       description: "тушкована квашена капуста з чорносливом та копченою грушею",
-      image: "",
+      image: "bigus.jpg",
     },
     {
       name: "Хрусткі крокети із жидівським кав'яром",
