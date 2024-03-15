@@ -24,7 +24,7 @@ export default function Assorted() {
       portion: "(300г)",
       price: "₴100",
       description: "капуста, помідори, огірки",
-      image: "",
+      image: "kvashinina.jpg",
     },
     {
       name: "Маринади",
