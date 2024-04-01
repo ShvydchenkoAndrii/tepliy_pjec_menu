@@ -7,7 +7,7 @@ export default function FirstCourses() {
     {
       name: "Борщ з п'єца",
       portion: "(300г)",
-      price: "₴138",
+      price: "₴156",
       description:
         "подається зі сметаною, грінками чорного хліба та зеленим маслом",
       image: "borshch.jpg",
@@ -15,29 +15,29 @@ export default function FirstCourses() {
     {
       name: "Солянка",
       portion: "(300г)",
-      price: "₴104",
+      price: "₴122",
       description: "",
       image: "soljanka.jpg",
     },
     {
       name: "Бограч",
       portion: "(300г)",
-      price: "₴140",
+      price: "₴162",
       description: "",
       image: "bograch.jpg",
     },
     {
       name: "Чанахи",
       portion: "(300г)",
-      price: "₴170",
+      price: "₴190",
       description: "запечені в глечеку з хлібною скоринкою",
       image: "zupa-ogon.jpg",
     },
     {
       name: "Флячки по-львівськи",
       portion: "(300г)",
-      price: "₴154",
-      description: "",
+      price: "₴174",
+      description: "подаються з грінками з чорного хліба",
       image: "fljachki.jpg",
     },
     {

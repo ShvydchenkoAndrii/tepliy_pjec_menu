@@ -16,14 +16,14 @@ export default function CognacAndBrandy() {
     {
       name: "Азнаурі 3*",
       portion: "50мл",
-      price: "₴43",
+      price: "₴46",
       description: "",
       image: "aznauri.png",
     },
     {
       name: "Старий Кахеті 4*",
       portion: "50мл",
-      price: "₴77",
+      price: "₴85",
       description: "",
       image: "old-kaheti.png",
     },

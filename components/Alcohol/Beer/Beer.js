@@ -9,22 +9,28 @@ export default function Beer() {
     {
       name: "Львівське світле",
       portion: "300/ 500мл",
-      price: "₴32/ ₴52",
+      price: "₴35/ ₴55",
       description: "",
       image: "lvivske-svitle.png",
     },
     {
       name: "Kronenbourg blanc",
       portion: "300/ 500мл",
-      price: "₴45/ ₴75",
+      price: "₴48/ ₴78",
       description: "",
       image: "kronenbourg-blanc.png",
     },
     {
       name: "Пиво пляшкове",
       portion: "",
-      price: "",
+      price: "₴75",
       description: "в асортименті",
+      image: "",
+    },{
+      name: "Сидр",
+      portion: "",
+      price: "",
+      description: "",
       image: "",
     },
   ];

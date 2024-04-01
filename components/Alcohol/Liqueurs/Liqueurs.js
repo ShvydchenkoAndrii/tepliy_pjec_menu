@@ -8,14 +8,14 @@ export default function Liqueurs() {
     {
       name: "Vana Tallin original",
       portion: "50мл",
-      price: "₴81",
+      price: "₴99",
       description: "",
       image: "vana-tallin.png",
     },
     {
       name: "Старий Ринок",
       portion: "50мл",
-      price: "₴30",
+      price: "₴35",
       description: "",
       image: "stariy-rynok.png",
     },

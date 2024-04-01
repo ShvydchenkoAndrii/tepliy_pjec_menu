@@ -123,6 +123,7 @@ body {
   display: grid;
   grid-template-columns: 3fr 2fr;
   align-items: center;
+  text-align: center;
   gap: 10px;
   margin-left: 15%;
   margin-right: 5%;

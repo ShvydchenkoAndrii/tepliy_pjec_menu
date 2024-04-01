@@ -7,7 +7,7 @@ export default function Assorted() {
     {
       name: "Таца з п'єца",
       portion: "(1900г)",
-      price: "₴1190",
+      price: "₴1340",
       description:
         "запечена курка, кров'янка, свинячий шашлик, біґос, овочі гриль, печена картопля, соус",
       image: "taca-z-pjeca.png",
@@ -15,28 +15,28 @@ export default function Assorted() {
     {
       name: "Розбратель від Стрийка",
       portion: "(600г)",
-      price: "₴370",
+      price: "₴418",
       description: "три вида м'яса, палянички (страва для двох)",
       image: "vid-stryka.jpg",
     },
     {
       name: "Квашенина з діжки",
       portion: "(300г)",
-      price: "₴100",
+      price: "₴113",
       description: "капуста, помідори, огірки",
       image: "kvashinina.jpg",
     },
-    {
-      name: "Маринади",
-      portion: "(300г)",
-      price: "₴113",
-      description: "виноград, цвітна капуста, болгарський перець, брюсельська капуста, крижавки",
-      image: "marinadi.jpg",
-    },
+    // {
+    //   name: "Маринади",
+    //   portion: "(300г)",
+    //   price: "₴113",
+    //   description: "виноград, цвітна капуста, болгарський перець, брюсельська капуста, крижавки",
+    //   image: "marinadi.jpg",
+    // },
     {
       name: "Сало з вугликами",
       portion: "(200г)",
-      price: "₴270",
+      price: "₴226",
       description: "",
       image: "",
     },

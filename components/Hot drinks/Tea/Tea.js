@@ -7,7 +7,7 @@ export default function Tea() {
     {
       name: `Чай з "Теплого п'єц"`,
       portion: "250/500мл",
-      price: "₴50/100",
+      price: "₴56/112",
       description: "суміш карпатських трав та ягід, квітковий мед",
       image: "",
     },
