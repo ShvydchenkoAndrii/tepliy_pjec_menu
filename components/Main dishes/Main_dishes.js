@@ -68,6 +68,20 @@ export default function MainDishes() {
       image: "paljanichki.jpg",
     },
     {
+      name: "Палюшки зі шпинатом",
+      portion: "(330г)",
+      price: "₴146",
+      description: "та грибною мачанкою",
+      image: "plushki_z_shpinatom.jpg",
+    },
+    {
+      name: "Чорні вареники",
+      portion: "(250г)",
+      price: "₴197",
+      description: "з індичкою та грибним соусом",
+      image: "chorni_z_indykom.jpg",
+    },
+    {
       name: "Біґос",
       portion: "(200г)",
       price: "₴145",

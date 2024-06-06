@@ -14,11 +14,11 @@ export default function Beer() {
       image: "lvivske-svitle.png",
     },
     {
-      name: "Kronenbourg blanc",
+      name: "Білий Лев",
       portion: "300/ 500мл",
-      price: "₴48/ ₴78",
+      price: "₴42/ ₴70",
       description: "",
-      image: "kronenbourg-blanc.png",
+      image: "",
     },
     {
       name: "Пиво пляшкове",

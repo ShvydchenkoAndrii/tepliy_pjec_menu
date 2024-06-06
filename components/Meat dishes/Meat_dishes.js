@@ -14,7 +14,8 @@ export default function MeatDishes() {
       name: "Ґуґлики з телятини",
       portion: "(350г)",
       price: "₴320",
-      description: "телячі котлетки су-від тушковані у вершково-грибному соусі, подаються з картопляним пюре",
+      description:
+        "телячі котлетки су-від тушковані у вершково-грибному соусі, подаються з картопляним пюре",
       image: "",
     },
     {
@@ -52,13 +53,20 @@ export default function MeatDishes() {
       description: "свинячий шашлик",
       image: "patelnja-svigini.jpg",
     },
-    
+
     {
       name: "Шніцель по-віденськи",
       portion: "(400г)",
       price: "₴286",
       description: "яловичий, подається з картоплею пюре",
       image: "shnitsel.jpg",
+    },
+    {
+      name: "Стейк із язика на грилі",
+      portion: "(270г)",
+      price: "₴327",
+      description: "на гороховому пюре з запеченими овочами",
+      image: "steik_yazyk.jpg",
     },
     {
       name: '"А той індик..."',
