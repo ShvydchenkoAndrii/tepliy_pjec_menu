@@ -16,7 +16,7 @@ export default function MeatDishes() {
       price: "₴320",
       description:
         "телячі котлетки су-від тушковані у вершково-грибному соусі, подаються з картопляним пюре",
-      image: "",
+      image: "gugliki.jpg",
     },
     {
       name: "Печена ковбаска",

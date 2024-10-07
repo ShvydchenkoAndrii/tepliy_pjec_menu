@@ -20,6 +20,13 @@ export default function FirstCourses() {
       image: "soljanka.jpg",
     },
     {
+      name: "Гарбузовий суп",
+      portion: "(300г)",
+      price: "₴94",
+      description: "сезонна страва",
+      image: "garbuzova_zupa.jpg",
+    },
+    {
       name: "Бограч",
       portion: "(300г)",
       price: "₴162",
