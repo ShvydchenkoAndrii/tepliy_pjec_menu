@@ -37,7 +37,7 @@ export default function Snacks() {
     {
       name: "Оселедець",
       portion: "(170г)",
-      price: "₴90",
+      price: "₴110",
       description: " з цибулькою",
       image: "oseledec.jpg",
     },

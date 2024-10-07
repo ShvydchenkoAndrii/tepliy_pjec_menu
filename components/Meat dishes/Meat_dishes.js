@@ -28,7 +28,7 @@ export default function MeatDishes() {
     {
       name: "Торбинка пічника",
       portion: "(400г)",
-      price: "₴208",
+      price: "₴220",
       description: "дерун із тушкованим телячим язиком та грибами",
       image: "torbinka.jpg",
     },
@@ -93,7 +93,7 @@ export default function MeatDishes() {
     {
       name: "Деруни по-гуцульськи",
       portion: "(400г)",
-      price: "₴235",
+      price: "₴245",
       description:
         "деруни з м'ясом, запечені у вершковому соусі з сиром та грибами",
       image: "deruny-po-guculsky.jpg",

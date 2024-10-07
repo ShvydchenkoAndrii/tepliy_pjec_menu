@@ -7,7 +7,7 @@ export default function MainDishes() {
     {
       name: "Банош",
       portion: "(200г)",
-      price: "₴138",
+      price: "₴153",
       description: "подається з овечою бринзою та шкварками",
       image: "banosh.jpg",
     },
@@ -42,7 +42,7 @@ export default function MainDishes() {
     {
       name: "Вареники з картоплею та сиром",
       portion: "(250г)",
-      price: "₴79",
+      price: "₴95",
       description: "подаються зі сметаною",
       image: "vareniki.jpg",
     },
@@ -56,7 +56,7 @@ export default function MainDishes() {
     {
       name: "Пироги з пательні",
       portion: "(250г)",
-      price: "₴79",
+      price: "₴95",
       description: "смажені вареники, подаються зі шкварками",
       image: "smageni-vareniki.jpg",
     },

@@ -7,7 +7,7 @@ export default function Assorted() {
     {
       name: "Таца з п'єца",
       portion: "(1900г)",
-      price: "₴1340",
+      price: "₴1430",
       description:
         "запечена курка, кров'янка, свинячий шашлик, біґос, овочі гриль, печена картопля, соус",
       image: "taca-z-pjeca.png",
@@ -36,7 +36,7 @@ export default function Assorted() {
     {
       name: "Сало з вугликами",
       portion: "(200г)",
-      price: "₴226",
+      price: "₴297",
       description: "",
       image: "",
     },
