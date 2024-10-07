@@ -50,7 +50,7 @@ export default function Salads() {
     {
       name: "Салат з грядки",
       portion: "",
-      price: "",
+      price: "₴112",
       description: "із сезонних овочів",
       image: "",
     },
