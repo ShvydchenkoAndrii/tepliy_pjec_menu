@@ -45,14 +45,14 @@ export default function Salads() {
       portion: "(200г)",
       price: "₴112/₴129",
       description: "з куркою / з лососем",
-      image: "olivje-losos.jpg",
+      image: "olivje-losos.jpeg",
     },
     {
       name: "Салат з грядки",
       portion: "",
-      price: "₴112",
+      price: "₴120",
       description: "із сезонних овочів",
-      image: "",
+      image: "salat_z_gryadky.jpg",
     },
   ];
 
