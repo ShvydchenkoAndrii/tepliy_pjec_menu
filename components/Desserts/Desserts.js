@@ -6,28 +6,28 @@ export default function Desserts() {
     {
       name: "Львівський сирник",
       portion: "(за 100г)",
-      price: "₴55",
+      price: "₴60",
       description: "",
       image: "sirnik.jpg",
     },
     {
       name: "Штрудель яблучний",
       portion: "(за 100г)",
-      price: "₴37",
+      price: "₴40",
       description: "",
       image: "shtrudel.jpg",
     },
     {
       name: "Львівські андрути",
       portion: "(100г)",
-      price: "₴95",
+      price: "₴103",
       description: "",
       image: "andruti.jpg",
     },
     {
       name: "Спартак",
       portion: "(за 100г)",
-      price: "₴105",
+      price: "₴113",
       description: "",
       image: "spartak.png",
     },
@@ -41,17 +41,25 @@ export default function Desserts() {
     {
       name: "Зимний п'єц",
       portion: "(150г)",
-      price: "₴98",
+      price: "₴106",
       description: "морозиво пломбір з варенням та школадною присипкою",
       image: "zimniy-pjec.jpg",
     },
     {
       name: "Горіх в шоколаді",
       portion: "(за 100г)",
-      price: "₴127",
+      price: "₴140",
       description:
         "три види горіхів, шоколад, пісочне тісто, подається теплим з кулькою морозива",
       image: "gorih-v-shokolady.jpg",
+    },
+    {
+      name: "Горішки",
+      portion: "(2шт)",
+      price: "₴45",
+      description:
+        "зі згущеним молоком",
+      image: "",
     },
   ];
 

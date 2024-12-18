@@ -9,7 +9,7 @@ export default function Beer() {
     {
       name: "Львівське світле",
       portion: "300/ 500мл",
-      price: "₴35/ ₴55",
+      price: "₴39/ ₴64",
       description: "",
       image: "lvivske-svitle.png",
     },

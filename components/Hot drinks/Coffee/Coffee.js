@@ -42,7 +42,7 @@ export default function Coffee() {
     {
       name: "Капучино",
       // portion: "150мл",
-      price: "₴62",
+      price: "₴65",
       description: "",
       image: "capuccino.png",
       image: "",

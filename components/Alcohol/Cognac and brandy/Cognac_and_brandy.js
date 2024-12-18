@@ -30,7 +30,7 @@ export default function CognacAndBrandy() {
     {
       name: "Чайка 7*",
       portion: "50мл",
-      price: "₴66",
+      price: "₴59",
       description: "",
       image: "chaika.png",
     },

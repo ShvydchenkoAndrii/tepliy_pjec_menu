@@ -7,7 +7,7 @@ export default function FishDishes() {
     {
       name: "Пструг печений",
       portion: "(за 100г)",
-      price: "₴177",
+      price: "₴190",
       description: "форель",
       image: "pstruk.jpg",
     },
@@ -21,7 +21,7 @@ export default function FishDishes() {
     {
       name: "Запечене дорадо",
       portion: "(за 100г)",
-      price: "₴184",
+      price: "₴198",
       description: "Запікається в пʼєці з ароматними травами",
       image: "dorado.jpg",
     },
