@@ -30,7 +30,7 @@ export default function ColdDrinks() {
     {
       name: "Соки та нектари",
       portion: "0,2л",
-      price: "₴45",
+      price: "₴50",
       description: "в асортименті",
       image: "juice.png",
     },

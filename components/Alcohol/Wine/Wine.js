@@ -58,34 +58,34 @@ export default function Wine() {
       image: "kartuli-alazan-red.png",
     },
   ];
-  const cotnar = [
+  const leleka = [
     {
       name: "Шардоне",
       portion: "125мл",
-      price: "₴59",
+      price: "₴100",
       description: "Україна, біле сухе",
-      image: "cotnar-chardonnay.png",
-    },
-    {
-      name: "Кабарне",
-      portion: "125мл",
-      price: "₴59",
-      description: "Україна, червоне сухе",
-      image: "cotnar-cabernet.png",
-    },
-    {
-      name: "Мускат",
-      portion: "125мл",
-      price: "₴59",
-      description: "Україна, біле н/солодке",
-      image: "cotnar-muskat.png",
+      image: "",
     },
     {
       name: "Мерло",
       portion: "125мл",
-      price: "₴59",
+      price: "₴100",
+      description: "Україна, червоне сухе",
+      image: "",
+    },
+    {
+      name: "Чорний лелека",
+      portion: "125мл",
+      price: "₴100",
+      description: "Україна, червоне н/солодке",
+      image: "",
+    },
+    {
+      name: "Білий лелека",
+      portion: "125мл",
+      price: "₴100",
       description: "Україна, біле н/солодке",
-      image: "cotnar-merlot.png",
+      image: "",
     },
   ];
 
@@ -109,8 +109,8 @@ export default function Wine() {
       {ShowMenuPartHotDrinks(colonist)}
       <h2 className="partSection">Kartuli Vazi:</h2>
       {ShowMenuPartHotDrinks(kartuli)}
-      <h2 className="partSection">Cotnar:</h2>
-      {ShowMenuPartHotDrinks(cotnar)}
+      <h2 className="partSection">Leleka:</h2>
+      {ShowMenuPartHotDrinks(leleka)}
       {ShowMenuPartHotDrinks(homeWine)}
       <div className="blackUnderlline"></div>
     </div>
