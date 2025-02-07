@@ -8,14 +8,14 @@ export default function Vodka() {
     {
       name: "Лемберг",
       portion: "50мл",
-      price: "₴35",
+      price: "₴37",
       description: "",
       image: "lemberg.png",
     },
     {
       name: "Львівська шляхетна",
       portion: "50мл",
-      price: "₴35",
+      price: "₴37",
       description: "",
       image: "lvivska-shljahetna.png",
     },

@@ -13,11 +13,11 @@ export default function Assorted() {
       image: "taca-z-pjeca.png",
     },
     {
-      name: "Розбратель від Стрийка",
-      portion: "(600г)",
-      price: "₴450",
-      description: "три вида м'яса, палянички (страва для двох)",
-      image: "vid-stryka.jpg",
+      name: "Битий кахель",
+      portion: "(850г)",
+      price: "₴718",
+      description: "завиванці з курячого та свинного м'яса, подаються з картоплею, овочами гриль та шпинатом",
+      image: "",
     },
     {
       name: "Квашенина з діжки",

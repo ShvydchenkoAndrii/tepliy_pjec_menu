@@ -58,7 +58,7 @@ export default function ColdDrinks() {
     {
       name: "Фруктова вода",
       portion: "0,5л",
-      price: "₴53",
+      price: "₴62",
       description: "дюшес, сітро",
       image: "fruit-water.png",
     },
