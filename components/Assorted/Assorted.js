@@ -17,7 +17,7 @@ export default function Assorted() {
       portion: "(850г)",
       price: "₴598",
       description: "завиванці з курячого та свинного м'яса, подаються з картоплею, овочами гриль та шпинатом",
-      image: "",
+      image: "butuy_kahel.jpg",
     },
     {
       name: "Квашенина з діжки",
