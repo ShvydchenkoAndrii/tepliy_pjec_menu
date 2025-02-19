@@ -15,7 +15,7 @@ export default function Assorted() {
     {
       name: "Битий кахель",
       portion: "(850г)",
-      price: "₴718",
+      price: "₴598",
       description: "завиванці з курячого та свинного м'яса, подаються з картоплею, овочами гриль та шпинатом",
       image: "",
     },

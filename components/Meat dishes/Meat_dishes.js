@@ -57,7 +57,7 @@ export default function MeatDishes() {
     {
       name: "Шніцель по-віденськи",
       portion: "(400г)",
-      price: "₴308",
+      price: "₴287",
       description: "з традиційною картопляною салаткою",
       image: "shnitsel.jpg",
     },
