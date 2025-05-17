@@ -23,7 +23,7 @@ export default function Beer() {
     {
       name: "Пиво пляшкове",
       portion: "",
-      price: "₴75",
+      price: "₴90",
       description: "в асортименті",
       image: "",
     },{

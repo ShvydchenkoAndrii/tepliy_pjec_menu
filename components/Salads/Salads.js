@@ -7,7 +7,7 @@ export default function Salads() {
     {
       name: "Цісарський з куркою",
       portion: "(300г)",
-      price: "₴310",
+      price: "₴359",
       description: "айсберг, помідор, куряче філе, фірмовий соус",
       image: "cisarskiy-z-kurkoju.jpg",
     },
@@ -21,21 +21,21 @@ export default function Salads() {
     {
       name: "Приїхали греки",
       portion: "(250г)",
-      price: "₴136",
+      price: "₴200",
       description: "оливки, помідор, огірок, синя цибуля",
       image: "prijihali-greki.jpg",
     },
     {
       name: "Фірмовий від пічника",
       portion: "(300г)",
-      price: "₴234",
+      price: "₴251",
       description: "салера, яблука, грецький горіх, мікс салату",
       image: "firmoviy-vid-pichnika.jpg",
     },
     {
       name: "Базікало",
       portion: "(300г)",
-      price: "₴202",
+      price: "₴231",
       description:
         "салат з язиком на картопляній подушці з маринованою цибулею, квашеним огірком та бебі-морквою",
       image: "bazikalo.jpg",
@@ -43,16 +43,16 @@ export default function Salads() {
     {
       name: "Олів'є",
       portion: "(200г)",
-      price: "₴120/₴139",
+      price: "₴119/₴292",
       description: "з куркою / з лососем",
       image: "olivje-losos.jpg",
     },
     {
       name: "Салат з грядки",
       portion: "",
-      price: "",
+      price: "₴129",
       description: "із сезонних овочів",
-      image: "salat_z_gryadky.jpg",
+      image: "salat_z_gryadki.jpg",
     },
   ];
 

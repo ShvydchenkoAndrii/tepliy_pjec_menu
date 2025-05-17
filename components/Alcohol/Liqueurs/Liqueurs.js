@@ -22,7 +22,7 @@ export default function Liqueurs() {
     {
       name: "Jägermeister",
       portion: "50мл",
-      price: "₴86",
+      price: "₴138",
       description: "",
       image: "jägermeister.png",
     },
@@ -36,7 +36,7 @@ export default function Liqueurs() {
     {
       name: "Martini Bianco",
       portion: "50мл",
-      price: "₴50",
+      price: "₴56",
       description: "",
       image: "martini-bianco.png",
     },

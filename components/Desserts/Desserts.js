@@ -13,14 +13,14 @@ export default function Desserts() {
     {
       name: "Штрудель яблучний",
       portion: "(за 100г)",
-      price: "₴40",
+      price: "₴55",
       description: "",
       image: "shtrudel.jpg",
     },
     {
       name: "Львівські андрути",
       portion: "(100г)",
-      price: "₴103",
+      price: "₴140",
       description: "",
       image: "andruti.jpg",
     },
@@ -41,7 +41,7 @@ export default function Desserts() {
     {
       name: "Зимний п'єц",
       portion: "(150г)",
-      price: "₴106",
+      price: "₴134",
       description: "морозиво пломбір з варенням та школадною присипкою",
       image: "zimniy-pjec.jpg",
     },
@@ -59,7 +59,7 @@ export default function Desserts() {
       price: "₴45",
       description:
         "зі згущеним молоком",
-      image: "",
+      image: "gorishki.jpg",
     },
   ];
 

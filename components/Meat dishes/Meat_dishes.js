@@ -13,7 +13,7 @@ export default function MeatDishes() {
     {
       name: "Ґуґлики з телятини",
       portion: "(350г)",
-      price: "₴397",
+      price: "₴413",
       description:
         "телячі боли су-від на подушці з горохового пюре та овочами гриль",
       image: "gugliki.jpg",
@@ -21,35 +21,35 @@ export default function MeatDishes() {
     {
       name: "Печена ковбаска",
       portion: "(370г)",
-      price: "₴231",
+      price: "₴291",
       description: "подається з яблуками та цибулькою",
       image: "kovbaska-pechena.jpg",
     },
     {
       name: "Торбинка пічника",
       portion: "(400г)",
-      price: "₴237",
+      price: "₴233",
       description: "дерун із тушкованим телячим язиком та грибами",
       image: "torbinka.jpg",
     },
     {
       name: "Кишка на кельні",
       portion: "(300г)",
-      price: "₴280",
+      price: "₴224",
       description: "кров'янка з біґосом",
       image: "kishka.jpg",
     },
     {
       name: "Рушта",
       portion: "(за 100г)",
-      price: "₴114",
+      price: "₴119",
       description: "запечені ребра",
       image: "rebra.jpg",
     },
     {
       name: "Пательня свіжини",
       portion: "(за 100г)",
-      price: "₴134",
+      price: "₴145",
       description: "свинячий шашлик",
       image: "patelnja-svigini.jpg",
     },
@@ -57,9 +57,9 @@ export default function MeatDishes() {
     {
       name: "Шніцель по-віденськи",
       portion: "(400г)",
-      price: "₴287",
+      price: "₴319",
       description: "з традиційною картопляною салаткою",
-      image: "shnitsel.jpg",
+      image: "shnitzel.jpg",
     },
     // {
     //   name: "Стейк із язика на грилі",
@@ -71,7 +71,7 @@ export default function MeatDishes() {
     {
       name: '"А той індик..."',
       portion: "(350г)",
-      price: "₴334",
+      price: "₴406",
       description:
         "індиче стегно су-від, подається з карамелізованою грушею та соусом",
       image: "a-toj-indyk.png",
@@ -79,24 +79,25 @@ export default function MeatDishes() {
     {
       name: "Печінка з журавлиним соусом",
       portion: "(450г)",
-      price: "₴256",
+      price: "₴271",
       description: "",
       image: "pechinka-z-guravlinoju.jpg",
     },
-    // {
-    //   name: "Телячі медальйони",
-    //   portion: "(370г)",
-    //   price: "₴399",
-    //   description: "телятина су-від, подається з полентою та журавлиним соусом",
-    //   image: "medaliony.jpg",
-    // },
+
     {
       name: "Деруни по-гуцульськи",
       portion: "(400г)",
-      price: "₴264",
+      price: "₴241",
       description:
         "деруни з м'ясом, запечені у вершковому соусі з сиром та грибами",
       image: "deruny-po-guculsky.jpg",
+    },
+    {
+      name: "Чорні вареники",
+      portion: "(250г)",
+      price: "₴280",
+      description: "з інидчкою та грибним соусом",
+      image: "chorni_z_indykom.jpg",
     },
   ];
 

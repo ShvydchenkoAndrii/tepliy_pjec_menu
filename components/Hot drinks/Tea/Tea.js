@@ -14,7 +14,7 @@ export default function Tea() {
     {
       name: "Чай розсипний",
       portion: "250/500мл",
-      price: "₴30/60",
+      price: "₴50/100",
       description: "чорний, зелений, фруктовий",
       image: "",
     },
@@ -45,7 +45,7 @@ export default function Tea() {
     {
       name: "Лимон",
       portion: "",
-      price: "₴3",
+      price: "₴5",
       description: "",
       image: "",
     },

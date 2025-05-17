@@ -44,7 +44,7 @@ export default function ColdDrinks() {
     {
       name: "Моршинська",
       portion: " 0,75л",
-      price: "₴41",
+      price: "₴51",
       description: "в асортименті",
       image: "morshinska.png",
     },
@@ -65,14 +65,14 @@ export default function ColdDrinks() {
     {
       name: "Молочний коктейль",
       portion: "0,2л",
-      price: "",
+      price: "₴138",
       description: "сезонний",
       image: "milk-cocktail.png",
     },
     {
       name: "Лимонад",
       portion: "1л",
-      price: "",
+      price: "₴164",
       description: "",
       image: "",
     },

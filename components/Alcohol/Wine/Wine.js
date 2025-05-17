@@ -93,7 +93,7 @@ export default function Wine() {
     {
       name: "Вино домашнє",
       portion: "125мл",
-      price: "₴45",
+      price: "₴47",
       description: "",
       image: "",
     },

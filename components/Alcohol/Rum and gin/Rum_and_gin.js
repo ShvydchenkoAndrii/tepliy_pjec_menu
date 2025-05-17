@@ -16,14 +16,14 @@ export default function RumAndGin() {
     {
       name: "Bacardi",
       portion: "50мл",
-      price: "₴70",
+      price: "₴90",
       description: "Spiced",
       image: "bacardi.png",
     },
     {
       name: "Gordon's London",
       portion: "50мл",
-      price: "₴92",
+      price: "₴100",
       description: "dry gin",
       image: "gordon.png",
     },

@@ -8,7 +8,7 @@ export default function Whiskey() {
     {
       name: "Johnnie Walker Red Label",
       portion: "50мл",
-      price: "₴99",
+      price: "₴105",
       description: "",
       image: "red-label.png",
     },
@@ -22,7 +22,7 @@ export default function Whiskey() {
     {
       name: "Jameson Irish Whiskey",
       portion: "50мл",
-      price: "₴124",
+      price: "₴140",
       description: "",
       image: "jameson.png",
     },
