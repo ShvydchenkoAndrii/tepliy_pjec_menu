@@ -14,7 +14,7 @@ export default function Salads() {
     {
       name: "Цісарський з лососем",
       portion: "(250г)",
-      price: "₴352",
+      price: "₴443",
       description: "айсберг, помідор, лосось, фірмовий соус",
       image: "",
     },
@@ -43,7 +43,7 @@ export default function Salads() {
     {
       name: "Олів'є",
       portion: "(200г)",
-      price: "₴119/₴292",
+      price: "₴119/₴245",
       description: "з куркою / з лососем",
       image: "olivje-losos.jpg",
     },

@@ -21,7 +21,7 @@ export default function Breakfasts() {
     {
       name: "Тартіні з лососем",
       portion: "(280г)",
-      price: "₴388",
+      price: "₴350",
       description: "скрембл, тост, мікс салату, крем сир, слабосолений лосось",
       image: "tartini-losos.jpg",
     },

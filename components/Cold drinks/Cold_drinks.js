@@ -72,7 +72,7 @@ export default function ColdDrinks() {
     {
       name: "Лимонад",
       portion: "1л",
-      price: "₴164",
+      price: "₴194",
       description: "",
       image: "",
     },

@@ -65,7 +65,7 @@ export default function Snacks() {
     {
       name: "Канапки на кахлі з лососем",
       portion: "(3шт)",
-      price: "₴251",
+      price: "₴213",
       description: "з слабосоленим лососем та крем сиром",
       image: "",
     },
