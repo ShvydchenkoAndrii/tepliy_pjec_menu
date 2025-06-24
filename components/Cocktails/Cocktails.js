@@ -57,7 +57,7 @@ export default function Cocktails() {
     {
       name: "Медівка",
       portion: "50мл",
-      price: "₴30",
+      price: "₴37",
       description: "",
       image: "medivka.png",
     },
@@ -85,7 +85,7 @@ export default function Cocktails() {
     {
       name: 'СЕТ НАЛИВОК "Апостол"',
       portion: "12шт",
-      price: "₴170",
+      price: "₴178",
       description: "",
       image: "apostol.png",
     },
