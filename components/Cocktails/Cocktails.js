@@ -64,14 +64,14 @@ export default function Cocktails() {
     {
       name: "Калганівка",
       portion: "50мл",
-      price: "₴37",
+      price: "₴38",
       description: "",
       image: "medivka.png",
     },
     {
       name: "Шипшинівка",
       portion: "50мл",
-      price: "₴37",
+      price: "₴39",
       description: "",
       image: "medivka.png",
     },
