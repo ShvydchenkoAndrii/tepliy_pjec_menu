@@ -18,12 +18,19 @@ export default function Desserts() {
       image: "shtrudel.jpg",
     },
     {
+      name: "Чорнослив у вершках",
+      portion: "(150г)",
+      price: "₴153",
+      description: "",
+      image: "chornoslyv.jpg",
+    },
+    /* {
       name: "Львівські андрути",
       portion: "(100г)",
       price: "₴140",
       description: "",
       image: "andruti.jpg",
-    },
+    }, */
     {
       name: "Спартак",
       portion: "(за 100г)",
@@ -48,7 +55,7 @@ export default function Desserts() {
     {
       name: "Горіх в шоколаді",
       portion: "(за 100г)",
-      price: "₴140",
+      price: "₴147",
       description:
         "три види горіхів, шоколад, пісочне тісто, подається теплим з кулькою морозива",
       image: "gorih-v-shokolady.jpg",
@@ -56,7 +63,7 @@ export default function Desserts() {
     {
       name: "Горішки",
       portion: "(2шт)",
-      price: "₴45",
+      price: "₴50",
       description:
         "зі згущеним молоком",
       image: "gorishki.jpg",

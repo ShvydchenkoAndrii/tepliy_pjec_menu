@@ -23,7 +23,7 @@ export default function RumAndGin() {
     {
       name: "Gordon's London",
       portion: "50мл",
-      price: "₴100",
+      price: "₴104",
       description: "dry gin",
       image: "gordon.png",
     },

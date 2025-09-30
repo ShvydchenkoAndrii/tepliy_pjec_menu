@@ -7,7 +7,7 @@ export default function FishDishes() {
     {
       name: "Пструг печений",
       portion: "(за 100г)",
-      price: "₴167",
+      price: "₴185",
       description: "форель",
       image: "pstruk.jpg",
     },

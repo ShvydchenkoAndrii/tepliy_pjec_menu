@@ -8,7 +8,7 @@ export default function Whiskey() {
     {
       name: "Johnnie Walker Red Label",
       portion: "50мл",
-      price: "₴105",
+      price: "₴108",
       description: "",
       image: "red-label.png",
     },

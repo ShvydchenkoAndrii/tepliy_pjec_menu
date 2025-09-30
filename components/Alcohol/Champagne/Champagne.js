@@ -8,7 +8,7 @@ export default function Champagne() {
     {
       name: "Prosecco",
       portion: "125мл",
-      price: "₴110",
+      price: "₴157",
       description: "",
       image: "prosecco.png",
     },

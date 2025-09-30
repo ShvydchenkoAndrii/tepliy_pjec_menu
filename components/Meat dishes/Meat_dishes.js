@@ -10,33 +10,47 @@ export default function MeatDishes() {
     //   description: "бургер із запеченою бужениною та біґос",
     //   image: "lvivska-machanka.png",
     // },
-    {
+    /* {
       name: "Ґуґлики з телятини",
       portion: "(350г)",
       price: "₴413",
       description:
         "телячі боли су-від на подушці з горохового пюре та овочами гриль",
       image: "gugliki.jpg",
+    }, */
+    {
+      name: "Голубці",
+      portion: "(380г)",
+      price: "₴278",
+      description: "з грибною мачанкою",
+      image: "golubci.jpg",
+    },
+    {
+      name: "Люлька барана",
+      portion: "(360г)",
+      price: "₴380",
+      description: "кебаб з баранини і біґосом",
+      image: "",
     },
     {
       name: "Печена ковбаска",
       portion: "(370г)",
-      price: "₴291",
+      price: "₴313",
       description: "подається з яблуками та цибулькою",
       image: "kovbaska-pechena.jpg",
     },
     {
       name: "Торбинка пічника",
       portion: "(400г)",
-      price: "₴233",
+      price: "₴231",
       description: "дерун із тушкованим телячим язиком та грибами",
       image: "torbinka.jpg",
     },
     {
-      name: "Кишка на кельні",
+      name: "Кров'янка з біґосом",
       portion: "(300г)",
-      price: "₴224",
-      description: "кров'янка з біґосом",
+      price: "₴236",
+      description: "",
       image: "kishka.jpg",
     },
     {
@@ -49,7 +63,7 @@ export default function MeatDishes() {
     {
       name: "Пательня свіжини",
       portion: "(за 100г)",
-      price: "₴145",
+      price: "₴163",
       description: "свинячий шашлик",
       image: "patelnja-svigini.jpg",
     },
@@ -57,7 +71,7 @@ export default function MeatDishes() {
     {
       name: "Шніцель по-віденськи",
       portion: "(400г)",
-      price: "₴319",
+      price: "₴332",
       description: "з традиційною картопляною салаткою",
       image: "shnitzel.jpg",
     },
@@ -68,13 +82,20 @@ export default function MeatDishes() {
     //   description: "на гороховому пюре з запеченими овочами",
     //   image: "steik_yazyk.jpg",
     // },
-    {
+    /* {
       name: '"А той індик..."',
       portion: "(350г)",
       price: "₴406",
       description:
         "індиче стегно су-від, подається з карамелізованою грушею та соусом",
       image: "a-toj-indyk.png",
+    }, */
+    {
+      name: "Томлений індик",
+      portion: "(300г)",
+      price: "₴355",
+      description: "на подушці з баношу",
+      image: "",
     },
     {
       name: "Печінка з журавлиним соусом",
@@ -87,7 +108,7 @@ export default function MeatDishes() {
     {
       name: "Деруни по-гуцульськи",
       portion: "(400г)",
-      price: "₴241",
+      price: "₴247",
       description:
         "деруни з м'ясом, запечені у вершковому соусі з сиром та грибами",
       image: "deruny-po-guculsky.jpg",
@@ -95,7 +116,7 @@ export default function MeatDishes() {
     {
       name: "Чорні вареники",
       portion: "(250г)",
-      price: "₴280",
+      price: "₴274",
       description: "з інидчкою та грибним соусом",
       image: "chorni_z_indykom.jpg",
     },

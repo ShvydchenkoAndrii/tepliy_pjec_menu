@@ -7,17 +7,17 @@ export default function Assorted() {
     {
       name: "Таца з п'єца",
       portion: "(1900г)",
-      price: "₴1540",
+      price: "₴1599",
       description:
         "запечена курка, кров'янка, свинячий шашлик, біґос, овочі гриль, печена картопля, соус",
       image: "taca-z-pjeca.png",
     },
     {
       name: "Битий кахель",
-      portion: "(850г)",
-      price: "₴660",
-      description: "завиванці з курячого та свинного м'яса, подаються з картоплею, овочами гриль та шпинатом",
-      image: "butuy_kahel.jpg",
+      portion: "(900г)",
+      price: "₴627",
+      description: "три види м'яса, печена картопля з овочами",
+      image: "",
     },
     {
       name: "Квашенина з діжки",

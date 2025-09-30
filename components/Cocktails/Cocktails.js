@@ -8,7 +8,7 @@ export default function Cocktails() {
     {
       name: "Aperol Sprits",
       portion: "200мл",
-      price: "₴183",
+      price: "₴233",
       description: "aperol, prosecco, orange",
       image: "aperol.png",
     },
@@ -22,14 +22,14 @@ export default function Cocktails() {
     {
       name: "Negroni",
       portion: "120мл",
-      price: "₴203",
+      price: "₴206",
       description: "джин, вермут, бітер, апельсинова цедра",
       image: "negroni.png",
     },
     {
       name: "Vesper Martini",
       portion: "100мл",
-      price: "₴162",
+      price: "₴166",
       description: "сухий вермут, джин",
       image: "vesper-martini.png",
     },

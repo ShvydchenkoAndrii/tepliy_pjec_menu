@@ -8,24 +8,24 @@ export default function Wine() {
     {
       name: "Шардоне",
       portion: "125мл",
-      price: "₴145",
+      price: "₴164",
       description: "Україна, біле сухе",
       image: "kolonist-chardonay.png",
     },
     {
       name: "Каберне",
       portion: "125мл",
-      price: "₴145",
+      price: "₴164",
       description: "Україна, червоне сухе",
       image: "kolonist-cabernet.png",
     },
-    {
+  /*   {
       name: "Рислінг",
       portion: "125мл",
       price: "₴145",
       description: "Україна, н/сухе",
       image: "kolonist-risling.png",
-    },
+    }, */
   ];
 
   const kartuli = [

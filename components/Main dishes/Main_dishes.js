@@ -7,14 +7,14 @@ export default function MainDishes() {
     {
       name: "Банош",
       portion: "(200г)",
-      price: "₴158",
+      price: "₴155",
       description: "подається з овечою бринзою та шкварками",
       image: "banosh.jpg",
     },
     {
       name: "Яворівський пиріг",
       portion: "(270г)",
-      price: "₴163",
+      price: "₴160",
       description: "з грибною мачанкою",
       image: "javorivskiy.jpg",
     },
@@ -35,14 +35,14 @@ export default function MainDishes() {
     {
       name: "Терті пляцки",
       portion: "(250г)",
-      price: "₴165",
+      price: "₴168",
       description: "деруни зі сметаною",
       image: "terti-pljacki.jpg",
     },
     {
       name: "Вареники з картоплею та сиром",
       portion: "(250г)",
-      price: "₴110",
+      price: "₴117",
       description: "подаються зі сметаною",
       image: "vareniki.jpg",
     },
@@ -56,14 +56,14 @@ export default function MainDishes() {
     {
       name: "Пироги з пательні",
       portion: "(250г)",
-      price: "₴118",
+      price: "₴125",
       description: "смажені вареники, подаються зі шкварками",
       image: "smageni-vareniki.jpg",
     },
     {
       name: "Палянички з лисичками",
       portion: "(220г)",
-      price: "₴259",
+      price: "₴304",
       description: "",
       image: "paljanichki.jpg",
     },
@@ -75,24 +75,24 @@ export default function MainDishes() {
     //   description: "з індичкою та грибним соусом",
     //   image: "chorni_z_indykom.jpg",
     // },
-    {
+    /* {
       name: "Біґос",
       portion: "(200г)",
       price: "₴169",
       description: "тушкована квашена капуста з чорносливом та копченою грушею",
       image: "bigus.jpg",
-    },
+    }, */
     {
       name: "Хрусткі крокети із жидівським кав'яром",
       portion: "(350г)",
-      price: "₴137",
+      price: "₴150",
       description: "налисники з курячою печінкою та прянощами, обсмажені в паніровці",
       image: "hrustki-krokety.jpg",
     },
     {
       name: "Палюшки зі шпинатом",
       portion: "(350г)",
-      price: "₴153",
+      price: "₴147",
       description: "та грибною мачанкою",
       image: "plushki_z_shpinatom.jpg",
     }

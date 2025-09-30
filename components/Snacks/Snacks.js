@@ -37,7 +37,7 @@ export default function Snacks() {
     {
       name: "Оселедець",
       portion: "(170г)",
-      price: "₴114",
+      price: "₴129",
       description: " з цибулькою",
       image: "oseledec.jpg",
     },
@@ -58,14 +58,14 @@ export default function Snacks() {
     {
       name: "Канапки на кахлі з бужениною",
       portion: "(3шт)",
-      price: "₴140",
+      price: "₴148",
       description: "із печеною бужениною та цибулькою конфітюр",
       image: "",
     },
     {
       name: "Канапки на кахлі з лососем",
       portion: "(3шт)",
-      price: "₴213",
+      price: "₴216",
       description: "з слабосоленим лососем та крем сиром",
       image: "",
     },

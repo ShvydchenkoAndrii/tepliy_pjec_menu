@@ -37,14 +37,14 @@ export default function ColdDrinks() {
     {
       name: "Поляна Квасова",
       portion: "0,5л",
-      price: "₴75",
+      price: "₴96",
       description: "",
       image: "poljana.png",
     },
     {
       name: "Моршинська",
       portion: " 0,75л",
-      price: "₴51",
+      price: "₴54",
       description: "в асортименті",
       image: "morshinska.png",
     },

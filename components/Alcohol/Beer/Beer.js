@@ -7,16 +7,16 @@ export default function Beer() {
 
   const beerFromKeg = [
     {
-      name: "Львівське світле",
+      name: "Львівське бочкове",
       portion: "300/ 500мл",
       price: "₴39/ ₴64",
       description: "",
       image: "lvivske-svitle.png",
     },
-    {
+     {
       name: "Білий Лев",
       portion: "300/ 500мл",
-      price: "₴42/ ₴70",
+      price: "₴48/ ₴78",
       description: "",
       image: "",
     },
@@ -26,7 +26,8 @@ export default function Beer() {
       price: "₴90",
       description: "в асортименті",
       image: "",
-    },{
+    },
+    {
       name: "Сидр",
       portion: "",
       price: "",

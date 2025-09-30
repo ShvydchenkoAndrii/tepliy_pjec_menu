@@ -7,14 +7,14 @@ export default function Breakfasts() {
     {
       name: "Вареники з сиром",
       portion: "(370г)",
-      price: "₴173",
+      price: "₴177",
       description: "запечені у сметані",
       image: "vareniky-breakfast.jpg",
     },
     {
       name: "Тартіні з куркою су-від",
       portion: "(280г)",
-      price: "₴278",
+      price: "₴287",
       description: "скрембл, тост, мікс салату, крем сир, курка",
       image: "tartini-chiken.jpg",
     },
@@ -23,7 +23,7 @@ export default function Breakfasts() {
       portion: "(280г)",
       price: "₴350",
       description: "скрембл, тост, мікс салату, крем сир, слабосолений лосось",
-      image: "tartini-losos.jpg",
+      image: "tartini_2_0.jpg",
     },
     {
       name: "Налисники",
@@ -35,7 +35,7 @@ export default function Breakfasts() {
     {
       name: "Сирнички",
       portion: "(280г)",
-      price: "₴182",
+      price: "₴183",
       description: "зі сметаною та варенням",
       image: "sirniki.jpg",
     },
