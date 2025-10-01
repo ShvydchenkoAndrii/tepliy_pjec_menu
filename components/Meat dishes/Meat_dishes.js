@@ -30,7 +30,7 @@ export default function MeatDishes() {
       portion: "(360г)",
       price: "₴380",
       description: "кебаб з баранини і біґосом",
-      image: "",
+      image: "lulya.jpg",
     },
     {
       name: "Печена ковбаска",
